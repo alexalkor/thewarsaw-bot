@@ -18,6 +18,17 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
+
+// Node's built-in fetch ignores HTTPS_PROXY unless NODE_USE_ENV_PROXY=1. In
+// the cloud the proxy is what adds the Worker's X-Secret, so without it every
+// post gets 401. Re-run this script once with the setting on.
+if ((process.env.HTTPS_PROXY || process.env.https_proxy) && process.env.NODE_USE_ENV_PROXY !== '1') {
+  const r = spawnSync(process.execPath, ['--no-warnings', ...process.argv.slice(1)], {
+    stdio: 'inherit', env: { ...process.env, NODE_USE_ENV_PROXY: '1' },
+  });
+  process.exit(r.status ?? 1);
+}
 
 // The Worker's address is kept out of this public repo: set WORKER_URL (the
 // thewarsaw-bot cloud environment has it as a variable).
