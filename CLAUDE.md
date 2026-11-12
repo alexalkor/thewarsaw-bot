@@ -119,3 +119,9 @@ is made on whether to delete it outright (see "To confirm later").
   repo's `modules/registry.md` — it's currently listed inconsistently there,
   once as "The-Warsaw Weekend Events Bot" (live) and once as "Telegram
   Multilang Bot" (backlog) — same project, needs cleanup).
+
+## Git: merge automatically (Alex's rule for all repos)
+When a change is finished and its checks pass, push it and merge it into
+`main` without asking, then tell Alex what was merged. Ask first only when the
+change would affect something live right away: deploying, changing passwords,
+tokens or secrets, deleting data, or changing scheduled tasks.
