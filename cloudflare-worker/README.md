@@ -2,7 +2,8 @@
 
 This is the **live, production bot** (confirmed via Telegram's
 `getWebhookInfo`, Nov 2026 — webhook points at
-`warsaw-events-worker.your-subdomain.workers.dev/webhook`). It used to exist
+the Worker's own `https://warsaw-events-worker.<your-subdomain>.workers.dev/webhook`;
+the full address is in the Cloudflare dashboard, kept out of this public repo). It used to exist
 only pasted into the Cloudflare dashboard's "Quick edit" box — not tracked
 anywhere, not backed up, not reviewable. This folder is that code, cleaned
 up and version-controlled.
@@ -75,7 +76,7 @@ channel auto-ingest without changing the webhook URL itself. Open this in a
 browser, with your real bot token in place of `<TOKEN>`:
 
 ```
-https://api.telegram.org/bot<TOKEN>/setWebhook?url=https%3A%2F%2Fwarsaw-events-worker.your-subdomain.workers.dev%2Fwebhook&allowed_updates=%5B%22message%22%2C%22callback_query%22%2C%22channel_post%22%5D
+https://api.telegram.org/bot<TOKEN>/setWebhook?url=https%3A%2F%2Fwarsaw-events-worker.<your-subdomain>.workers.dev%2Fwebhook&allowed_updates=%5B%22message%22%2C%22callback_query%22%2C%22channel_post%22%5D
 ```
 
 A successful response looks like `{"ok":true,"result":true,"description":"Webhook was set"}`.
@@ -110,6 +111,27 @@ full contents of `worker.js` from this folder → **Save and deploy**.
 from the repo root (`npm install`, then `npm run deploy`) — the root
 `wrangler.toml` is already set up for it, you'd just need to fill in the KV
 namespace id.)
+
+## Two lists (v3.1)
+
+After choosing a language, users get two buttons: **📋 The-Warsaw weekend list**
+(feed `warsaw`: channel posts, admin posts, the Friday the-warsaw.pl task) and
+**⭐ Top picks this weekend** (feed `picks`: built by a cloud task from open
+event sources). The API takes an optional `"feed"` field; leaving it out means
+`warsaw`, so older callers keep working:
+
+- `POST /events` `{feed?, text, date_range?, mode}` (needs `X-Secret`)
+- `POST /translate` `{feed?, lang, text}` (needs `X-Secret`)
+- `GET /events?feed=picks`
+- `GET /debug`: top-level fields = the `warsaw` feed, as before; `feeds` = both.
+
+Each feed has its own KV key (`current_event`, `current_picks`) and GitHub
+backup file (`data/events.json`, `data/picks.json`). Offline tests:
+`npm test` (fake KV, Telegram and GitHub; no network, no live bot).
+
+Deploying v3.1 changes what users see. That needs an explicit go-ahead
+(CLAUDE.md rule 3). Then use the same dashboard paste as below, or `npm run deploy`.
+No new secrets are needed.
 
 ## Files here
 
