@@ -12,8 +12,11 @@ bot.
 1. **Source text** (Russian) for the week's events comes from `@thewarsawevents`
    — either a channel post (auto-ingested) or pasted directly by the admin.
 2. **Ingestion** happens at a `POST /events` endpoint (plus `POST /translate`
-   per language), protected by an `X-Secret` header. A Friday scheduled task
-   does this. The repo side is the `warsaw-events-update` skill
+   per language), protected by an `X-Secret` header. Two Friday scheduled
+   tasks do this: "The-Warsaw Events Collect (PC Chrome)" (11:00 Warsaw, reads
+   the-warsaw.pl in Alex's Chrome, hands the list off) and "The-Warsaw Weekly
+   Publish (cloud)" (runs on that hand-off, fallback 13:47 Warsaw; publishes the
+   the-warsaw list, then builds and publishes the top picks). The repo side is the `warsaw-events-update` skill
    (`.claude/skills/warsaw-events-update/SKILL.md`), `tools/weekly.mjs` and one
    file per weekend in `data/weekly/` (see its README): "collect" writes the
    Russian facts, "publish" (fully cloud) translates, posts and verifies.
