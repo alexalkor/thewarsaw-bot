@@ -2,7 +2,11 @@
 // Weekly events helper: validates a data/weekly/<saturday>.json file, renders
 // the bot text for each language, and publishes it to the live Worker.
 //
-//   node tools/weekly.mjs latest                 path of the newest weekly file
+// Two lists ("feeds"): data/weekly/<saturday>.json is the-warsaw.pl list
+// (feed "warsaw"), data/weekly/<saturday>.picks.json is the open-sources top
+// picks (feed "picks"). The file's "feed" field decides where it is posted.
+//
+//   node tools/weekly.mjs latest [--picks]       path of the newest weekly file
 //   node tools/weekly.mjs validate <file> [--ru-only]
 //   node tools/weekly.mjs render <file> <lang>   print the text the bot will get
 //   node tools/weekly.mjs status [<file>]        what the live bot holds now
@@ -20,6 +24,8 @@ const SECRET = process.env.WORKER_SECRET || 'proxy-injected';
 const LANGS = ['ru', 'en', 'pl', 'be', 'uk', 'de'];
 const TRANSLATED = LANGS.slice(1);
 const ITEM_RE = /^\d+\.\s/;
+const FEEDS = ['warsaw', 'picks'];
+const feedOf = (data) => data.feed || 'warsaw';
 
 const LABELS = {
   ru: { when: 'Когда', where: 'Где', free: 'Вход', paid: 'Билеты' },
@@ -49,6 +55,7 @@ function renderBody(data, lang) {
       `🕐 ${L.when}: ${oneLine(t.when)}`,
       `📍 ${L.where}: ${oneLine(t.where)}`,
       priceLine,
+      ...(ev.link ? [`🔗 ${oneLine(ev.link)}`] : []),
     ].join('\n');
   }).join('\n\n');
 }
@@ -65,7 +72,10 @@ function validate(data, { ruOnly = false } = {}) {
   const langs = ruOnly ? ['ru'] : LANGS;
   if (!/^\d{4}-\d{2}-\d{2}$/.test(data.weekend || '')) errs.push('weekend must be the Saturday as YYYY-MM-DD');
   else if (new Date(`${data.weekend}T12:00:00Z`).getUTCDay() !== 6) errs.push(`weekend ${data.weekend} is not a Saturday`);
-  if (!data.source?.url) errs.push('source.url missing');
+  if (!FEEDS.includes(feedOf(data))) errs.push(`feed must be one of ${FEEDS.join(', ')}`);
+  if (feedOf(data) === 'picks') {
+    if (!Array.isArray(data.sources) || !data.sources.length) errs.push('sources (list of URLs used) missing');
+  } else if (!data.source?.url) errs.push('source.url missing');
   if (!Array.isArray(data.events) || data.events.length === 0) errs.push('events must be a non-empty array');
   for (const lang of langs) {
     const dr = data.date_range?.[lang];
@@ -77,6 +87,8 @@ function validate(data, { ruOnly = false } = {}) {
     if (!ev.emoji || /\p{L}|\d/u.test(ev.emoji)) errs.push(`event ${n}: emoji missing or not an emoji`);
     if (ev.emoji === '🏠') errs.push(`event ${n}: pick a real emoji, not 🏠`);
     if (typeof ev.paid !== 'boolean') errs.push(`event ${n}: paid must be true or false`);
+    if (ev.link != null && !/^https:\/\/\S+$/.test(ev.link)) errs.push(`event ${n}: link must be one https:// URL`);
+    if (feedOf(data) === 'picks' && !ev.link) errs.push(`event ${n}: picks need a link to the event page`);
     for (const lang of langs) {
       const t = ev[lang];
       if (!t) { errs.push(`event ${n}: ${lang} block missing`); continue; }
@@ -107,17 +119,21 @@ async function http(method, route, body) {
   return { status: res.status, json };
 }
 
-async function liveHeader() {
-  const { json } = await http('GET', '/events');
+async function liveHeader(feed) {
+  const { json } = await http('GET', `/events?feed=${feed}`);
   return json?.event?.raw ? json.event.raw.split('\n')[0].trim() : null;
 }
 
+const feedDebug = (debug, feed) => debug.feeds ? debug.feeds[feed] : (feed === 'warsaw' ? debug : null);
+
 async function cmdStatus(file) {
+  const data = file ? load(file) : null;
+  const feed = data ? feedOf(data) : 'warsaw';
   const debug = (await http('GET', '/debug')).json;
-  const header = await liveHeader();
-  const out = { live_header: header, event_id: debug.event_id, translations: debug.translations };
-  if (file) {
-    const data = load(file);
+  const fd = feedDebug(debug, feed);
+  const header = (debug.feeds || feed === 'warsaw') ? await liveHeader(feed) : null;
+  const out = { worker_version: debug.version, worker_has_picks: !!debug.feeds, feed, live_header: header, event_id: fd?.event_id, translations: fd?.translations };
+  if (data) {
     out.file_date_range = data.date_range?.ru;
     out.already_live = header === oneLine(data.date_range?.ru);
     out.published = data.published || null;
@@ -125,8 +141,8 @@ async function cmdStatus(file) {
   console.log(JSON.stringify(out, null, 2));
 }
 
-async function verify(expected) {
-  const tr = (await http('GET', '/debug')).json.translations || {};
+async function verify(feed, expected) {
+  const tr = feedDebug((await http('GET', '/debug')).json, feed)?.translations || {};
   const bad = TRANSLATED.filter((l) => parseInt(tr[l], 10) !== expected);
   return { translations: tr, bad };
 }
@@ -135,6 +151,13 @@ async function cmdPublish(file, dryRun) {
   const data = load(file);
   const errs = validate(data);
   if (errs.length) die(`validation failed:\n- ${errs.join('\n- ')}`);
+  const feed = feedOf(data);
+  if (feed !== 'warsaw') {
+    // A Worker without feed support ignores "feed" and would overwrite the
+    // the-warsaw.pl list. Refuse until the new Worker is deployed.
+    const debug = (await http('GET', '/debug')).json;
+    if (!debug.feeds) die(`the live Worker (${debug.version}) has no "${feed}" list yet; deploy the new worker.js first. Nothing was posted.`);
+  }
   const ruBody = renderBody(data, 'ru');
   const ruCount = countItems(ruBody);
   const texts = Object.fromEntries(TRANSLATED.map((l) => [l, renderFull(data, l)]));
@@ -142,26 +165,26 @@ async function cmdPublish(file, dryRun) {
     console.log(JSON.stringify({ dry_run: true, ruCount, date_range: data.date_range.ru, chars: Object.fromEntries(TRANSLATED.map((l) => [l, texts[l].length])) }, null, 2));
     return;
   }
-  const report = { file, ruCount, at: new Date().toISOString() };
+  const report = { file, feed, ruCount, at: new Date().toISOString() };
 
-  const ev = await http('POST', '/events', { text: ruBody, date_range: oneLine(data.date_range.ru), mode: 'replace' });
+  const ev = await http('POST', '/events', { feed, text: ruBody, date_range: oneLine(data.date_range.ru), mode: 'replace' });
   report.events = ev.json;
   if (!ev.json?.ok) { console.log(JSON.stringify(report, null, 2)); die(`/events failed (HTTP ${ev.status}); translations not sent`); }
 
   report.translate = {};
   for (const lang of TRANSLATED) {
-    try { report.translate[lang] = (await http('POST', '/translate', { lang, text: texts[lang] })).json; }
+    try { report.translate[lang] = (await http('POST', '/translate', { feed, lang, text: texts[lang] })).json; }
     catch (e) { report.translate[lang] = { ok: false, error: String(e) }; }
   }
 
-  let v = await verify(ruCount);
+  let v = await verify(feed, ruCount);
   report.retried = [];
   for (const lang of v.bad) {
     report.retried.push(lang);
-    try { report.translate[lang] = (await http('POST', '/translate', { lang, text: texts[lang] })).json; }
+    try { report.translate[lang] = (await http('POST', '/translate', { feed, lang, text: texts[lang] })).json; }
     catch (e) { report.translate[lang] = { ok: false, error: String(e) }; }
   }
-  if (v.bad.length) v = await verify(ruCount);
+  if (v.bad.length) v = await verify(feed, ruCount);
   report.debug_translations = v.translations;
   report.still_bad = v.bad;
   report.verified = v.bad.length === 0;
@@ -172,9 +195,10 @@ async function cmdPublish(file, dryRun) {
   if (!report.verified) process.exit(2);
 }
 
-function cmdLatest() {
+function cmdLatest(picks) {
   const dir = path.join(path.dirname(new URL(import.meta.url).pathname), '..', 'data', 'weekly');
-  const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort() : [];
+  const re = picks ? /^\d{4}-\d{2}-\d{2}\.picks\.json$/ : /^\d{4}-\d{2}-\d{2}\.json$/;
+  const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => re.test(f)).sort() : [];
   if (!files.length) die('no weekly files in data/weekly/');
   console.log(path.join('data', 'weekly', files.at(-1)));
 }
@@ -184,7 +208,7 @@ const flags = new Set(args.filter((a) => a.startsWith('--')));
 const pos = args.filter((a) => !a.startsWith('--'));
 
 switch (cmd) {
-  case 'latest': cmdLatest(); break;
+  case 'latest': cmdLatest(flags.has('--picks')); break;
   case 'validate': {
     const data = load(pos[0]);
     const errs = validate(data, { ruOnly: flags.has('--ru-only') });
@@ -201,6 +225,6 @@ switch (cmd) {
   case 'status': await cmdStatus(pos[0]); break;
   case 'publish': await cmdPublish(pos[0], flags.has('--dry-run')); break;
   default:
-    console.log('usage: node tools/weekly.mjs latest | validate <file> [--ru-only] | render <file> <lang> | status [<file>] | publish <file> [--dry-run]');
+    console.log('usage: node tools/weekly.mjs latest [--picks] | validate <file> [--ru-only] | render <file> <lang> | status [<file>] | publish <file> [--dry-run]');
     process.exit(cmd ? 1 : 0);
 }
