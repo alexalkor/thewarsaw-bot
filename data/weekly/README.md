@@ -1,6 +1,9 @@
 # Weekly event files
 
-One file per weekend: `<saturday YYYY-MM-DD>.json`. The collect step writes the
+Two files per weekend, one per bot list: `<saturday YYYY-MM-DD>.json`
+(the-warsaw.pl list, `"feed": "warsaw"` or no feed field) and
+`<saturday>.picks.json` (top picks from open sources, `"feed": "picks"`,
+a `sources` list instead of `source`, and a `link` on every event). The collect step writes the
 Russian facts; the publish step adds the 5 translations, posts them to the live
 Worker and records the result in `published`. Steps:
 `.claude/skills/warsaw-events-update/SKILL.md`. Tool: `tools/weekly.mjs`.
@@ -12,7 +15,7 @@ Worker and records the result in `published`. Steps:
                   "be": "13–15 лістапада", "uk": "13–15 листопада", "de": "13.–15. November" },
   "source": { "url": "https://www.the-warsaw.pl/...", "title": "...", "collected_at": "2026-11-13T10:05:00Z" },
   "events": [
-    { "emoji": "🎤", "paid": true,
+    { "emoji": "🎤", "paid": true, "link": "https://… (optional; required for picks)",
       "ru": { "title": "...", "desc": "...", "when": "...", "where": "...", "price": "..." },
       "en": { "...": "same five fields" } }
   ],

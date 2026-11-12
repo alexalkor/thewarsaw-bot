@@ -27,7 +27,13 @@ bot.
    the GitHub API, so nothing is lost if the Worker's KV ever needs clearing.
 4. **Translation**: MyMemory API (free), called on demand per language,
    cached afterwards so it's only paid for once per language per event.
-5. **Delivery**: user presses "Warsaw weekend events" in Telegram → bot reads
+5. **Delivery**: after choosing a language the user sees two lists: "📋 The-Warsaw
+   weekend list" (feed `warsaw`) and "⭐ Top picks this weekend" (feed `picks`,
+   built by Claude from open event sources, fully in the cloud). Each feed has
+   its own KV key and GitHub backup file (`data/events.json`, `data/picks.json`).
+   The two-list version is `worker.js` v3.1. Until it's deployed, the live bot is
+   v3.0 (one list), and `tools/weekly.mjs` refuses to post `picks` so it can't
+   overwrite the the-warsaw list. User presses a list button in Telegram → bot reads
    the cached event, translates if needed, sends it in chunks (Telegram has
    a ~4096-char message limit), re-attaches the menu keyboard.
 
@@ -78,6 +84,14 @@ is made on whether to delete it outright (see "To confirm later").
 4. Keep this file and `cloudflare-worker/README.md` in sync with reality —
    don't let documentation describe a system that's no longer true, the way
    the original undocumented Worker drifted from the Python bot.
+
+## Known issues
+- The Worker's GitHub backup (`data/events.json`) stopped updating after 25 Jul
+  2026: GitHub's API rejects requests with no User-Agent, and the v3.0 Worker
+  sent none and hid the error. v3.1 sends one and logs failures (`npm run tail`).
+  If it still fails after deploying, the `GITHUB_PAT` secret has probably
+  expired: make a new fine-grained token with Contents read/write on this repo
+  only.
 
 ## To confirm later
 - Whether to delete the retired long-polling implementation outright, or
