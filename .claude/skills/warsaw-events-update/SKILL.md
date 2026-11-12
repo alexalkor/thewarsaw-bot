@@ -51,8 +51,9 @@ or an access route the-warsaw.pl has agreed to). If the page shows a
 6. `node tools/weekly.mjs validate <file> --ru-only` until OK, commit
    "Collect weekend events <date_range.ru>", push to main.
 7. If the Claude_Code_Remote tools are available, start the publish task now
-   (fire_trigger for the scheduled task named "The-Warsaw Events Publish (cloud)").
-   It also runs on its own schedule as a fallback.
+   (fire_trigger for the scheduled task named "The-Warsaw Weekly Publish (cloud)",
+   which publishes this list and then builds and publishes the top picks).
+   It also runs on its own schedule (Fridays 13:47 Warsaw) as a fallback.
 
 ## Phase P: picks from open sources (fully cloud)
 
