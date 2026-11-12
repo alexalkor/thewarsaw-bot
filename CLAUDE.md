@@ -11,11 +11,17 @@ bot.
 ## The pipeline, end to end
 1. **Source text** (Russian) for the week's events comes from `@thewarsawevents`
    — either a channel post (auto-ingested) or pasted directly by the admin.
-2. **Ingestion** happens at a `POST /events` endpoint, protected by an
-   `X-Secret` header. Historically a scheduled task inside a regular
-   claude.ai Project did this (visiting a source and POSTing the result) —
-   being replaced with a Claude Code scheduled task, still controllable from
-   the Claude app or phone.
+2. **Ingestion** happens at a `POST /events` endpoint (plus `POST /translate`
+   per language), protected by an `X-Secret` header. A Friday scheduled task
+   does this. The repo side is the `warsaw-events-update` skill
+   (`.claude/skills/warsaw-events-update/SKILL.md`), `tools/weekly.mjs` and one
+   file per weekend in `data/weekly/` (see its README): "collect" writes the
+   Russian facts, "publish" (fully cloud) translates, posts and verifies.
+   the-warsaw.pl sits behind a Cloudflare bot check, so collect can't run from
+   a cloud machine. It needs a browser the site lets through (Alex's Chrome) or
+   the site's permission. Cloud runs use the personal cloud environment
+   `thewarsaw-bot`, whose network proxy injects the Worker's `X-Secret`. Never
+   put the secret in a task prompt.
 3. **Storage**: the event text + its per-language translations live in
    Cloudflare Workers KV, backed up to this repo at `data/events.json` via
    the GitHub API, so nothing is lost if the Worker's KV ever needs clearing.
@@ -51,6 +57,8 @@ is made on whether to delete it outright (see "To confirm later").
   `database/`, `keyboards/`, `utils/`, `locales/`, `requirements.txt`). Kept in
   its own folder so a root-level `requirements.txt` can't trigger a Python
   `pip install` in Cloudflare Workers Builds. Run it from inside `legacy/`.
+- `.claude/skills/warsaw-events-update/`, `tools/weekly.mjs`, `data/weekly/` —
+  the weekly collect → publish flow (step 2 above).
 - `LICENSE` — MIT.
 - `data/events.json` — GitHub-backed cache the live Worker reads and writes.
   `data/events.txt` is an older legacy fallback, no longer used.
@@ -74,8 +82,9 @@ is made on whether to delete it outright (see "To confirm later").
 ## To confirm later
 - Whether to delete the retired long-polling implementation outright, or
   keep it around as reference/fallback.
-- Where the weekly Russian source text should come from going forward once
-  the scheduled task replaces the old claude.ai Project task.
+- How "collect" reads the-warsaw.pl: Alex's Chrome (PC on Friday mornings),
+  permission from the-warsaw.pl to read it from the cloud, or a different
+  open source. The cloud can't pass its bot check (Nov 2026).
 - Whether this bot becomes an alkor.dev module (see `alexalkor/alkordev`
   repo's `modules/registry.md` — it's currently listed inconsistently there,
   once as "The-Warsaw Weekend Events Bot" (live) and once as "Telegram
