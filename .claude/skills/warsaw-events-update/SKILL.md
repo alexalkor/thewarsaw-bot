@@ -13,7 +13,9 @@ The bot has two lists ("feeds"), each fed by one file in git per weekend:
 | ⭐ Top picks this weekend | `picks` | `data/weekly/<saturday>.picks.json` | Phase P (fully cloud) |
 
 Phase 2 publishes either file. Format: `data/weekly/README.md`.
-Script: `tools/weekly.mjs` (Node, no deps). `<saturday>` = YYYY-MM-DD of the
+Script: `tools/weekly.mjs` (Node, no deps). It reads the Worker's address from
+`WORKER_URL` (a variable of the `thewarsaw-bot` cloud environment; never write
+the address into this public repo). `<saturday>` = YYYY-MM-DD of the
 weekend's Saturday.
 
 Ask nothing: these run unattended. Work on `main` (`git pull --ff-only origin main`

@@ -19,7 +19,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const WORKER = process.env.WORKER_URL || 'https://warsaw-events-worker.your-subdomain.workers.dev';
+// The Worker's address is kept out of this public repo: set WORKER_URL (the
+// thewarsaw-bot cloud environment has it as a variable).
+const WORKER = (process.env.WORKER_URL || '').replace(/\/+$/, '');
+if (!WORKER && !['validate', 'render', 'latest', undefined].includes(process.argv[2])) {
+  console.error('ERROR: WORKER_URL is not set (the bot Worker\'s https://…workers.dev address).');
+  process.exit(1);
+}
 const SECRET = process.env.WORKER_SECRET || 'proxy-injected';
 const LANGS = ['ru', 'en', 'pl', 'be', 'uk', 'de'];
 const TRANSLATED = LANGS.slice(1);

@@ -40,7 +40,8 @@ bot.
 ## Current production system: the Cloudflare Worker
 `cloudflare-worker/worker.js` is the live bot — confirmed via Telegram's
 `getWebhookInfo` (Nov 2026): the webhook points at
-`warsaw-events-worker.your-subdomain.workers.dev/webhook`. See
+the Worker's own `…workers.dev/webhook` address (shown in the Cloudflare
+dashboard; deliberately not written in this public repo). See
 `cloudflare-worker/README.md` for what it is, how it's deployed, and the
 read-only way to re-check this if it's ever in doubt.
 
