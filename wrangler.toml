@@ -1,6 +1,8 @@
 name = "warsaw-events-worker"
 main = "cloudflare-worker/worker.js"
-compatibility_date = "2024-01-01"
+compatibility_date = "2026-08-15"  # matches what was live before v3.1
+workers_dev = true
+preview_urls = false
 
 # KV namespace id: see `wrangler kv namespace list` or the dashboard
 # (Storage & Databases → KV). The binding name (EVENTS_KV) must match

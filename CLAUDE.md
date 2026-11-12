@@ -31,9 +31,10 @@ bot.
    weekend list" (feed `warsaw`) and "⭐ Top picks this weekend" (feed `picks`,
    built by Claude from open event sources, fully in the cloud). Each feed has
    its own KV key and GitHub backup file (`data/events.json`, `data/picks.json`).
-   The two-list version is `worker.js` v3.1. Until it's deployed, the live bot is
-   v3.0 (one list), and `tools/weekly.mjs` refuses to post `picks` so it can't
-   overwrite the the-warsaw list. User presses a list button in Telegram → bot reads
+   `worker.js` v3.1 (two lists) is live since 12 Nov 2026 (`/health` shows the
+   version). `tools/weekly.mjs` refuses to post `picks` to a Worker without
+   feed support, so an older Worker can't have its the-warsaw list overwritten.
+   User presses a list button in Telegram → bot reads
    the cached event, translates if needed, sends it in chunks (Telegram has
    a ~4096-char message limit), re-attaches the menu keyboard.
 
@@ -58,7 +59,11 @@ is made on whether to delete it outright (see "To confirm later").
   pinned `wrangler` version (`npm run dev` / `deploy` / `tail`). The KV
   namespace id in `wrangler.toml` is the real `warsaw_events_kv` one, so
   `npm run deploy` overwrites the LIVE Worker — needs an explicit go-ahead
-  (rule 3 below). Workers Builds is not connected to this repo (checked in
+  (rule 3 below). `wrangler.toml` matches the live settings (compatibility
+  date 2026-08-15, workers.dev on, preview URLs off), so a deploy changes only
+  the code. Cloud sessions in the `thewarsaw-bot` environment can deploy: the
+  network proxy injects a Workers-only Cloudflare API token (expires 12 Dec
+  2026). Run with `CLOUDFLARE_API_TOKEN=proxy-injected`. Workers Builds is not connected to this repo (checked in
   the Cloudflare dashboard, Nov 2026): nothing auto-deploys from GitHub.
 - `legacy/` — the retired long-polling implementation (`main.py`, `handlers/`,
   `database/`, `keyboards/`, `utils/`, `locales/`, `requirements.txt`). Kept in
@@ -88,11 +93,12 @@ is made on whether to delete it outright (see "To confirm later").
 
 ## Known issues
 - The Worker's GitHub backup (`data/events.json`) stopped updating after 25 Jul
-  2026: GitHub's API rejects requests with no User-Agent, and the v3.0 Worker
-  sent none and hid the error. v3.1 sends one and logs failures (`npm run tail`).
-  If it still fails after deploying, the `GITHUB_PAT` secret has probably
-  expired: make a new fine-grained token with Contents read/write on this repo
-  only.
+  2026. The v3.0 code that was live still pointed at the repo's old name
+  (`telegram-multilang-bot`), sent no User-Agent (GitHub's API rejects that), and
+  hid the error. v3.1 (live since 12 Nov 2026) fixes both and logs failures
+  (`npm run tail`). Check that `data/events.json` updates after the next post. If
+  it doesn't, the `GITHUB_PAT` secret has probably expired: make a new
+  fine-grained token with Contents read/write on this repo only.
 
 ## To confirm later
 - Whether to delete the retired long-polling implementation outright, or

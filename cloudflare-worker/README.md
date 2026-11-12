@@ -129,9 +129,10 @@ Each feed has its own KV key (`current_event`, `current_picks`) and GitHub
 backup file (`data/events.json`, `data/picks.json`). Offline tests:
 `npm test` (fake KV, Telegram and GitHub; no network, no live bot).
 
-Deploying v3.1 changes what users see. That needs an explicit go-ahead
-(CLAUDE.md rule 3). Then use the same dashboard paste as below, or `npm run deploy`.
-No new secrets are needed.
+v3.1 was deployed on 12 Nov 2026 with `npm run deploy` (wrangler). Secrets
+were kept, and the earlier v3.0 code is still in Cloudflare's deployment history
+for a one-click rollback (dashboard → the worker → Deployments). Any future
+deploy needs an explicit go-ahead (CLAUDE.md rule 3).
 
 ## Files here
 
