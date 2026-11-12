@@ -2,7 +2,8 @@
 
 This is the **live, production bot** (confirmed via Telegram's
 `getWebhookInfo`, Nov 2026 — webhook points at
-`warsaw-events-worker.alexandr130514.workers.dev/webhook`). It used to exist
+the Worker's own `https://warsaw-events-worker.<your-subdomain>.workers.dev/webhook`;
+the full address is in the Cloudflare dashboard, kept out of this public repo). It used to exist
 only pasted into the Cloudflare dashboard's "Quick edit" box — not tracked
 anywhere, not backed up, not reviewable. This folder is that code, cleaned
 up and version-controlled.
@@ -75,7 +76,7 @@ channel auto-ingest without changing the webhook URL itself. Open this in a
 browser, with your real bot token in place of `<TOKEN>`:
 
 ```
-https://api.telegram.org/bot<TOKEN>/setWebhook?url=https%3A%2F%2Fwarsaw-events-worker.alexandr130514.workers.dev%2Fwebhook&allowed_updates=%5B%22message%22%2C%22callback_query%22%2C%22channel_post%22%5D
+https://api.telegram.org/bot<TOKEN>/setWebhook?url=https%3A%2F%2Fwarsaw-events-worker.<your-subdomain>.workers.dev%2Fwebhook&allowed_updates=%5B%22message%22%2C%22callback_query%22%2C%22channel_post%22%5D
 ```
 
 A successful response looks like `{"ok":true,"result":true,"description":"Webhook was set"}`.
