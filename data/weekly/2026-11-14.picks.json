@@ -1,0 +1,686 @@
+{
+  "weekend": "2026-11-14",
+  "feed": "picks",
+  "date_range": {
+    "ru": "13–15 ноября",
+    "en": "November 13–15",
+    "pl": "13–15 listopada",
+    "be": "13–15 лістапада",
+    "uk": "13–15 листопада",
+    "de": "13.–15. November"
+  },
+  "sources": [
+    "https://www.waw4free.pl/wydarzenia-w-warszawie-w-weekend",
+    "https://www.waw4free.pl/warszawa-wydarzenia-2026-11-13",
+    "https://www.waw4free.pl/warszawa-wydarzenia-2026-11-14",
+    "https://www.waw4free.pl/warszawa-wydarzenia-2026-11-15"
+  ],
+  "collected_at": "2026-11-12T00:00:00Z",
+  "events": [
+    {
+      "emoji": "🧠",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161663-wyklad-noblistki-prof-anne-huillier-jak-uchwycic-ruch-elektronu",
+      "ru": {
+        "title": "Лекция нобелевского лауреата Анн Л’Юилье",
+        "desc": "Физик, получившая Нобелевскую премию за аттосекундные лазерные импульсы, расскажет, как «сфотографировать» движение электрона. Лекция на английском с синхронным переводом на польский.",
+        "when": "сб, 14 ноября, 11:00",
+        "where": "Centrum Nauki Kopernik, конференц-центр, Wybrzeże Kościuszkowskie 20",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Lecture by Nobel laureate Anne L’Huillier",
+        "desc": "The physicist who won the Nobel Prize for attosecond laser pulses explains how to “photograph” an electron in motion. In English with simultaneous Polish interpretation.",
+        "when": "Sat, November 14, 11:00",
+        "where": "Copernicus Science Centre, conference centre, Wybrzeże Kościuszkowskie 20",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Wykład noblistki Anne L’Huillier",
+        "desc": "Fizyczka nagrodzona Noblem za attosekundowe impulsy laserowe opowie, jak „sfotografować” ruch elektronu. Wykład po angielsku z tłumaczeniem symultanicznym na polski.",
+        "when": "sob., 14 listopada, 11:00",
+        "where": "Centrum Nauki Kopernik, Centrum Konferencyjne, Wybrzeże Kościuszkowskie 20",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Лекцыя нобелеўскай лаўрэаткі Ан Л’Юіле",
+        "desc": "Фізік, якая атрымала Нобелеўскую прэмію за атасекундныя лазерныя імпульсы, раскажа, як «сфатаграфаваць» рух электрона. Лекцыя па-англійску з сінхронным перакладам на польскую.",
+        "when": "сб, 14 лістапада, 11:00",
+        "where": "Centrum Nauki Kopernik, канферэнц-цэнтр, Wybrzeże Kościuszkowskie 20",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Лекція нобелівської лауреатки Анн Л’Юйє",
+        "desc": "Фізикиня, яка отримала Нобелівську премію за атосекундні лазерні імпульси, розповість, як «сфотографувати» рух електрона. Лекція англійською із синхронним перекладом польською.",
+        "when": "сб, 14 листопада, 11:00",
+        "where": "Centrum Nauki Kopernik, конференц-центр, Wybrzeże Kościuszkowskie 20",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Vortrag der Nobelpreisträgerin Anne L’Huillier",
+        "desc": "Die Physikerin, die für Attosekunden-Laserpulse den Nobelpreis erhielt, erklärt, wie man ein Elektron in Bewegung „fotografiert“. Auf Englisch mit Simultanübersetzung ins Polnische.",
+        "when": "Sa, 14. November, 11:00",
+        "where": "Copernicus-Wissenschaftszentrum, Konferenzzentrum, Wybrzeże Kościuszkowskie 20",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🛍",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-159467-targi-jestem-vintage-32",
+      "ru": {
+        "title": "Ярмарка Jestem Vintage #32",
+        "desc": "Крупнейшая в Польше винтажная ярмарка: около 70 бутиков одежды и аксессуаров под одной крышей. Можно приходить с собакой.",
+        "when": "сб, 14 ноября, 11:00–21:00; вс, 15 ноября, 11:00–19:15",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "вход свободный"
+      },
+      "en": {
+        "title": "Jestem Vintage #32 fair",
+        "desc": "Poland’s biggest vintage fair: about 70 clothing and accessory boutiques under one roof. Dogs welcome.",
+        "when": "Sat, November 14, 11:00–21:00; Sun, November 15, 11:00–19:15",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "free entry"
+      },
+      "pl": {
+        "title": "Targi Jestem Vintage #32",
+        "desc": "Największe targi vintage w Polsce: około 70 butików z ubraniami i dodatkami pod jednym dachem. Można przyjść z psem.",
+        "when": "sob., 14 listopada, 11:00–21:00; niedz., 15 listopada, 11:00–19:15",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "wstęp wolny"
+      },
+      "be": {
+        "title": "Кірмаш Jestem Vintage #32",
+        "desc": "Найбуйнейшы ў Польшчы вінтажны кірмаш: каля 70 буцікаў адзення і аксесуараў пад адным дахам. Можна прыходзіць з сабакам.",
+        "when": "сб, 14 лістапада, 11:00–21:00; нд, 15 лістапада, 11:00–19:15",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "уваход вольны"
+      },
+      "uk": {
+        "title": "Ярмарок Jestem Vintage #32",
+        "desc": "Найбільший у Польщі вінтажний ярмарок: близько 70 бутиків одягу та аксесуарів під одним дахом. Можна приходити із собакою.",
+        "when": "сб, 14 листопада, 11:00–21:00; нд, 15 листопада, 11:00–19:15",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "вхід вільний"
+      },
+      "de": {
+        "title": "Vintage-Messe Jestem Vintage #32",
+        "desc": "Polens größte Vintage-Messe: rund 70 Boutiquen für Kleidung und Accessoires unter einem Dach. Hunde willkommen.",
+        "when": "Sa, 14. November, 11:00–21:00; So, 15. November, 11:00–19:15",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "Eintritt frei"
+      }
+    },
+    {
+      "emoji": "🖼",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-160993-targowisko-sztuki-w-koneserze",
+      "ru": {
+        "title": "Targowisko Sztuki в Koneser",
+        "desc": "Последняя в этом году ярмарка искусства: 92 художника и дизайнера продают живопись, графику, керамику, плакаты и украшения напрямую. Хороший шанс найти необычный подарок к праздникам.",
+        "when": "сб–вс, 14–15 ноября, с 11:00",
+        "where": "Butelkownia, Centrum Praskie Koneser, plac Konesera",
+        "price": "вход свободный"
+      },
+      "en": {
+        "title": "Targowisko Sztuki at Koneser",
+        "desc": "The year’s last art fair: 92 artists and designers sell paintings, prints, ceramics, posters and jewellery directly. A good chance to find an unusual holiday gift.",
+        "when": "Sat–Sun, November 14–15, from 11:00",
+        "where": "Butelkownia, Koneser Prague Centre, plac Konesera",
+        "price": "free entry"
+      },
+      "pl": {
+        "title": "Targowisko Sztuki w Koneserze",
+        "desc": "Ostatnie w tym roku targi sztuki: 92 artystów i projektantów sprzedaje bez pośredników malarstwo, grafikę, ceramikę, plakaty i biżuterię. Dobra okazja na nietypowy prezent na święta.",
+        "when": "sob.–niedz., 14–15 listopada, od 11:00",
+        "where": "Butelkownia, Centrum Praskie Koneser, plac Konesera",
+        "price": "wstęp wolny"
+      },
+      "be": {
+        "title": "Targowisko Sztuki у Koneser",
+        "desc": "Апошні ў гэтым годзе кірмаш мастацтва: 92 мастакі і дызайнеры прадаюць жывапіс, графіку, кераміку, плакаты і ўпрыгожванні наўпрост. Добрая магчымасць знайсці незвычайны падарунак да святаў.",
+        "when": "сб–нд, 14–15 лістапада, з 11:00",
+        "where": "Butelkownia, Centrum Praskie Koneser, plac Konesera",
+        "price": "уваход вольны"
+      },
+      "uk": {
+        "title": "Targowisko Sztuki у Koneser",
+        "desc": "Останній цього року ярмарок мистецтва: 92 художники й дизайнери продають живопис, графіку, кераміку, плакати та прикраси напряму. Гарна нагода знайти незвичайний подарунок до свят.",
+        "when": "сб–нд, 14–15 листопада, з 11:00",
+        "where": "Butelkownia, Centrum Praskie Koneser, plac Konesera",
+        "price": "вхід вільний"
+      },
+      "de": {
+        "title": "Kunstmarkt Targowisko Sztuki im Koneser",
+        "desc": "Der letzte Kunstmarkt des Jahres: 92 Künstler und Designer verkaufen Malerei, Grafik, Keramik, Plakate und Schmuck direkt. Eine gute Gelegenheit für ein besonderes Weihnachtsgeschenk.",
+        "when": "Sa–So, 14.–15. November, ab 11:00",
+        "where": "Butelkownia, Centrum Praskie Koneser, plac Konesera",
+        "price": "Eintritt frei"
+      }
+    },
+    {
+      "emoji": "🍕",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161623-international-food-festival",
+      "ru": {
+        "title": "International Food Festival",
+        "desc": "Выходные уличной еды в историческом универмаге: азиатская лапша и пельмени, турецкая пахлава, итальянские канноли, испанские чуррос и ближневосточный фалафель.",
+        "when": "сб, 14 ноября, 11:00–21:00; вс, 15 ноября, 11:00–19:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "вход свободный, еда за свой счёт"
+      },
+      "en": {
+        "title": "International Food Festival",
+        "desc": "A weekend of street food in a historic department store: Asian noodles and dumplings, Turkish baklava, Italian cannoli, Spanish churros and Middle Eastern falafel.",
+        "when": "Sat, November 14, 11:00–21:00; Sun, November 15, 11:00–19:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "free entry, food paid separately"
+      },
+      "pl": {
+        "title": "International Food Festival",
+        "desc": "Weekend ulicznego jedzenia w zabytkowym domu towarowym: azjatycki makaron i pierożki, turecka baklawa, włoskie cannoli, hiszpańskie churros i bliskowschodni falafel.",
+        "when": "sob., 14 listopada, 11:00–21:00; niedz., 15 listopada, 11:00–19:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "wstęp wolny, jedzenie płatne osobno"
+      },
+      "be": {
+        "title": "International Food Festival",
+        "desc": "Выхадныя вулічнай ежы ў гістарычным універмагу: азіяцкая локшына і пельмені, турэцкая пахлава, італьянскія каноле, іспанскія чурос і блізкаўсходні фалафель.",
+        "when": "сб, 14 лістапада, 11:00–21:00; нд, 15 лістапада, 11:00–19:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "уваход вольны, ежа за свой кошт"
+      },
+      "uk": {
+        "title": "International Food Festival",
+        "desc": "Вихідні вуличної їжі в історичному універмазі: азійська локшина й вареники, турецька пахлава, італійські канолі, іспанські чурос і близькосхідний фалафель.",
+        "when": "сб, 14 листопада, 11:00–21:00; нд, 15 листопада, 11:00–19:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "вхід вільний, їжа за власний кошт"
+      },
+      "de": {
+        "title": "International Food Festival",
+        "desc": "Ein Street-Food-Wochenende im historischen Kaufhaus: asiatische Nudeln und Teigtaschen, türkische Baklava, italienische Cannoli, spanische Churros und nahöstliche Falafel.",
+        "when": "Sa, 14. November, 11:00–21:00; So, 15. November, 11:00–19:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "Eintritt frei, Essen extra"
+      }
+    },
+    {
+      "emoji": "📚",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161807-festiwal-pradmova-w-warszawie",
+      "ru": {
+        "title": "Фестиваль белорусской книги PRADMOVA",
+        "desc": "Три дня презентаций, дискуссий о литературе и театре, выставок и детских занятий на белорусском языке. В пятницу вечером торжественное открытие и book rave, в субботу в 20:30 концерт группы «Начныя птушкі».",
+        "when": "пт, 13 ноября, с 17:00; сб–вс, 14–15 ноября",
+        "where": "Dom Spotkań z Historią, ul. Zielna 39 (4 этаж); детская зона в Muzeum Wolnej Białorusi, ul. Foksal 11",
+        "price": "большинство событий бесплатно"
+      },
+      "en": {
+        "title": "PRADMOVA Belarusian book festival",
+        "desc": "Three days of book presentations, talks on literature and theatre, exhibitions and children’s activities in Belarusian. Friday evening brings the opening and a book rave; on Saturday at 20:30 the band Nachnyya Ptushki plays.",
+        "when": "Fri, November 13, from 17:00; Sat–Sun, November 14–15",
+        "where": "Dom Spotkań z Historią, ul. Zielna 39 (4th floor); kids’ zone at the Museum of Free Belarus, ul. Foksal 11",
+        "price": "most events free"
+      },
+      "pl": {
+        "title": "Festiwal białoruskiej książki PRADMOVA",
+        "desc": "Trzy dni prezentacji książek, dyskusji o literaturze i teatrze, wystaw i zajęć dla dzieci po białorusku. W piątek wieczorem otwarcie i book rave, w sobotę o 20:30 koncert zespołu Nocne Ptaki.",
+        "when": "pt., 13 listopada, od 17:00; sob.–niedz., 14–15 listopada",
+        "where": "Dom Spotkań z Historią, ul. Zielna 39 (4. piętro); strefa dziecięca w Muzeum Wolnej Białorusi, ul. Foksal 11",
+        "price": "większość wydarzeń bezpłatna"
+      },
+      "be": {
+        "title": "Фестываль беларускай кнігі PRADMOVA",
+        "desc": "Тры дні прэзентацый, дыскусій пра літаратуру і тэатр, выстаў і дзіцячых заняткаў па-беларуску. У пятніцу ўвечары ўрачыстае адкрыццё і book rave, у суботу а 20:30 канцэрт гурта «Начныя птушкі».",
+        "when": "пт, 13 лістапада, з 17:00; сб–нд, 14–15 лістапада",
+        "where": "Dom Spotkań z Historią, ul. Zielna 39 (4 паверх); дзіцячая зона ў Музеі Вольнай Беларусі, ul. Foksal 11",
+        "price": "большасць падзей бясплатна"
+      },
+      "uk": {
+        "title": "Фестиваль білоруської книги PRADMOVA",
+        "desc": "Три дні презентацій, дискусій про літературу й театр, виставок і дитячих занять білоруською. У п’ятницю ввечері урочисте відкриття та book rave, у суботу о 20:30 концерт гурту «Начныя птушкі».",
+        "when": "пт, 13 листопада, з 17:00; сб–нд, 14–15 листопада",
+        "where": "Dom Spotkań z Historią, ul. Zielna 39 (4 поверх); дитяча зона в Музеї Вільної Білорусі, ul. Foksal 11",
+        "price": "більшість подій безкоштовні"
+      },
+      "de": {
+        "title": "Belarussisches Buchfestival PRADMOVA",
+        "desc": "Drei Tage Buchvorstellungen, Gespräche über Literatur und Theater, Ausstellungen und Kinderprogramm auf Belarussisch. Freitagabend Eröffnung und Book Rave, Samstag um 20:30 Konzert der Band Natschnyja Ptuschki.",
+        "when": "Fr, 13. November, ab 17:00; Sa–So, 14.–15. November",
+        "where": "Dom Spotkań z Historią, ul. Zielna 39 (4. Stock); Kinderbereich im Museum des Freien Belarus, ul. Foksal 11",
+        "price": "meiste Veranstaltungen kostenlos"
+      }
+    },
+    {
+      "emoji": "📚",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-160125-festiwal-literatury-azjatyckiej-2026",
+      "ru": {
+        "title": "Фестиваль азиатской литературы",
+        "desc": "Встречи с авторами и переводчиками, лекции, семейные мастер-классы и книжная ярмарка: от арабского мира и Китая до Японии, Кореи и манги.",
+        "when": "пт, 13 ноября (переводческие мастер-классы); сб–вс, 14–15 ноября",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Asian Literature Festival",
+        "desc": "Meetings with authors and translators, lectures, family workshops and a book fair: from the Arab world and China to Japan, Korea and manga.",
+        "when": "Fri, November 13 (translation workshops); Sat–Sun, November 14–15",
+        "where": "Asia and Pacific Museum, ul. Solec 24",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Festiwal Literatury Azjatyckiej",
+        "desc": "Spotkania z autorami i tłumaczami, wykłady, warsztaty rodzinne i targi książki: od świata arabskiego i Chin po Japonię, Koreę i mangę.",
+        "when": "pt., 13 listopada (warsztaty translatorskie); sob.–niedz., 14–15 listopada",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Фестываль азіяцкай літаратуры",
+        "desc": "Сустрэчы з аўтарамі і перакладчыкамі, лекцыі, сямейныя майстар-класы і кніжны кірмаш: ад арабскага свету і Кітая да Японіі, Карэі і мангі.",
+        "when": "пт, 13 лістапада (перакладчыцкія майстар-класы); сб–нд, 14–15 лістапада",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Фестиваль азійської літератури",
+        "desc": "Зустрічі з авторами й перекладачами, лекції, сімейні майстер-класи та книжковий ярмарок: від арабського світу й Китаю до Японії, Кореї та манґи.",
+        "when": "пт, 13 листопада (перекладацькі майстер-класи); сб–нд, 14–15 листопада",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Festival der asiatischen Literatur",
+        "desc": "Begegnungen mit Autoren und Übersetzern, Vorträge, Familienworkshops und eine Buchmesse: von der arabischen Welt und China bis Japan, Korea und Manga.",
+        "when": "Fr, 13. November (Übersetzungsworkshops); Sa–So, 14.–15. November",
+        "where": "Asien-und-Pazifik-Museum, ul. Solec 24",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎆",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161625-20-lat-zamkniete-w-szkle-jubileusz-bombkarni",
+      "ru": {
+        "title": "20 лет магазину ёлочных игрушек Bombkarnia",
+        "desc": "Первый в Польше круглогодичный магазин стеклянных шаров празднует юбилей: рассказ об истории, концерт рождественских песен и премьера юбилейной коллекции. Хорошее начало предпраздничного сезона.",
+        "when": "сб, 14 ноября, с 12:00 (главная программа 17:00–19:00)",
+        "where": "Bombkarnia, ul. Emilii Plater 47",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Bombkarnia Christmas ornament shop turns 20",
+        "desc": "Poland’s first year-round glass-bauble shop celebrates its anniversary with its story, a Christmas song concert and a new jubilee collection. A nice start to the holiday season.",
+        "when": "Sat, November 14, from 12:00 (main programme 17:00–19:00)",
+        "where": "Bombkarnia, ul. Emilii Plater 47",
+        "price": "free"
+      },
+      "pl": {
+        "title": "20 lat Bombkarni",
+        "desc": "Pierwszy w Polsce całoroczny sklep z bombkami świętuje jubileusz: historia sklepu, koncert piosenek świątecznych i premiera kolekcji jubileuszowej. Dobry początek sezonu świątecznego.",
+        "when": "sob., 14 listopada, od 12:00 (program główny 17:00–19:00)",
+        "where": "Bombkarnia, ul. Emilii Plater 47",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "20 гадоў краме ялінкавых цацак Bombkarnia",
+        "desc": "Першая ў Польшчы круглагадовая крама шкляных шароў святкуе юбілей: аповед пра гісторыю, канцэрт калядных песень і прэм’ера юбілейнай калекцыі. Добры пачатак перадсвяточнага сезона.",
+        "when": "сб, 14 лістапада, з 12:00 (галоўная праграма 17:00–19:00)",
+        "where": "Bombkarnia, ul. Emilii Plater 47",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "20 років крамниці ялинкових прикрас Bombkarnia",
+        "desc": "Перша в Польщі цілорічна крамниця скляних куль святкує ювілей: розповідь про історію, концерт різдвяних пісень і прем’єра ювілейної колекції. Гарний початок передсвяткового сезону.",
+        "when": "сб, 14 листопада, з 12:00 (головна програма 17:00–19:00)",
+        "where": "Bombkarnia, ul. Emilii Plater 47",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "20 Jahre Christbaumschmuck-Laden Bombkarnia",
+        "desc": "Polens erster ganzjähriger Laden für Glaskugeln feiert Jubiläum: Geschichte des Ladens, Konzert mit Weihnachtsliedern und Premiere der Jubiläumskollektion. Ein schöner Start in die Vorweihnachtszeit.",
+        "when": "Sa, 14. November, ab 12:00 (Hauptprogramm 17:00–19:00)",
+        "where": "Bombkarnia, ul. Emilii Plater 47",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🕺",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161259-potancowka-z-orkiestra-taneczna-apollo",
+      "ru": {
+        "title": "Танцы под оркестр Apollo",
+        "desc": "Большой танцевальный оркестр играет польские шлягеры и джаз 1930-х в оригинальных аранжировках, как на довоенных балах и дансингах.",
+        "when": "пт, 13 ноября, 19:00",
+        "where": "Centrum Łowicka, ul. Łowicka 21",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Dance night with the Apollo Orchestra",
+        "desc": "A big dance band plays Polish 1930s hits and jazz in original arrangements, just like at pre-war balls and dance halls.",
+        "when": "Fri, November 13, 19:00",
+        "where": "Centrum Łowicka, ul. Łowicka 21",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Potańcówka z Orkiestrą Taneczną Apollo",
+        "desc": "Duża orkiestra gra polskie szlagiery i jazz z lat 30. w oryginalnych aranżacjach, jak na przedwojennych balach i dancingach.",
+        "when": "pt., 13 listopada, 19:00",
+        "where": "Centrum Łowicka, ul. Łowicka 21",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Танцы пад аркестр Apollo",
+        "desc": "Вялікі танцавальны аркестр грае польскія шлягеры і джаз 1930-х у арыгінальных аранжыроўках, як на даваенных балях і дансінгах.",
+        "when": "пт, 13 лістапада, 19:00",
+        "where": "Centrum Łowicka, ul. Łowicka 21",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Танці під оркестр Apollo",
+        "desc": "Великий танцювальний оркестр грає польські шлягери й джаз 1930-х в оригінальних аранжуваннях, як на довоєнних балах і дансингах.",
+        "when": "пт, 13 листопада, 19:00",
+        "where": "Centrum Łowicka, ul. Łowicka 21",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Tanzabend mit dem Apollo-Orchester",
+        "desc": "Ein großes Tanzorchester spielt polnische Schlager und Jazz der 1930er in Originalarrangements, wie auf Bällen und in Tanzlokalen der Vorkriegszeit.",
+        "when": "Fr, 13. November, 19:00",
+        "where": "Centrum Łowicka, ul. Łowicka 21",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161654-tango-dla-fogga-bemowo-swietuje-125-urodziny-mieczyslawa-fogga",
+      "ru": {
+        "title": "«Танго для Фогга»",
+        "desc": "Хор и оркестр Tango Para Todos исполняют довоенные и послевоенные хиты Мечислава Фогга к 125-летию певца, с танцевальным шоу.",
+        "when": "вс, 15 ноября, 18:00",
+        "where": "Bemowskie Centrum Kultury, ul. Konarskiego 20",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "“Tango for Fogg”",
+        "desc": "The Tango Para Todos choir and orchestra perform Mieczysław Fogg’s pre- and post-war hits for the singer’s 125th birthday, with a dance show.",
+        "when": "Sun, November 15, 18:00",
+        "where": "Bemowo Culture Centre, ul. Konarskiego 20",
+        "price": "free"
+      },
+      "pl": {
+        "title": "„Tango dla Fogga”",
+        "desc": "Chór i orkiestra Tango Para Todos wykonują przedwojenne i powojenne przeboje Mieczysława Fogga na 125. urodziny artysty, z pokazem tańca.",
+        "when": "niedz., 15 listopada, 18:00",
+        "where": "Bemowskie Centrum Kultury, ul. Konarskiego 20",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "«Танга для Фога»",
+        "desc": "Хор і аркестр Tango Para Todos выконваюць даваенныя і пасляваенныя хіты Мечыслава Фога да 125-годдзя спевака, з танцавальным шоу.",
+        "when": "нд, 15 лістапада, 18:00",
+        "where": "Bemowskie Centrum Kultury, ul. Konarskiego 20",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "«Танго для Фоґґа»",
+        "desc": "Хор і оркестр Tango Para Todos виконують довоєнні й повоєнні хіти Мечислава Фоґґа до 125-річчя співака, з танцювальним шоу.",
+        "when": "нд, 15 листопада, 18:00",
+        "where": "Bemowskie Centrum Kultury, ul. Konarskiego 20",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "„Tango für Fogg“",
+        "desc": "Chor und Orchester Tango Para Todos spielen Vor- und Nachkriegshits von Mieczysław Fogg zu seinem 125. Geburtstag, mit Tanzshow.",
+        "when": "So, 15. November, 18:00",
+        "where": "Bemowskie Centrum Kultury, ul. Konarskiego 20",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎠",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161751-krolewna-sniezka-w-baletowej-odslonie",
+      "ru": {
+        "title": "Балет «Белоснежка» для всей семьи",
+        "desc": "Одноактный сказочный балет Młody Balet Polski с костюмами и анимацией, около часа. Бесплатные приглашения выдают по запросу на e-mail, указанный на странице события.",
+        "when": "вс, 15 ноября, 16:00",
+        "where": "Зал WAT, ul. gen. Sylwestra Kaliskiego 25A",
+        "price": "бесплатно по приглашению"
+      },
+      "en": {
+        "title": "“Snow White” ballet for the whole family",
+        "desc": "A one-act fairy-tale ballet by Młody Balet Polski with costumes and animation, about an hour long. Free invitations are sent on request to the e-mail given on the event page.",
+        "when": "Sun, November 15, 16:00",
+        "where": "WAT hall, ul. gen. Sylwestra Kaliskiego 25A",
+        "price": "free with invitation"
+      },
+      "pl": {
+        "title": "Balet „Królewna Śnieżka” dla całej rodziny",
+        "desc": "Jednoaktowy baśniowy balet Młodego Baletu Polskiego z kostiumami i animacjami, około godziny. Bezpłatne zaproszenia na prośbę wysłaną na e-mail podany na stronie wydarzenia.",
+        "when": "niedz., 15 listopada, 16:00",
+        "where": "Sala widowiskowa WAT, ul. gen. Sylwestra Kaliskiego 25A",
+        "price": "bezpłatnie, z zaproszeniem"
+      },
+      "be": {
+        "title": "Балет «Беласнежка» для ўсёй сям’і",
+        "desc": "Аднаактовы казачны балет Młody Balet Polski з касцюмамі і анімацыяй, каля гадзіны. Бясплатныя запрашэнні высылаюць па запыце на e-mail, пазначаны на старонцы падзеі.",
+        "when": "нд, 15 лістапада, 16:00",
+        "where": "Зала WAT, ul. gen. Sylwestra Kaliskiego 25A",
+        "price": "бясплатна па запрашэнні"
+      },
+      "uk": {
+        "title": "Балет «Білосніжка» для всієї родини",
+        "desc": "Одноактний казковий балет Młody Balet Polski з костюмами й анімацією, близько години. Безкоштовні запрошення надсилають на запит на e-mail, вказаний на сторінці події.",
+        "when": "нд, 15 листопада, 16:00",
+        "where": "Зала WAT, ul. gen. Sylwestra Kaliskiego 25A",
+        "price": "безкоштовно за запрошенням"
+      },
+      "de": {
+        "title": "Ballett „Schneewittchen“ für die ganze Familie",
+        "desc": "Ein Märchenballett in einem Akt vom Młody Balet Polski mit Kostümen und Animationen, etwa eine Stunde. Kostenlose Einladungen per E-Mail an die auf der Veranstaltungsseite genannte Adresse.",
+        "when": "So, 15. November, 16:00",
+        "where": "Saal der WAT, ul. gen. Sylwestra Kaliskiego 25A",
+        "price": "kostenlos mit Einladung"
+      }
+    },
+    {
+      "emoji": "🖼",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161817-jan-tarasin-w-100-lecie-urodzin",
+      "ru": {
+        "title": "Ян Тарасин: 100 лет со дня рождения",
+        "desc": "Открытие выставки классика польского абстрактного искусства: работы на бумаге 2000-х и рельефная живопись 1960-х. Выставка продлится до 9 декабря.",
+        "when": "сб, 14 ноября, 18:00–20:00 (вернисаж)",
+        "where": "Galeria Grafiki i Plakatu, ul. Hoża 40",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Jan Tarasin: 100th anniversary",
+        "desc": "Opening of an exhibition by a classic of Polish abstract art: works on paper from the 2000s and relief paintings from the 1960s. On until December 9.",
+        "when": "Sat, November 14, 18:00–20:00 (opening)",
+        "where": "Galeria Grafiki i Plakatu, ul. Hoża 40",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Jan Tarasin. W 100-lecie urodzin",
+        "desc": "Wernisaż wystawy klasyka polskiej abstrakcji: prace na papierze z lat 2000 i malarstwo reliefowe z lat 60. Wystawa potrwa do 9 grudnia.",
+        "when": "sob., 14 listopada, 18:00–20:00 (wernisaż)",
+        "where": "Galeria Grafiki i Plakatu, ul. Hoża 40",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Ян Тарасін: 100 гадоў з дня нараджэння",
+        "desc": "Адкрыццё выставы класіка польскага абстрактнага мастацтва: працы на паперы 2000-х і рэльефны жывапіс 1960-х. Выстава працуе да 9 снежня.",
+        "when": "сб, 14 лістапада, 18:00–20:00 (вернісаж)",
+        "where": "Galeria Grafiki i Plakatu, ul. Hoża 40",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Ян Тарасін: 100 років від дня народження",
+        "desc": "Відкриття виставки класика польського абстрактного мистецтва: роботи на папері 2000-х і рельєфний живопис 1960-х. Виставка триватиме до 9 грудня.",
+        "when": "сб, 14 листопада, 18:00–20:00 (вернісаж)",
+        "where": "Galeria Grafiki i Plakatu, ul. Hoża 40",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Jan Tarasin zum 100. Geburtstag",
+        "desc": "Eröffnung einer Ausstellung des Klassikers der polnischen Abstraktion: Arbeiten auf Papier aus den 2000ern und Reliefmalerei der 1960er. Zu sehen bis 9. Dezember.",
+        "when": "Sa, 14. November, 18:00–20:00 (Vernissage)",
+        "where": "Galeria Grafiki i Plakatu, ul. Hoża 40",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎭",
+      "paid": true,
+      "link": "https://www.waw4free.pl/wydarzenie-160900-p-mpro-show-impreza-p-mpro-p-mpro",
+      "ru": {
+        "title": "P!MPRO: импро-шоу и вечеринка",
+        "desc": "Комедийная импровизация для русско- и украиноязычной публики, после неё DJ-сет.",
+        "when": "вс, 15 ноября, 19:00 (шоу), 20:30–22:30 (DJ)",
+        "where": "BeerStation, ul. Żurawia 22",
+        "price": "30 zł"
+      },
+      "en": {
+        "title": "P!MPRO: improv show and party",
+        "desc": "Comedy improv for Russian- and Ukrainian-speaking audiences, followed by a DJ set.",
+        "when": "Sun, November 15, 19:00 (show), 20:30–22:30 (DJ)",
+        "where": "BeerStation, ul. Żurawia 22",
+        "price": "30 zł"
+      },
+      "pl": {
+        "title": "P!MPRO: show impro i impreza",
+        "desc": "Improwizacja komediowa dla publiczności rosyjsko- i ukraińskojęzycznej, a potem DJ set.",
+        "when": "niedz., 15 listopada, 19:00 (show), 20:30–22:30 (DJ)",
+        "where": "BeerStation, ul. Żurawia 22",
+        "price": "30 zł"
+      },
+      "be": {
+        "title": "P!MPRO: імпра-шоу і вечарына",
+        "desc": "Камедыйная імправізацыя для рускамоўнай і ўкраінамоўнай публікі, пасля яе DJ-сэт.",
+        "when": "нд, 15 лістапада, 19:00 (шоу), 20:30–22:30 (DJ)",
+        "where": "BeerStation, ul. Żurawia 22",
+        "price": "30 zł"
+      },
+      "uk": {
+        "title": "P!MPRO: імпро-шоу і вечірка",
+        "desc": "Комедійна імпровізація для російсько- та україномовної публіки, після неї DJ-сет.",
+        "when": "нд, 15 листопада, 19:00 (шоу), 20:30–22:30 (DJ)",
+        "where": "BeerStation, ul. Żurawia 22",
+        "price": "30 zł"
+      },
+      "de": {
+        "title": "P!MPRO: Impro-Show und Party",
+        "desc": "Comedy-Improvisation für russisch- und ukrainischsprachiges Publikum, danach ein DJ-Set.",
+        "when": "So, 15. November, 19:00 (Show), 20:30–22:30 (DJ)",
+        "where": "BeerStation, ul. Żurawia 22",
+        "price": "30 zł"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": true,
+      "link": "https://www.waw4free.pl/wydarzenie-161049-warsaw-2-0-comedy-show",
+      "ru": {
+        "title": "Warsaw 2.0 Comedy Show",
+        "desc": "Международный стендап и импровизация на английском: опытные комики и новички, каждую неделю новая программа.",
+        "when": "вс, 15 ноября, 20:00 (сбор с 19:30)",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "до 30 zł"
+      },
+      "en": {
+        "title": "Warsaw 2.0 Comedy Show",
+        "desc": "International stand-up and improv in English: seasoned comedians and newcomers, a new line-up every week.",
+        "when": "Sun, November 15, 20:00 (doors 19:30)",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "up to 30 zł"
+      },
+      "pl": {
+        "title": "Warsaw 2.0 Comedy Show",
+        "desc": "Międzynarodowy stand-up i impro po angielsku: doświadczeni komicy i debiutanci, co tydzień nowy program.",
+        "when": "niedz., 15 listopada, 20:00 (wejście od 19:30)",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "do 30 zł"
+      },
+      "be": {
+        "title": "Warsaw 2.0 Comedy Show",
+        "desc": "Міжнародны стэндап і імправізацыя па-англійску: вопытныя комікі і пачаткоўцы, кожны тыдзень новая праграма.",
+        "when": "нд, 15 лістапада, 20:00 (збор з 19:30)",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "да 30 zł"
+      },
+      "uk": {
+        "title": "Warsaw 2.0 Comedy Show",
+        "desc": "Міжнародний стендап та імпровізація англійською: досвідчені коміки й новачки, щотижня нова програма.",
+        "when": "нд, 15 листопада, 20:00 (збір з 19:30)",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "до 30 zł"
+      },
+      "de": {
+        "title": "Warsaw 2.0 Comedy Show",
+        "desc": "Internationaler Stand-up und Impro auf Englisch: erfahrene Comedians und Neulinge, jede Woche ein neues Programm.",
+        "when": "So, 15. November, 20:00 (Einlass 19:30)",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "bis 30 zł"
+      }
+    },
+    {
+      "emoji": "🖼",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-160150-darmowy-listopad-w-rezydencjach-krolewskich-2026",
+      "ru": {
+        "title": "Бесплатный ноябрь в королевских резиденциях",
+        "desc": "Весь ноябрь бесплатно открыты Королевский замок, Лазенки и дворец в Вилянуве. Бесплатные билеты дают в кассе в день визита или онлайн за 3 дня.",
+        "when": "пт–вс, 13–15 ноября; Замок 10:00–17:00",
+        "where": "Zamek Królewski (pl. Zamkowy 4), Łazienki Królewskie, Pałac w Wilanowie",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Free November in the royal residences",
+        "desc": "All November the Royal Castle, Łazienki and Wilanów Palace are free to visit. Free tickets at the box office on the day or online 3 days ahead.",
+        "when": "Fri–Sun, November 13–15; Castle 10:00–17:00",
+        "where": "Royal Castle (pl. Zamkowy 4), Łazienki Królewskie, Wilanów Palace",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Darmowy Listopad w Rezydencjach Królewskich",
+        "desc": "Przez cały listopad bezpłatnie można zwiedzać Zamek Królewski, Łazienki i Pałac w Wilanowie. Darmowe bilety w kasie w dniu wizyty lub online z 3-dniowym wyprzedzeniem.",
+        "when": "pt.–niedz., 13–15 listopada; Zamek 10:00–17:00",
+        "where": "Zamek Królewski (pl. Zamkowy 4), Łazienki Królewskie, Pałac w Wilanowie",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Бясплатны лістапад у каралеўскіх рэзідэнцыях",
+        "desc": "Увесь лістапад бясплатна адкрытыя Каралеўскі замак, Лазенкі і палац у Вілянаве. Бясплатныя квіткі даюць у касе ў дзень візіту або анлайн за 3 дні.",
+        "when": "пт–нд, 13–15 лістапада; Замак 10:00–17:00",
+        "where": "Zamek Królewski (pl. Zamkowy 4), Łazienki Królewskie, Pałac w Wilanowie",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Безкоштовний листопад у королівських резиденціях",
+        "desc": "Увесь листопад безкоштовно відкриті Королівський замок, Лазенки й палац у Вілянові. Безкоштовні квитки дають у касі в день візиту або онлайн за 3 дні.",
+        "when": "пт–нд, 13–15 листопада; Замок 10:00–17:00",
+        "where": "Zamek Królewski (pl. Zamkowy 4), Łazienki Królewskie, Pałac w Wilanowie",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Freier November in den Königsresidenzen",
+        "desc": "Den ganzen November sind das Königsschloss, Łazienki und der Palast Wilanów kostenlos zu besichtigen. Freikarten an der Kasse am Besuchstag oder online 3 Tage im Voraus.",
+        "when": "Fr–So, 13.–15. November; Schloss 10:00–17:00",
+        "where": "Königsschloss (pl. Zamkowy 4), Łazienki Królewskie, Palast Wilanów",
+        "price": "kostenlos"
+      }
+    }
+  ],
+  "published": {
+    "at": "2026-11-12T10:18:03.063Z",
+    "event_id": 1,
+    "ru_count": 14,
+    "verified": true,
+    "still_bad": []
+  }
+}

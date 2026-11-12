@@ -96,9 +96,15 @@ is made on whether to delete it outright (see "To confirm later").
   2026. The v3.0 code that was live still pointed at the repo's old name
   (`telegram-multilang-bot`), sent no User-Agent (GitHub's API rejects that), and
   hid the error. v3.1 (live since 12 Nov 2026) fixes both and logs failures
-  (`npm run tail`). Check that `data/events.json` updates after the next post. If
-  it doesn't, the `GITHUB_PAT` secret has probably expired: make a new
-  fine-grained token with Contents read/write on this repo only.
+  (`npm run tail`, which only works from a local machine; the cloud network
+  blocks its connection). Still not writing after the v3.1 deploy (checked
+  12 Nov 2026: no `data/picks.json` after a post), so the `GITHUB_PAT` Worker
+  secret has probably expired or lost access. Fix: a new fine-grained token with
+  Contents read/write on this repo only, saved as the Worker's `GITHUB_PAT`
+  secret. Low impact: KV holds the live data and `data/weekly/` is the record.
+- `tools/weekly.mjs` re-runs itself with `NODE_USE_ENV_PROXY=1`: Node's fetch
+  ignores HTTPS_PROXY otherwise, and only the proxy adds the Worker's X-Secret
+  (without it every post gets 401).
 
 ## To confirm later
 - Whether to delete the retired long-polling implementation outright, or
