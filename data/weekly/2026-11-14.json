@@ -1,0 +1,1682 @@
+{
+  "feed": "warsaw",
+  "weekend": "2026-11-14",
+  "date_range": {
+    "ru": "13–15 ноября",
+    "en": "November 13–15",
+    "pl": "13–15 listopada",
+    "be": "13–15 лістапада",
+    "uk": "13–15 листопада",
+    "de": "13.–15. November"
+  },
+  "source": {
+    "url": "https://www.the-warsaw.pl/184732/chem-zanjatsja-na-jetih-vyhodnyh-v-varshave-13-15-nojabrja/",
+    "title": "Афиша Варшавы 13–15 ноября: куда пойти на выходных",
+    "collected_at": "2026-11-13T15:56:12Z"
+  },
+  "events": [
+    {
+      "emoji": "🖼",
+      "paid": false,
+      "ru": {
+        "title": "Бесплатный вход в королевские резиденции",
+        "desc": "Весь ноябрь можно без оплаты осмотреть Королевский замок, дворец в Вилянове и музей в Лазенках.",
+        "when": "1–30 ноября",
+        "where": "Королевский замок, Музей-дворец в Вилянове, Музей Королевских Лазенок",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Free entry to the royal residences",
+        "desc": "All November you can visit the Royal Castle, Wilanów Palace and the Łazienki museum free of charge.",
+        "when": "November 1–30",
+        "where": "Royal Castle, Museum of King Jan III's Palace at Wilanów, Royal Łazienki Museum",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Bezpłatne wejście do rezydencji królewskich",
+        "desc": "Przez cały listopad można bezpłatnie zwiedzić Zamek Królewski, Pałac w Wilanowie i muzeum w Łazienkach.",
+        "when": "1–30 listopada",
+        "where": "Zamek Królewski, Muzeum Pałacu Króla Jana III w Wilanowie, Muzeum Łazienki Królewskie",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Бясплатны ўваход у каралеўскія рэзідэнцыі",
+        "desc": "Увесь лістапад можна бясплатна наведаць Каралеўскі замак, палац у Віланаве і музей у Лазенках.",
+        "when": "1–30 лістапада",
+        "where": "Каралеўскі замак, Музей-палац у Віланаве, Музей Каралеўскіх Лазенак",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Безкоштовний вхід до королівських резиденцій",
+        "desc": "Увесь листопад можна безкоштовно оглянути Королівський замок, палац у Віланові та музей у Лазенках.",
+        "when": "1–30 листопада",
+        "where": "Королівський замок, Музей-палац у Віланові, Музей Королівських Лазенок",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Freier Eintritt in die königlichen Residenzen",
+        "desc": "Den ganzen November über kann man das Königsschloss, den Wilanów-Palast und das Łazienki-Museum kostenlos besichtigen.",
+        "when": "1.–30. November",
+        "where": "Königsschloss, Palastmuseum Wilanów, Museum Königliche Łazienki",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🧠",
+      "paid": false,
+      "ru": {
+        "title": "Future Leaders Forum",
+        "desc": "Встреча беларусских профессионалов из разных стран с короткими историями о переезде и новом старте, кейноутом и дискуссией.",
+        "when": "14 ноября, 13:30–18:30",
+        "where": "Kultura Wysoka",
+        "price": "бесплатно, по регистрации"
+      },
+      "en": {
+        "title": "Future Leaders Forum",
+        "desc": "A meetup of Belarusian professionals from different countries with short stories about relocating and starting over, a keynote and a discussion.",
+        "when": "November 14, 13:30–18:30",
+        "where": "Kultura Wysoka",
+        "price": "free, registration required"
+      },
+      "pl": {
+        "title": "Future Leaders Forum",
+        "desc": "Spotkanie białoruskich profesjonalistów z różnych krajów z krótkimi historiami o przeprowadzce i nowym starcie, wystąpieniem głównym i dyskusją.",
+        "when": "14 listopada, 13:30–18:30",
+        "where": "Kultura Wysoka",
+        "price": "bezpłatnie, po rejestracji"
+      },
+      "be": {
+        "title": "Future Leaders Forum",
+        "desc": "Сустрэча беларускіх прафесіяналаў з розных краін з кароткімі гісторыямі пра пераезд і новы старт, кейноўтам і дыскусіяй.",
+        "when": "14 лістапада, 13:30–18:30",
+        "where": "Kultura Wysoka",
+        "price": "бясплатна, па рэгістрацыі"
+      },
+      "uk": {
+        "title": "Future Leaders Forum",
+        "desc": "Зустріч білоруських професіоналів із різних країн з короткими історіями про переїзд і новий старт, кейноутом та дискусією.",
+        "when": "14 листопада, 13:30–18:30",
+        "where": "Kultura Wysoka",
+        "price": "безкоштовно, за реєстрацією"
+      },
+      "de": {
+        "title": "Future Leaders Forum",
+        "desc": "Treffen belarussischer Fachleute aus verschiedenen Ländern mit kurzen Geschichten über Umzug und Neuanfang, einer Keynote und einer Diskussion.",
+        "when": "Samstag, 14. November, 13:30–18:30",
+        "where": "Kultura Wysoka",
+        "price": "kostenlos, mit Anmeldung"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": true,
+      "ru": {
+        "title": "Жёсткий стендап",
+        "desc": "Пятеро комиков выступят с острыми шутками на взрослую аудиторию в стендап-клубе.",
+        "when": "14 ноября, суббота, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "от 60 zł"
+      },
+      "en": {
+        "title": "Hardcore stand-up",
+        "desc": "Five comedians perform edgy jokes for an adult audience at a stand-up club.",
+        "when": "Saturday, November 14, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "from 60 zł"
+      },
+      "pl": {
+        "title": "Ostry stand-up",
+        "desc": "Pięciu komików wystąpi z ostrymi żartami dla dorosłej publiczności w klubie stand-upowym.",
+        "when": "sobota, 14 listopada, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "od 60 zł"
+      },
+      "be": {
+        "title": "Жорсткі стэндап",
+        "desc": "Пяцёра комікаў выступяць з вострымі жартамі для дарослай аўдыторыі ў стэндап-клубе.",
+        "when": "14 лістапада, субота, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "ад 60 zł"
+      },
+      "uk": {
+        "title": "Жорсткий стендап",
+        "desc": "П'ятеро коміків виступлять з гострими жартами для дорослої аудиторії в стендап-клубі.",
+        "when": "14 листопада, субота, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "від 60 zł"
+      },
+      "de": {
+        "title": "Harter Stand-up",
+        "desc": "Fünf Comedians treten im Stand-up-Club mit scharfen Witzen für ein erwachsenes Publikum auf.",
+        "when": "Samstag, 14. November, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "ab 60 zł"
+      }
+    },
+    {
+      "emoji": "✨",
+      "paid": true,
+      "ru": {
+        "title": "Winter Wonder Warsaw: выставка иллюминаций",
+        "desc": "Световой маршрут длиной 2 км с 14 тематическими зонами и сотнями светящихся фигур, включая динозавров в полный рост.",
+        "when": "с 7 ноября ежедневно (кроме понедельника), 16:00–22:00",
+        "where": "Fort Wola 22",
+        "price": "от 45 zł"
+      },
+      "en": {
+        "title": "Winter Wonder Warsaw: illuminations show",
+        "desc": "A 2 km light trail with 14 themed zones and hundreds of glowing figures, including life-size dinosaurs.",
+        "when": "from November 7, daily except Mondays, 16:00–22:00",
+        "where": "Fort Wola 22",
+        "price": "from 45 zł"
+      },
+      "pl": {
+        "title": "Winter Wonder Warsaw: wystawa iluminacji",
+        "desc": "Dwukilometrowa świetlna trasa z 14 strefami tematycznymi i setkami świecących figur, w tym dinozaurami naturalnej wielkości.",
+        "when": "od 7 listopada codziennie (oprócz poniedziałków), 16:00–22:00",
+        "where": "Fort Wola 22",
+        "price": "od 45 zł"
+      },
+      "be": {
+        "title": "Winter Wonder Warsaw: выстава ілюмінацый",
+        "desc": "Светлавы маршрут даўжынёй 2 км з 14 тэматычнымі зонамі і сотнямі святлівых фігур, у тым ліку дыназаўрамі ў поўны рост.",
+        "when": "з 7 лістапада штодня (акрамя панядзелка), 16:00–22:00",
+        "where": "Fort Wola 22",
+        "price": "ад 45 zł"
+      },
+      "uk": {
+        "title": "Winter Wonder Warsaw: виставка ілюмінацій",
+        "desc": "Світловий маршрут завдовжки 2 км із 14 тематичними зонами та сотнями світних фігур, зокрема динозаврами в повний зріст.",
+        "when": "з 7 листопада щодня (крім понеділка), 16:00–22:00",
+        "where": "Fort Wola 22",
+        "price": "від 45 zł"
+      },
+      "de": {
+        "title": "Winter Wonder Warsaw: Lichterausstellung",
+        "desc": "Ein 2 km langer Lichterpfad mit 14 Themenzonen und Hunderten leuchtenden Figuren, darunter lebensgroße Dinosaurier.",
+        "when": "ab 7. November täglich (außer montags), 16:00–22:00",
+        "where": "Fort Wola 22",
+        "price": "ab 45 zł"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": true,
+      "ru": {
+        "title": "Стендап-концерт",
+        "desc": "Ещё один вечер стендапа с другим составом комиков в том же клубе.",
+        "when": "15 ноября, воскресенье, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "от 60 zł"
+      },
+      "en": {
+        "title": "Stand-up show",
+        "desc": "Another stand-up evening with a different line-up of comedians at the same club.",
+        "when": "Sunday, November 15, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "from 60 zł"
+      },
+      "pl": {
+        "title": "Stand-up",
+        "desc": "Kolejny wieczór stand-upu z innym składem komików w tym samym klubie.",
+        "when": "niedziela, 15 listopada, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "od 60 zł"
+      },
+      "be": {
+        "title": "Стэндап-канцэрт",
+        "desc": "Яшчэ адзін вечар стэндапу з іншым складам комікаў у тым жа клубе.",
+        "when": "15 лістапада, нядзеля, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "ад 60 zł"
+      },
+      "uk": {
+        "title": "Стендап-концерт",
+        "desc": "Ще один вечір стендапу з іншим складом коміків у тому ж клубі.",
+        "when": "15 листопада, неділя, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "від 60 zł"
+      },
+      "de": {
+        "title": "Stand-up-Abend",
+        "desc": "Noch ein Stand-up-Abend mit anderen Comedians im selben Club.",
+        "when": "Sonntag, 15. November, 19:00",
+        "where": "Stand up lokal, ul. Noakowskiego 16",
+        "price": "ab 60 zł"
+      }
+    },
+    {
+      "emoji": "📚",
+      "paid": false,
+      "ru": {
+        "title": "Фестиваль беларуской книги PRADMOVA",
+        "desc": "Пять дней презентаций книг, встреч с авторами, дискуссий и концертов, посвящённых беларуской культуре и идентичности.",
+        "when": "12–16 ноября, по программе",
+        "where": "Dom Spotkań z Historią, Muzeum Wolnej Białorusi и другие площадки",
+        "price": "в основном бесплатно, спектакль по билетам"
+      },
+      "en": {
+        "title": "PRADMOVA Belarusian Book Festival",
+        "desc": "Five days of book launches, author meetings, discussions and concerts about Belarusian culture and identity.",
+        "when": "November 12–16, see programme",
+        "where": "Dom Spotkań z Historią, Muzeum Wolnej Białorusi and other venues",
+        "price": "mostly free, the play is ticketed"
+      },
+      "pl": {
+        "title": "Festiwal Książki Białoruskiej PRADMOVA",
+        "desc": "Pięć dni premier książek, spotkań z autorami, dyskusji i koncertów poświęconych białoruskiej kulturze i tożsamości.",
+        "when": "12–16 listopada, według programu",
+        "where": "Dom Spotkań z Historią, Muzeum Wolnej Białorusi i inne miejsca",
+        "price": "głównie bezpłatnie, spektakl biletowany"
+      },
+      "be": {
+        "title": "Фестываль беларускай кнігі PRADMOVA",
+        "desc": "Пяць дзён прэзентацый кніг, сустрэч з аўтарамі, дыскусій і канцэртаў, прысвечаных беларускай культуры і ідэнтычнасці.",
+        "when": "12–16 лістапада, па праграме",
+        "where": "Dom Spotkań z Historią, Muzeum Wolnej Białorusi і іншыя пляцоўкі",
+        "price": "пераважна бясплатна, спектакль па білетах"
+      },
+      "uk": {
+        "title": "Фестиваль білоруської книги PRADMOVA",
+        "desc": "П'ять днів презентацій книжок, зустрічей з авторами, дискусій і концертів, присвячених білоруській культурі та ідентичності.",
+        "when": "12–16 листопада, за програмою",
+        "where": "Dom Spotkań z Historią, Muzeum Wolnej Białorusi та інші майданчики",
+        "price": "переважно безкоштовно, вистава за квитками"
+      },
+      "de": {
+        "title": "Festival des belarussischen Buches PRADMOVA",
+        "desc": "Fünf Tage mit Buchpräsentationen, Autorentreffen, Diskussionen und Konzerten rund um belarussische Kultur und Identität.",
+        "when": "12.–16. November, laut Programm",
+        "where": "Dom Spotkań z Historią, Muzeum Wolnej Białorusi und weitere Orte",
+        "price": "meist kostenlos, Theaterstück mit Tickets"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": true,
+      "ru": {
+        "title": "Концерт Biaz Nazvy",
+        "desc": "Беларуская рок-группа отмечает 20-летие своего альбома живым выступлением в Варшаве.",
+        "when": "14 ноября, суббота, 19:30 (двери открываются в 19:00)",
+        "where": "клуб After Dark, ul. Nowy Świat 21",
+        "price": "от 73,50 zł"
+      },
+      "en": {
+        "title": "Biaz Nazvy concert",
+        "desc": "The Belarusian rock band celebrates the 20th anniversary of its album with a live show in Warsaw.",
+        "when": "Saturday, November 14, 19:30 (doors 19:00)",
+        "where": "After Dark club, ul. Nowy Świat 21",
+        "price": "from 73.50 zł"
+      },
+      "pl": {
+        "title": "Koncert Biaz Nazvy",
+        "desc": "Białoruski zespół rockowy świętuje 20-lecie swojego albumu koncertem na żywo w Warszawie.",
+        "when": "sobota, 14 listopada, 19:30 (otwarcie drzwi 19:00)",
+        "where": "klub After Dark, ul. Nowy Świat 21",
+        "price": "od 73,50 zł"
+      },
+      "be": {
+        "title": "Канцэрт Biaz Nazvy",
+        "desc": "Беларускі рок-гурт адзначае 20-годдзе свайго альбома жывым выступам у Варшаве.",
+        "when": "14 лістапада, субота, 19:30 (дзверы адчыняюцца ў 19:00)",
+        "where": "клуб After Dark, ul. Nowy Świat 21",
+        "price": "ад 73,50 zł"
+      },
+      "uk": {
+        "title": "Концерт Biaz Nazvy",
+        "desc": "Білоруський рок-гурт відзначає 20-річчя свого альбому живим виступом у Варшаві.",
+        "when": "14 листопада, субота, 19:30 (двері відчиняються о 19:00)",
+        "where": "клуб After Dark, ul. Nowy Świat 21",
+        "price": "від 73,50 zł"
+      },
+      "de": {
+        "title": "Konzert von Biaz Nazvy",
+        "desc": "Die belarussische Rockband feiert das 20-jährige Jubiläum ihres Albums mit einem Live-Auftritt in Warschau.",
+        "when": "Samstag, 14. November, 19:30 (Einlass 19:00)",
+        "where": "Club After Dark, ul. Nowy Świat 21",
+        "price": "ab 73,50 zł"
+      }
+    },
+    {
+      "emoji": "🎲",
+      "paid": false,
+      "ru": {
+        "title": "Вечер настольных игр в Украинском доме",
+        "desc": "Открытый игровой вечер для взрослых с подборкой настольных игр и помощью в объяснении правил.",
+        "when": "14 ноября, суббота, 17:30",
+        "where": "Український дім, ul. Zamenhofa 1",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Board game night at the Ukrainian House",
+        "desc": "An open game night for adults with a selection of board games and help explaining the rules.",
+        "when": "Saturday, November 14, 17:30",
+        "where": "Ukrainian House, ul. Zamenhofa 1",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Wieczór gier planszowych w Domu Ukraińskim",
+        "desc": "Otwarty wieczór gier dla dorosłych z wyborem planszówek i pomocą w wyjaśnianiu zasad.",
+        "when": "sobota, 14 listopada, 17:30",
+        "where": "Dom Ukraiński, ul. Zamenhofa 1",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Вечар настольных гульняў ва Украінскім доме",
+        "desc": "Адкрыты гульнявы вечар для дарослых з падборкай настольных гульняў і дапамогай у тлумачэнні правілаў.",
+        "when": "14 лістапада, субота, 17:30",
+        "where": "Украінскі дом, ul. Zamenhofa 1",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Вечір настільних ігор в Українському домі",
+        "desc": "Відкритий ігровий вечір для дорослих із добіркою настільних ігор і допомогою в поясненні правил.",
+        "when": "14 листопада, субота, 17:30",
+        "where": "Український дім, ul. Zamenhofa 1",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Brettspielabend im Ukrainischen Haus",
+        "desc": "Offener Spieleabend für Erwachsene mit einer Auswahl an Brettspielen und Hilfe beim Erklären der Regeln.",
+        "when": "Samstag, 14. November, 17:30",
+        "where": "Ukrainisches Haus, ul. Zamenhofa 1",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🐎",
+      "paid": true,
+      "ru": {
+        "title": "Конные соревнования CAVALIADA",
+        "desc": "Крупный турнир по конному спорту с несколькими дисциплинами и финальным Гран-при Варшавы в выходной день.",
+        "when": "12–15 ноября, с утра",
+        "where": "COS Torwar, ul. Łazienkowska 6A",
+        "price": "по билетам"
+      },
+      "en": {
+        "title": "CAVALIADA equestrian competition",
+        "desc": "A major show-jumping and riding tournament with several disciplines and the Warsaw Grand Prix final at the weekend.",
+        "when": "November 12–15, from the morning",
+        "where": "COS Torwar, ul. Łazienkowska 6A",
+        "price": "ticketed"
+      },
+      "pl": {
+        "title": "Zawody jeździeckie CAVALIADA",
+        "desc": "Duży turniej jeździecki z kilkoma konkurencjami i finałowym Grand Prix Warszawy w weekend.",
+        "when": "12–15 listopada, od rana",
+        "where": "COS Torwar, ul. Łazienkowska 6A",
+        "price": "bilety"
+      },
+      "be": {
+        "title": "Конныя спаборніцтвы CAVALIADA",
+        "desc": "Буйны турнір па конным спорце з некалькімі дысцыплінамі і фінальным Гран-пры Варшавы ў выхадны дзень.",
+        "when": "12–15 лістапада, з раніцы",
+        "where": "COS Torwar, ul. Łazienkowska 6A",
+        "price": "па білетах"
+      },
+      "uk": {
+        "title": "Кінні змагання CAVALIADA",
+        "desc": "Великий турнір з кінного спорту з кількома дисциплінами та фінальним Гран-прі Варшави у вихідний день.",
+        "when": "12–15 листопада, зранку",
+        "where": "COS Torwar, ul. Łazienkowska 6A",
+        "price": "за квитками"
+      },
+      "de": {
+        "title": "Reitturnier CAVALIADA",
+        "desc": "Großes Reitsportturnier mit mehreren Disziplinen und dem Finale des Großen Preises von Warschau am Wochenende.",
+        "when": "12.–15. November, ab morgens",
+        "where": "COS Torwar, ul. Łazienkowska 6A",
+        "price": "mit Tickets"
+      }
+    },
+    {
+      "emoji": "🍕",
+      "paid": false,
+      "ru": {
+        "title": "International Food Festival",
+        "desc": "Гастрономический фестиваль с азиатской, испанской, турецкой и итальянской кухней в историческом торговом доме.",
+        "when": "14–15 ноября, 11:00–20:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "бесплатно, оплата только за еду"
+      },
+      "en": {
+        "title": "International Food Festival",
+        "desc": "A food festival with Asian, Spanish, Turkish and Italian cuisine in a historic department store.",
+        "when": "November 14–15, 11:00–20:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "free entry, pay only for food"
+      },
+      "pl": {
+        "title": "International Food Festival",
+        "desc": "Festiwal kulinarny z kuchnią azjatycką, hiszpańską, turecką i włoską w zabytkowym domu towarowym.",
+        "when": "14–15 listopada, 11:00–20:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "wstęp wolny, płatne tylko jedzenie"
+      },
+      "be": {
+        "title": "International Food Festival",
+        "desc": "Гастранамічны фестываль з азіяцкай, іспанскай, турэцкай і італьянскай кухняй у гістарычным гандлёвым доме.",
+        "when": "14–15 лістапада, 11:00–20:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "бясплатна, аплата толькі за ежу"
+      },
+      "uk": {
+        "title": "International Food Festival",
+        "desc": "Гастрономічний фестиваль з азійською, іспанською, турецькою та італійською кухнею в історичному торговому домі.",
+        "when": "14–15 листопада, 11:00–20:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "безкоштовно, оплата лише за їжу"
+      },
+      "de": {
+        "title": "International Food Festival",
+        "desc": "Ein Food-Festival mit asiatischer, spanischer, türkischer und italienischer Küche in einem historischen Kaufhaus.",
+        "when": "14.–15. November, 11:00–20:00",
+        "where": "Dom Towarowy Bracia Jabłkowscy, ul. Bracka 25",
+        "price": "Eintritt frei, nur Essen kostet"
+      }
+    },
+    {
+      "emoji": "🛍",
+      "paid": false,
+      "ru": {
+        "title": "Маркет винтажа Jestem Vintage",
+        "desc": "Крупный винтажный маркет с одеждой и аксессуарами прошлых десятилетий от десятков продавцов со всей страны.",
+        "when": "14–15 ноября",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Jestem Vintage market",
+        "desc": "A big vintage market with clothes and accessories from past decades from dozens of sellers from all over Poland.",
+        "when": "November 14–15",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Targi vintage Jestem Vintage",
+        "desc": "Duży targ vintage z ubraniami i dodatkami z minionych dekad od kilkudziesięciu sprzedawców z całego kraju.",
+        "when": "14–15 listopada",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Маркет вінтажу Jestem Vintage",
+        "desc": "Вялікі вінтажны маркет з адзеннем і аксесуарамі мінулых дзесяцігоддзяў ад дзясяткаў прадаўцоў з усёй краіны.",
+        "when": "14–15 лістапада",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Маркет вінтажу Jestem Vintage",
+        "desc": "Великий вінтажний маркет з одягом і аксесуарами минулих десятиліть від десятків продавців з усієї країни.",
+        "when": "14–15 листопада",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Vintage-Markt Jestem Vintage",
+        "desc": "Ein großer Vintage-Markt mit Kleidung und Accessoires vergangener Jahrzehnte von Dutzenden Händlern aus ganz Polen.",
+        "when": "14.–15. November",
+        "where": "Elektrownia Powiśle, ul. Dobra 42",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🖼",
+      "paid": false,
+      "ru": {
+        "title": "Выставка «Zwierzęta wszystkich światów»",
+        "desc": "Старинные зоологические атласы и иллюстрации вместе с современными скульптурами и инсталляциями о том, как раньше представляли животный мир.",
+        "when": "до 22 января 2027, 11:00–19:00 (кроме вторников)",
+        "where": "Pałac Rzeczypospolitej, pl. Krasińskich 3/5",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Exhibition “Zwierzęta wszystkich światów”",
+        "desc": "Antique zoological atlases and illustrations alongside contemporary sculptures and installations about how people once imagined the animal world.",
+        "when": "until January 22, 2027, 11:00–19:00 (closed Tuesdays)",
+        "where": "Pałac Rzeczypospolitej, pl. Krasińskich 3/5",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Wystawa „Zwierzęta wszystkich światów”",
+        "desc": "Dawne atlasy zoologiczne i ilustracje wraz ze współczesnymi rzeźbami i instalacjami o tym, jak kiedyś wyobrażano sobie świat zwierząt.",
+        "when": "do 22 stycznia 2027, 11:00–19:00 (oprócz wtorków)",
+        "where": "Pałac Rzeczypospolitej, pl. Krasińskich 3/5",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Выстава «Zwierzęta wszystkich światów»",
+        "desc": "Старадаўнія заалагічныя атласы і ілюстрацыі разам з сучаснымі скульптурамі і інсталяцыямі пра тое, як раней уяўлялі жывёльны свет.",
+        "when": "да 22 студзеня 2027, 11:00–19:00 (акрамя аўторкаў)",
+        "where": "Pałac Rzeczypospolitej, pl. Krasińskich 3/5",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Виставка «Zwierzęta wszystkich światów»",
+        "desc": "Старовинні зоологічні атласи та ілюстрації разом із сучасними скульптурами й інсталяціями про те, як раніше уявляли тваринний світ.",
+        "when": "до 22 січня 2027, 11:00–19:00 (крім вівторків)",
+        "where": "Pałac Rzeczypospolitej, pl. Krasińskich 3/5",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Ausstellung „Zwierzęta wszystkich światów“",
+        "desc": "Alte zoologische Atlanten und Illustrationen neben zeitgenössischen Skulpturen und Installationen darüber, wie man sich früher die Tierwelt vorstellte.",
+        "when": "bis 22. Januar 2027, 11:00–19:00 (dienstags geschlossen)",
+        "where": "Pałac Rzeczypospolitej, pl. Krasińskich 3/5",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "♨️",
+      "paid": false,
+      "ru": {
+        "title": "Бесплатная сауна в Парке Жераньском",
+        "desc": "Сауна на свежем воздухе работает каждый день с несколькими сеансами, нужна предварительная запись.",
+        "when": "ежедневно до 20 декабря, сеансы 16:00, 18:00 и 20:00",
+        "where": "Park Żerański, рядом с ul. Modlińska",
+        "price": "бесплатно, возвратный залог 19,10 zł"
+      },
+      "en": {
+        "title": "Free sauna in Żerański Park",
+        "desc": "An open-air sauna runs every day with several sessions; booking in advance is required.",
+        "when": "daily until December 20, sessions at 16:00, 18:00 and 20:00",
+        "where": "Park Żerański, near ul. Modlińska",
+        "price": "free, refundable deposit 19.10 zł"
+      },
+      "pl": {
+        "title": "Darmowa sauna w Parku Żerańskim",
+        "desc": "Sauna na świeżym powietrzu działa codziennie w kilku sesjach, wymagana jest wcześniejsza rezerwacja.",
+        "when": "codziennie do 20 grudnia, sesje 16:00, 18:00 i 20:00",
+        "where": "Park Żerański, przy ul. Modlińskiej",
+        "price": "bezpłatnie, zwrotna kaucja 19,10 zł"
+      },
+      "be": {
+        "title": "Бясплатная лазня ў Парку Жэраньскім",
+        "desc": "Лазня на свежым паветры працуе кожны дзень з некалькімі сеансамі, патрэбны папярэдні запіс.",
+        "when": "штодня да 20 снежня, сеансы 16:00, 18:00 і 20:00",
+        "where": "Park Żerański, побач з ul. Modlińska",
+        "price": "бясплатна, зваротны заклад 19,10 zł"
+      },
+      "uk": {
+        "title": "Безкоштовна сауна в Парку Жераньському",
+        "desc": "Сауна просто неба працює щодня з кількома сеансами, потрібен попередній запис.",
+        "when": "щодня до 20 грудня, сеанси 16:00, 18:00 і 20:00",
+        "where": "Park Żerański, поруч з ul. Modlińska",
+        "price": "безкоштовно, поворотна застава 19,10 zł"
+      },
+      "de": {
+        "title": "Kostenlose Sauna im Żerański-Park",
+        "desc": "Eine Freiluftsauna mit mehreren Sitzungen täglich; Voranmeldung ist erforderlich.",
+        "when": "täglich bis 20. Dezember, Sitzungen um 16:00, 18:00 und 20:00",
+        "where": "Park Żerański, nahe ul. Modlińska",
+        "price": "kostenlos, rückzahlbare Kaution 19,10 zł"
+      }
+    },
+    {
+      "emoji": "🎨",
+      "paid": false,
+      "ru": {
+        "title": "Targowisko Sztuki в Butelkowni",
+        "desc": "Последний в этом году выпуск художественного маркета с работами девяноста авторов и возможностью лично поговорить с ними.",
+        "when": "14–15 ноября, 11:00–18:00",
+        "where": "Butelkownia, Centrum Praskie Koneser, pl. Konesera 3",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Targowisko Sztuki at Butelkownia",
+        "desc": "The year's last edition of the art market with works by ninety artists and a chance to talk to them in person.",
+        "when": "November 14–15, 11:00–18:00",
+        "where": "Butelkownia, Centrum Praskie Koneser, pl. Konesera 3",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Targowisko Sztuki w Butelkowni",
+        "desc": "Ostatnia w tym roku edycja targów sztuki z pracami dziewięćdziesięciu twórców i możliwością osobistej rozmowy z nimi.",
+        "when": "14–15 listopada, 11:00–18:00",
+        "where": "Butelkownia, Centrum Praskie Koneser, pl. Konesera 3",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Targowisko Sztuki ў Butelkowni",
+        "desc": "Апошні ў гэтым годзе выпуск мастацкага маркета з працамі дзевяноста аўтараў і магчымасцю асабіста пагаварыць з імі.",
+        "when": "14–15 лістапада, 11:00–18:00",
+        "where": "Butelkownia, Centrum Praskie Koneser, pl. Konesera 3",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Targowisko Sztuki в Butelkowni",
+        "desc": "Останній цього року випуск мистецького маркету з роботами дев'яноста авторів і можливістю особисто поговорити з ними.",
+        "when": "14–15 листопада, 11:00–18:00",
+        "where": "Butelkownia, Centrum Praskie Koneser, pl. Konesera 3",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Targowisko Sztuki in der Butelkownia",
+        "desc": "Die letzte Ausgabe des Kunstmarkts in diesem Jahr mit Werken von neunzig Künstlern, mit denen man persönlich sprechen kann.",
+        "when": "14.–15. November, 11:00–18:00",
+        "where": "Butelkownia, Centrum Praskie Koneser, pl. Konesera 3",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "📚",
+      "paid": false,
+      "ru": {
+        "title": "Фестиваль азиатской литературы",
+        "desc": "Встречи с авторами, лекции и книжная ярмарка, посвящённые литературе от арабских стран до Японии и Кореи.",
+        "when": "13–15 ноября, с 10:00",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Asian Literature Festival",
+        "desc": "Author meetings, lectures and a book fair devoted to literature from the Arab world to Japan and Korea.",
+        "when": "November 13–15, from 10:00",
+        "where": "Museum of Asia and the Pacific, ul. Solec 24",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Festiwal Literatury Azjatyckiej",
+        "desc": "Spotkania z autorami, wykłady i kiermasz książek poświęcone literaturze od krajów arabskich po Japonię i Koreę.",
+        "when": "13–15 listopada, od 10:00",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Фестываль азіяцкай літаратуры",
+        "desc": "Сустрэчы з аўтарамі, лекцыі і кніжны кірмаш, прысвечаныя літаратуры ад арабскіх краін да Японіі і Карэі.",
+        "when": "13–15 лістапада, з 10:00",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Фестиваль азійської літератури",
+        "desc": "Зустрічі з авторами, лекції та книжковий ярмарок, присвячені літературі від арабських країн до Японії та Кореї.",
+        "when": "13–15 листопада, з 10:00",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Festival der asiatischen Literatur",
+        "desc": "Autorentreffen, Vorträge und eine Buchmesse rund um Literatur von den arabischen Ländern bis Japan und Korea.",
+        "when": "13.–15. November, ab 10:00",
+        "where": "Museum für Asien und den Pazifik, ul. Solec 24",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "✨",
+      "paid": false,
+      "ru": {
+        "title": "Мультимедийная выставка «Iskry Niepodległej»",
+        "desc": "Выставка на современных экранах рассказывает о поляках, вошедших в историю страны своими достижениями, приурочена к Дню независимости.",
+        "when": "11–14 ноября, последний вход в 16:30 (14 ноября — в 12:30)",
+        "where": "ul. Kawęczyńska 53",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Multimedia exhibition “Iskry Niepodległej”",
+        "desc": "An exhibition on modern screens about Poles who made history through their achievements, timed for Independence Day.",
+        "when": "November 11–14, last entry 16:30 (on November 14 at 12:30)",
+        "where": "ul. Kawęczyńska 53",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Wystawa multimedialna „Iskry Niepodległej”",
+        "desc": "Wystawa na nowoczesnych ekranach o Polakach, którzy zapisali się w historii kraju swoimi osiągnięciami, z okazji Święta Niepodległości.",
+        "when": "11–14 listopada, ostatnie wejście 16:30 (14 listopada o 12:30)",
+        "where": "ul. Kawęczyńska 53",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Мультымедыйная выстава «Iskry Niepodległej»",
+        "desc": "Выстава на сучасных экранах распавядае пра палякаў, якія ўвайшлі ў гісторыю краіны сваімі дасягненнямі, прымеркавана да Дня незалежнасці.",
+        "when": "11–14 лістапада, апошні ўваход у 16:30 (14 лістапада — у 12:30)",
+        "where": "ul. Kawęczyńska 53",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Мультимедійна виставка «Iskry Niepodległej»",
+        "desc": "Виставка на сучасних екранах розповідає про поляків, які увійшли в історію країни своїми досягненнями, приурочена до Дня незалежності.",
+        "when": "11–14 листопада, останній вхід о 16:30 (14 листопада — о 12:30)",
+        "where": "ul. Kawęczyńska 53",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Multimedia-Ausstellung „Iskry Niepodległej“",
+        "desc": "Eine Ausstellung auf modernen Bildschirmen über Polen, die mit ihren Leistungen Geschichte schrieben, zum Unabhängigkeitstag.",
+        "when": "11.–14. November, letzter Einlass 16:30 (am 14. November um 12:30)",
+        "where": "ul. Kawęczyńska 53",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "✨",
+      "paid": true,
+      "ru": {
+        "title": "«Eonarium Enlightenment»",
+        "desc": "Иммерсивное шоу света и звука на музыку Вивальди с проекциями на 360° внутри исторического храма.",
+        "when": "до 6 декабря, сеансы по расписанию",
+        "where": "Kościół Ewangelicko-Reformowany, al. Solidarności 74",
+        "price": "от 31,90 zł"
+      },
+      "en": {
+        "title": "“Eonarium Enlightenment”",
+        "desc": "An immersive light and sound show set to Vivaldi with 360° projections inside a historic church.",
+        "when": "until December 6, sessions as scheduled",
+        "where": "Evangelical Reformed Church, al. Solidarności 74",
+        "price": "from 31.90 zł"
+      },
+      "pl": {
+        "title": "„Eonarium Enlightenment”",
+        "desc": "Immersyjny spektakl światła i dźwięku do muzyki Vivaldiego z projekcjami 360° we wnętrzu zabytkowego kościoła.",
+        "when": "do 6 grudnia, seanse według harmonogramu",
+        "where": "Kościół Ewangelicko-Reformowany, al. Solidarności 74",
+        "price": "od 31,90 zł"
+      },
+      "be": {
+        "title": "«Eonarium Enlightenment»",
+        "desc": "Імерсіўнае шоу святла і гуку пад музыку Вівальдзі з праекцыямі на 360° унутры гістарычнага храма.",
+        "when": "да 6 снежня, сеансы па раскладзе",
+        "where": "Kościół Ewangelicko-Reformowany, al. Solidarności 74",
+        "price": "ад 31,90 zł"
+      },
+      "uk": {
+        "title": "«Eonarium Enlightenment»",
+        "desc": "Імерсивне шоу світла і звуку під музику Вівальді з проєкціями на 360° всередині історичного храму.",
+        "when": "до 6 грудня, сеанси за розкладом",
+        "where": "Kościół Ewangelicko-Reformowany, al. Solidarności 74",
+        "price": "від 31,90 zł"
+      },
+      "de": {
+        "title": "„Eonarium Enlightenment“",
+        "desc": "Eine immersive Licht- und Klangshow zu Musik von Vivaldi mit 360°-Projektionen in einer historischen Kirche.",
+        "when": "bis 6. Dezember, Vorstellungen laut Plan",
+        "where": "Evangelisch-Reformierte Kirche, al. Solidarności 74",
+        "price": "ab 31,90 zł"
+      }
+    },
+    {
+      "emoji": "🖼",
+      "paid": true,
+      "ru": {
+        "title": "Nabiści в Лазенках",
+        "desc": "Последние дни первой в Польше большой выставки художников группы наби с почти сотней работ из польских и зарубежных коллекций.",
+        "when": "до 15 ноября; суббота 12:00–20:00, воскресенье 10:00–16:00",
+        "where": "Łazienki Królewskie, Podchorążówka, ul. Agrykola 1",
+        "price": "30 zł, льготный 15 zł"
+      },
+      "en": {
+        "title": "The Nabis at Łazienki",
+        "desc": "Final days of Poland's first major exhibition of the Nabis group, with nearly a hundred works from Polish and foreign collections.",
+        "when": "until November 15; Saturday 12:00–20:00, Sunday 10:00–16:00",
+        "where": "Łazienki Królewskie, Podchorążówka, ul. Agrykola 1",
+        "price": "30 zł, reduced 15 zł"
+      },
+      "pl": {
+        "title": "Nabiści w Łazienkach",
+        "desc": "Ostatnie dni pierwszej w Polsce dużej wystawy artystów grupy Nabis z blisko setką prac z polskich i zagranicznych kolekcji.",
+        "when": "do 15 listopada; sobota 12:00–20:00, niedziela 10:00–16:00",
+        "where": "Łazienki Królewskie, Podchorążówka, ul. Agrykola 1",
+        "price": "30 zł, ulgowy 15 zł"
+      },
+      "be": {
+        "title": "Набісты ў Лазенках",
+        "desc": "Апошнія дні першай у Польшчы вялікай выставы мастакоў групы набі з амаль сотняй прац з польскіх і замежных калекцый.",
+        "when": "да 15 лістапада; субота 12:00–20:00, нядзеля 10:00–16:00",
+        "where": "Łazienki Królewskie, Podchorążówka, ul. Agrykola 1",
+        "price": "30 zł, льготны 15 zł"
+      },
+      "uk": {
+        "title": "Набісти в Лазенках",
+        "desc": "Останні дні першої в Польщі великої виставки художників групи набі з майже сотнею робіт із польських і закордонних колекцій.",
+        "when": "до 15 листопада; субота 12:00–20:00, неділя 10:00–16:00",
+        "where": "Łazienki Królewskie, Podchorążówka, ul. Agrykola 1",
+        "price": "30 zł, пільговий 15 zł"
+      },
+      "de": {
+        "title": "Die Nabis in Łazienki",
+        "desc": "Letzte Tage der ersten großen Ausstellung der Künstlergruppe Nabis in Polen mit fast hundert Werken aus polnischen und ausländischen Sammlungen.",
+        "when": "bis 15. November; Samstag 12:00–20:00, Sonntag 10:00–16:00",
+        "where": "Łazienki Królewskie, Podchorążówka, ul. Agrykola 1",
+        "price": "30 zł, ermäßigt 15 zł"
+      }
+    },
+    {
+      "emoji": "🎨",
+      "paid": false,
+      "ru": {
+        "title": "Ярмарка искусства и рукоделия в Blue City",
+        "desc": "Прилавки с украшениями, керамикой, одеждой и другими изделиями ручной работы на минус первом этаже торгового центра.",
+        "when": "13–14 ноября, в часы работы центра",
+        "where": "Centrum Handlowe Blue City, Al. Jerozolimskie 179",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Art and craft fair at Blue City",
+        "desc": "Stalls with jewellery, ceramics, clothing and other handmade goods on the shopping centre's lower ground floor.",
+        "when": "November 13–14, during opening hours",
+        "where": "Blue City shopping centre, Al. Jerozolimskie 179",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Targi sztuki i rękodzieła w Blue City",
+        "desc": "Stoiska z biżuterią, ceramiką, odzieżą i innymi wyrobami rękodzielniczymi na poziomie -1 centrum handlowego.",
+        "when": "13–14 listopada, w godzinach otwarcia centrum",
+        "where": "Centrum Handlowe Blue City, Al. Jerozolimskie 179",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Кірмаш мастацтва і рукадзелля ў Blue City",
+        "desc": "Прылаўкі з упрыгожваннямі, керамікай, адзеннем і іншымі вырабамі ручной працы на мінус першым паверсе гандлёвага цэнтра.",
+        "when": "13–14 лістапада, у гадзіны працы цэнтра",
+        "where": "Centrum Handlowe Blue City, Al. Jerozolimskie 179",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Ярмарок мистецтва й рукоділля в Blue City",
+        "desc": "Прилавки з прикрасами, керамікою, одягом та іншими виробами ручної роботи на мінус першому поверсі торгового центру.",
+        "when": "13–14 листопада, у години роботи центру",
+        "where": "Centrum Handlowe Blue City, Al. Jerozolimskie 179",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Kunst- und Handwerksmarkt im Blue City",
+        "desc": "Stände mit Schmuck, Keramik, Kleidung und anderen handgemachten Waren im Untergeschoss des Einkaufszentrums.",
+        "when": "13.–14. November, zu den Öffnungszeiten des Zentrums",
+        "where": "Einkaufszentrum Blue City, Al. Jerozolimskie 179",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": true,
+      "ru": {
+        "title": "Концерт IRA в Stodole",
+        "desc": "Известная польская рок-группа 1980–90-х годов выступит с живым концертом.",
+        "when": "13 ноября, пятница, 19:30",
+        "where": "Klub Stodoła, ul. Stefana Batorego 10",
+        "price": "от 170,90 zł"
+      },
+      "en": {
+        "title": "IRA concert at Stodoła",
+        "desc": "The well-known Polish rock band of the 1980s–90s plays a live concert.",
+        "when": "Friday, November 13, 19:30",
+        "where": "Klub Stodoła, ul. Stefana Batorego 10",
+        "price": "from 170.90 zł"
+      },
+      "pl": {
+        "title": "Koncert IRA w Stodole",
+        "desc": "Znany polski zespół rockowy z lat 80. i 90. zagra koncert na żywo.",
+        "when": "piątek, 13 listopada, 19:30",
+        "where": "Klub Stodoła, ul. Stefana Batorego 10",
+        "price": "od 170,90 zł"
+      },
+      "be": {
+        "title": "Канцэрт IRA ў Stodole",
+        "desc": "Вядомы польскі рок-гурт 1980–90-х гадоў выступіць з жывым канцэртам.",
+        "when": "13 лістапада, пятніца, 19:30",
+        "where": "Klub Stodoła, ul. Stefana Batorego 10",
+        "price": "ад 170,90 zł"
+      },
+      "uk": {
+        "title": "Концерт IRA в Stodole",
+        "desc": "Відомий польський рок-гурт 1980–90-х років виступить із живим концертом.",
+        "when": "13 листопада, п'ятниця, 19:30",
+        "where": "Klub Stodoła, ul. Stefana Batorego 10",
+        "price": "від 170,90 zł"
+      },
+      "de": {
+        "title": "IRA-Konzert im Stodoła",
+        "desc": "Die bekannte polnische Rockband der 1980er- und 90er-Jahre gibt ein Live-Konzert.",
+        "when": "Freitag, 13. November, 19:30",
+        "where": "Klub Stodoła, ul. Stefana Batorego 10",
+        "price": "ab 170,90 zł"
+      }
+    },
+    {
+      "emoji": "🎭",
+      "paid": true,
+      "ru": {
+        "title": "Мюзикл SIX",
+        "desc": "Польская премьера хита West End и Бродвея, где шесть жён короля Генриха VIII рассказывают свои истории в формате поп-концерта.",
+        "when": "пятница 19:00; суббота 16:00 и 19:00; воскресенье 14:00 и 17:00",
+        "where": "Teatr Syrena, ul. Litewska 3",
+        "price": "от 182,90 zł"
+      },
+      "en": {
+        "title": "SIX the musical",
+        "desc": "The Polish premiere of the West End and Broadway hit in which Henry VIII's six wives tell their stories as a pop concert.",
+        "when": "Friday 19:00; Saturday 16:00 and 19:00; Sunday 14:00 and 17:00",
+        "where": "Teatr Syrena, ul. Litewska 3",
+        "price": "from 182.90 zł"
+      },
+      "pl": {
+        "title": "Musical SIX",
+        "desc": "Polska premiera hitu West Endu i Broadwayu, w którym sześć żon Henryka VIII opowiada swoje historie w formie popowego koncertu.",
+        "when": "piątek 19:00; sobota 16:00 i 19:00; niedziela 14:00 i 17:00",
+        "where": "Teatr Syrena, ul. Litewska 3",
+        "price": "od 182,90 zł"
+      },
+      "be": {
+        "title": "Мюзікл SIX",
+        "desc": "Польская прэм'ера хіта Вест-Энда і Брадвея, дзе шэсць жонак караля Генрыха VIII расказваюць свае гісторыі ў фармаце поп-канцэрта.",
+        "when": "пятніца 19:00; субота 16:00 і 19:00; нядзеля 14:00 і 17:00",
+        "where": "Teatr Syrena, ul. Litewska 3",
+        "price": "ад 182,90 zł"
+      },
+      "uk": {
+        "title": "Мюзикл SIX",
+        "desc": "Польська прем'єра хіта Вест-Енду та Бродвею, де шість дружин короля Генріха VIII розповідають свої історії у форматі поп-концерту.",
+        "when": "п'ятниця 19:00; субота 16:00 і 19:00; неділя 14:00 і 17:00",
+        "where": "Teatr Syrena, ul. Litewska 3",
+        "price": "від 182,90 zł"
+      },
+      "de": {
+        "title": "Musical SIX",
+        "desc": "Die polnische Premiere des West-End- und Broadway-Hits, in dem die sechs Ehefrauen Heinrichs VIII. ihre Geschichten als Popkonzert erzählen.",
+        "when": "Freitag 19:00; Samstag 16:00 und 19:00; Sonntag 14:00 und 17:00",
+        "where": "Teatr Syrena, ul. Litewska 3",
+        "price": "ab 182,90 zł"
+      }
+    },
+    {
+      "emoji": "✨",
+      "paid": false,
+      "ru": {
+        "title": "Световой сад в Парке Свентокшиским",
+        "desc": "Вечерний сад с цветной подсветкой и анимациями на природную тематику, работает круглый год после наступления темноты.",
+        "when": "круглый год, после наступления темноты",
+        "where": "Park Świętokrzyski, рядом со станцией метро Świętokrzyska",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Light garden in Świętokrzyski Park",
+        "desc": "An evening garden with colourful lighting and nature-themed animations, open all year after dark.",
+        "when": "all year round, after dark",
+        "where": "Park Świętokrzyski, near Świętokrzyska metro station",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Ogród świateł w Parku Świętokrzyskim",
+        "desc": "Wieczorny ogród z kolorowym podświetleniem i animacjami o tematyce przyrodniczej, działa cały rok po zmroku.",
+        "when": "cały rok, po zmroku",
+        "where": "Park Świętokrzyski, przy stacji metra Świętokrzyska",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Светлавы сад у Парку Свентакшыскім",
+        "desc": "Вячэрні сад з каляровай падсветкай і анімацыямі на прыродную тэматыку, працуе круглы год пасля наступлення цемры.",
+        "when": "круглы год, пасля наступлення цемры",
+        "where": "Park Świętokrzyski, побач са станцыяй метро Świętokrzyska",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Світловий сад у Парку Свентокшиському",
+        "desc": "Вечірній сад із кольоровим підсвічуванням та анімаціями на природну тематику, працює цілий рік після настання темряви.",
+        "when": "цілий рік, після настання темряви",
+        "where": "Park Świętokrzyski, поруч зі станцією метро Świętokrzyska",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Lichtergarten im Świętokrzyski-Park",
+        "desc": "Ein abendlicher Garten mit bunter Beleuchtung und Naturanimationen, ganzjährig nach Einbruch der Dunkelheit geöffnet.",
+        "when": "ganzjährig, nach Einbruch der Dunkelheit",
+        "where": "Park Świętokrzyski, nahe der Metrostation Świętokrzyska",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🖼",
+      "paid": false,
+      "ru": {
+        "title": "«Meluzyny z wielkiej płyty»",
+        "desc": "Выставка о моде и сценических образах шести известных польских певиц 1980-х годов.",
+        "when": "до 21 февраля 2027, 10:00–20:00",
+        "where": "Dom Spotkań z Historią, ul. Karowa 20",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "“Meluzyny z wielkiej płyty”",
+        "desc": "An exhibition about the fashion and stage looks of six famous Polish female singers of the 1980s.",
+        "when": "until February 21, 2027, 10:00–20:00",
+        "where": "Dom Spotkań z Historią, ul. Karowa 20",
+        "price": "free"
+      },
+      "pl": {
+        "title": "„Meluzyny z wielkiej płyty”",
+        "desc": "Wystawa o modzie i scenicznym wizerunku sześciu znanych polskich piosenkarek lat 80.",
+        "when": "do 21 lutego 2027, 10:00–20:00",
+        "where": "Dom Spotkań z Historią, ul. Karowa 20",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "«Meluzyny z wielkiej płyty»",
+        "desc": "Выстава пра моду і сцэнічныя вобразы шасці вядомых польскіх спявачак 1980-х гадоў.",
+        "when": "да 21 лютага 2027, 10:00–20:00",
+        "where": "Dom Spotkań z Historią, ul. Karowa 20",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "«Meluzyny z wielkiej płyty»",
+        "desc": "Виставка про моду та сценічні образи шести відомих польських співачок 1980-х років.",
+        "when": "до 21 лютого 2027, 10:00–20:00",
+        "where": "Dom Spotkań z Historią, ul. Karowa 20",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "„Meluzyny z wielkiej płyty“",
+        "desc": "Eine Ausstellung über Mode und Bühnenlooks von sechs bekannten polnischen Sängerinnen der 1980er-Jahre.",
+        "when": "bis 21. Februar 2027, 10:00–20:00",
+        "where": "Dom Spotkań z Historią, ul. Karowa 20",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🖼",
+      "paid": false,
+      "ru": {
+        "title": "Выставка «Przestrzeń a kolor»",
+        "desc": "Объекты и композиции о связи цвета, света и пространства от художников секции пространственного проектирования.",
+        "when": "6–29 ноября",
+        "where": "Dom Artysty Plastyka, ul. Mazowiecka 11A",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Exhibition “Przestrzeń a kolor”",
+        "desc": "Objects and compositions about the link between colour, light and space by artists from the spatial design section.",
+        "when": "November 6–29",
+        "where": "Dom Artysty Plastyka, ul. Mazowiecka 11A",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Wystawa „Przestrzeń a kolor”",
+        "desc": "Obiekty i kompozycje o związku koloru, światła i przestrzeni autorstwa artystów sekcji projektowania przestrzennego.",
+        "when": "6–29 listopada",
+        "where": "Dom Artysty Plastyka, ul. Mazowiecka 11A",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Выстава «Przestrzeń a kolor»",
+        "desc": "Аб'екты і кампазіцыі пра сувязь колеру, святла і прасторы ад мастакоў секцыі прасторавага праектавання.",
+        "when": "6–29 лістапада",
+        "where": "Dom Artysty Plastyka, ul. Mazowiecka 11A",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Виставка «Przestrzeń a kolor»",
+        "desc": "Об'єкти та композиції про зв'язок кольору, світла й простору від художників секції просторового проєктування.",
+        "when": "6–29 листопада",
+        "where": "Dom Artysty Plastyka, ul. Mazowiecka 11A",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Ausstellung „Przestrzeń a kolor“",
+        "desc": "Objekte und Kompositionen über den Zusammenhang von Farbe, Licht und Raum von Künstlern der Sektion Raumgestaltung.",
+        "when": "6.–29. November",
+        "where": "Dom Artysty Plastyka, ul. Mazowiecka 11A",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎠",
+      "paid": false,
+      "ru": {
+        "title": "Семейное воскресенье в Hulakula",
+        "desc": "Программа для семей с детьми: танцы, стройка из гигантских кубиков и катание на детских электромотоциклах.",
+        "when": "15 ноября, воскресенье, с 12:00",
+        "where": "Hulakula, ul. Jagiellońska 82B",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Family Sunday at Hulakula",
+        "desc": "A programme for families with children: dancing, building with giant blocks and rides on kids' electric motorbikes.",
+        "when": "Sunday, November 15, from 12:00",
+        "where": "Hulakula, ul. Jagiellońska 82B",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Rodzinna niedziela w Hulakula",
+        "desc": "Program dla rodzin z dziećmi: tańce, budowanie z gigantycznych klocków i jazda na dziecięcych motocyklach elektrycznych.",
+        "when": "niedziela, 15 listopada, od 12:00",
+        "where": "Hulakula, ul. Jagiellońska 82B",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Сямейная нядзеля ў Hulakula",
+        "desc": "Праграма для сем'яў з дзецьмі: танцы, будоўля з гіганцкіх кубікаў і катанне на дзіцячых электраматацыклах.",
+        "when": "15 лістапада, нядзеля, з 12:00",
+        "where": "Hulakula, ul. Jagiellońska 82B",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Сімейна неділя в Hulakula",
+        "desc": "Програма для сімей з дітьми: танці, будівництво з гігантських кубиків і катання на дитячих електромотоциклах.",
+        "when": "15 листопада, неділя, з 12:00",
+        "where": "Hulakula, ul. Jagiellońska 82B",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Familiensonntag im Hulakula",
+        "desc": "Programm für Familien mit Kindern: Tanzen, Bauen mit Riesenbausteinen und Fahrten auf Elektromotorrädern für Kinder.",
+        "when": "Sonntag, 15. November, ab 12:00",
+        "where": "Hulakula, ul. Jagiellońska 82B",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎭",
+      "paid": false,
+      "ru": {
+        "title": "Детский спектакль «Niepodległa 1918»",
+        "desc": "Представление о истории Польши с костюмами, танцем и юмором, адаптированное для детской аудитории.",
+        "when": "14 ноября, суббота, 16:00",
+        "where": "ul. Siarczana 6",
+        "price": "бесплатно, по предварительной записи"
+      },
+      "en": {
+        "title": "Children's play “Niepodległa 1918”",
+        "desc": "A show about Polish history with costumes, dance and humour, adapted for young audiences.",
+        "when": "Saturday, November 14, 16:00",
+        "where": "ul. Siarczana 6",
+        "price": "free, booking required"
+      },
+      "pl": {
+        "title": "Spektakl dla dzieci „Niepodległa 1918”",
+        "desc": "Przedstawienie o historii Polski z kostiumami, tańcem i humorem, dostosowane do młodej widowni.",
+        "when": "sobota, 14 listopada, 16:00",
+        "where": "ul. Siarczana 6",
+        "price": "bezpłatnie, po wcześniejszych zapisach"
+      },
+      "be": {
+        "title": "Дзіцячы спектакль «Niepodległa 1918»",
+        "desc": "Пастаноўка пра гісторыю Польшчы з касцюмамі, танцам і гумарам, адаптаваная для дзіцячай аўдыторыі.",
+        "when": "14 лістапада, субота, 16:00",
+        "where": "ul. Siarczana 6",
+        "price": "бясплатна, па папярэднім запісе"
+      },
+      "uk": {
+        "title": "Дитяча вистава «Niepodległa 1918»",
+        "desc": "Вистава про історію Польщі з костюмами, танцем і гумором, адаптована для дитячої аудиторії.",
+        "when": "14 листопада, субота, 16:00",
+        "where": "ul. Siarczana 6",
+        "price": "безкоштовно, за попереднім записом"
+      },
+      "de": {
+        "title": "Kinderstück „Niepodległa 1918“",
+        "desc": "Eine Aufführung über die Geschichte Polens mit Kostümen, Tanz und Humor, für ein junges Publikum gestaltet.",
+        "when": "Samstag, 14. November, 16:00",
+        "where": "ul. Siarczana 6",
+        "price": "kostenlos, mit Voranmeldung"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": true,
+      "ru": {
+        "title": "Концерт Old Breakout и Ани Русович",
+        "desc": "Концерт-трибьют легендам польского блюза и рока к 55-летию двух знаковых альбомов.",
+        "when": "15 ноября, воскресенье, 19:00",
+        "where": "Terminal Kultury Gocław",
+        "price": "по билетам"
+      },
+      "en": {
+        "title": "Old Breakout and Ania Rusowicz concert",
+        "desc": "A tribute concert to legends of Polish blues and rock for the 55th anniversary of two landmark albums.",
+        "when": "Sunday, November 15, 19:00",
+        "where": "Terminal Kultury Gocław",
+        "price": "ticketed"
+      },
+      "pl": {
+        "title": "Koncert Old Breakout i Ani Rusowicz",
+        "desc": "Koncert-hołd dla legend polskiego bluesa i rocka z okazji 55-lecia dwóch kultowych albumów.",
+        "when": "niedziela, 15 listopada, 19:00",
+        "where": "Terminal Kultury Gocław",
+        "price": "bilety"
+      },
+      "be": {
+        "title": "Канцэрт Old Breakout і Ані Русовіч",
+        "desc": "Канцэрт-трыб'ют легендам польскага блюзу і року да 55-годдзя двух знакавых альбомаў.",
+        "when": "15 лістапада, нядзеля, 19:00",
+        "where": "Terminal Kultury Gocław",
+        "price": "па білетах"
+      },
+      "uk": {
+        "title": "Концерт Old Breakout і Ані Русович",
+        "desc": "Концерт-триб'ют легендам польського блюзу та року до 55-річчя двох знакових альбомів.",
+        "when": "15 листопада, неділя, 19:00",
+        "where": "Terminal Kultury Gocław",
+        "price": "за квитками"
+      },
+      "de": {
+        "title": "Konzert von Old Breakout und Ania Rusowicz",
+        "desc": "Ein Tributkonzert an die Legenden des polnischen Blues und Rock zum 55-jährigen Jubiläum zweier Kultalben.",
+        "when": "Sonntag, 15. November, 19:00",
+        "where": "Terminal Kultury Gocław",
+        "price": "mit Tickets"
+      }
+    },
+    {
+      "emoji": "🕺",
+      "paid": false,
+      "ru": {
+        "title": "Бесплатная зумба в Вилянове",
+        "desc": "Открытая тренировка по зумбе для всех уровней подготовки под руководством инструктора.",
+        "when": "15 ноября, воскресенье, 20:00",
+        "where": "Centrum Sportu Wilanów, ul. Wiertnicza 26A",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Free Zumba in Wilanów",
+        "desc": "An open Zumba class for all fitness levels led by an instructor.",
+        "when": "Sunday, November 15, 20:00",
+        "where": "Centrum Sportu Wilanów, ul. Wiertnicza 26A",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Darmowa zumba w Wilanowie",
+        "desc": "Otwarty trening zumby dla każdego poziomu zaawansowania prowadzony przez instruktora.",
+        "when": "niedziela, 15 listopada, 20:00",
+        "where": "Centrum Sportu Wilanów, ul. Wiertnicza 26A",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Бясплатная зумба ў Віланаве",
+        "desc": "Адкрытая трэніроўка па зумбе для ўсіх узроўняў падрыхтоўкі пад кіраўніцтвам інструктара.",
+        "when": "15 лістапада, нядзеля, 20:00",
+        "where": "Centrum Sportu Wilanów, ul. Wiertnicza 26A",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Безкоштовна зумба у Вілянові",
+        "desc": "Відкрите тренування з зумби для всіх рівнів підготовки під керівництвом інструктора.",
+        "when": "15 листопада, неділя, 20:00",
+        "where": "Centrum Sportu Wilanów, ul. Wiertnicza 26A",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Kostenloses Zumba in Wilanów",
+        "desc": "Offenes Zumba-Training für alle Fitnessstufen unter Anleitung eines Trainers.",
+        "when": "Sonntag, 15. November, 20:00",
+        "where": "Centrum Sportu Wilanów, ul. Wiertnicza 26A",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🫂",
+      "paid": false,
+      "ru": {
+        "title": "Встреча для беларуской молодёжи об эмиграции",
+        "desc": "Встреча для беларусов 15–20 лет с играми, знакомствами и разговором со студентами об опыте переезда и учёбы за границей.",
+        "when": "14 ноября, суббота, 14:00–18:00",
+        "where": "ul. Oleandrów 6",
+        "price": "бесплатно, по регистрации"
+      },
+      "en": {
+        "title": "Meetup for young Belarusians about emigration",
+        "desc": "A meetup for Belarusians aged 15–20 with games, getting to know each other and a talk with students about moving and studying abroad.",
+        "when": "Saturday, November 14, 14:00–18:00",
+        "where": "ul. Oleandrów 6",
+        "price": "free, registration required"
+      },
+      "pl": {
+        "title": "Spotkanie dla białoruskiej młodzieży o emigracji",
+        "desc": "Spotkanie dla Białorusinów w wieku 15–20 lat z grami, poznawaniem się i rozmową ze studentami o przeprowadzce i nauce za granicą.",
+        "when": "sobota, 14 listopada, 14:00–18:00",
+        "where": "ul. Oleandrów 6",
+        "price": "bezpłatnie, po rejestracji"
+      },
+      "be": {
+        "title": "Сустрэча для беларускай моладзі пра эміграцыю",
+        "desc": "Сустрэча для беларусаў 15–20 гадоў з гульнямі, знаёмствамі і размовай са студэнтамі пра досвед пераезду і вучобы за мяжой.",
+        "when": "14 лістапада, субота, 14:00–18:00",
+        "where": "ul. Oleandrów 6",
+        "price": "бясплатна, па рэгістрацыі"
+      },
+      "uk": {
+        "title": "Зустріч для білоруської молоді про еміграцію",
+        "desc": "Зустріч для білорусів 15–20 років з іграми, знайомствами та розмовою зі студентами про досвід переїзду й навчання за кордоном.",
+        "when": "14 листопада, субота, 14:00–18:00",
+        "where": "ul. Oleandrów 6",
+        "price": "безкоштовно, за реєстрацією"
+      },
+      "de": {
+        "title": "Treffen für junge Belarussen zum Thema Auswanderung",
+        "desc": "Ein Treffen für Belarussen von 15 bis 20 Jahren mit Spielen, Kennenlernen und einem Gespräch mit Studierenden über Umzug und Studium im Ausland.",
+        "when": "Samstag, 14. November, 14:00–18:00",
+        "where": "ul. Oleandrów 6",
+        "price": "kostenlos, mit Anmeldung"
+      }
+    },
+    {
+      "emoji": "❤️",
+      "paid": true,
+      "ru": {
+        "title": "THEN WE MET: вечер медленных знакомств",
+        "desc": "Новый формат медленных свиданий без спешки для около полусотни участников, попасть можно только по предварительной заявке.",
+        "when": "13 ноября, пятница, 20:30",
+        "where": "Południk 2.0, ul. Wilcza 25",
+        "price": "50 zł"
+      },
+      "en": {
+        "title": "THEN WE MET: slow dating night",
+        "desc": "A new unhurried slow-dating format for about fifty participants; entry only by advance application.",
+        "when": "Friday, November 13, 20:30",
+        "where": "Południk 2.0, ul. Wilcza 25",
+        "price": "50 zł"
+      },
+      "pl": {
+        "title": "THEN WE MET: wieczór powolnych randek",
+        "desc": "Nowy format niespiesznych randek dla około pięćdziesięciu uczestników, udział tylko po wcześniejszym zgłoszeniu.",
+        "when": "piątek, 13 listopada, 20:30",
+        "where": "Południk 2.0, ul. Wilcza 25",
+        "price": "50 zł"
+      },
+      "be": {
+        "title": "THEN WE MET: вечар павольных знаёмстваў",
+        "desc": "Новы фармат павольных спатканняў без спешкі для каля паўсотні ўдзельнікаў, трапіць можна толькі па папярэдняй заяўцы.",
+        "when": "13 лістапада, пятніца, 20:30",
+        "where": "Południk 2.0, ul. Wilcza 25",
+        "price": "50 zł"
+      },
+      "uk": {
+        "title": "THEN WE MET: вечір повільних знайомств",
+        "desc": "Новий формат повільних побачень без поспіху для близько півсотні учасників, потрапити можна лише за попередньою заявкою.",
+        "when": "13 листопада, п'ятниця, 20:30",
+        "where": "Południk 2.0, ul. Wilcza 25",
+        "price": "50 zł"
+      },
+      "de": {
+        "title": "THEN WE MET: Abend für langsames Kennenlernen",
+        "desc": "Ein neues, entschleunigtes Slow-Dating-Format für etwa fünfzig Teilnehmende; Teilnahme nur nach vorheriger Bewerbung.",
+        "when": "Freitag, 13. November, 20:30",
+        "where": "Południk 2.0, ul. Wilcza 25",
+        "price": "50 zł"
+      }
+    },
+    {
+      "emoji": "🖼",
+      "paid": true,
+      "ru": {
+        "title": "Выставка «Tilda Swinton — Ongoing»",
+        "desc": "Фильмы, фотографии и инсталляции, созданные актрисой Тильдой Суинтон в сотрудничестве с известными режиссёрами и художниками.",
+        "when": "18 сентября 2026 – 17 января 2027",
+        "where": "Instytut Przemysłów Kreatywnych, ul. Mińska 65",
+        "price": "от 89 zł"
+      },
+      "en": {
+        "title": "Exhibition “Tilda Swinton — Ongoing”",
+        "desc": "Films, photographs and installations made by actress Tilda Swinton together with well-known directors and artists.",
+        "when": "September 18, 2026 – January 17, 2027",
+        "where": "Instytut Przemysłów Kreatywnych, ul. Mińska 65",
+        "price": "from 89 zł"
+      },
+      "pl": {
+        "title": "Wystawa „Tilda Swinton — Ongoing”",
+        "desc": "Filmy, fotografie i instalacje stworzone przez aktorkę Tildę Swinton we współpracy ze znanymi reżyserami i artystami.",
+        "when": "18 września 2026 – 17 stycznia 2027",
+        "where": "Instytut Przemysłów Kreatywnych, ul. Mińska 65",
+        "price": "od 89 zł"
+      },
+      "be": {
+        "title": "Выстава «Tilda Swinton — Ongoing»",
+        "desc": "Фільмы, фатаграфіі і інсталяцыі, створаныя актрысай Тільдай Суінтан у супрацоўніцтве з вядомымі рэжысёрамі і мастакамі.",
+        "when": "18 верасня 2026 – 17 студзеня 2027",
+        "where": "Instytut Przemysłów Kreatywnych, ul. Mińska 65",
+        "price": "ад 89 zł"
+      },
+      "uk": {
+        "title": "Виставка «Tilda Swinton — Ongoing»",
+        "desc": "Фільми, фотографії та інсталяції, створені акторкою Тільдою Свінтон у співпраці з відомими режисерами й митцями.",
+        "when": "18 вересня 2026 – 17 січня 2027",
+        "where": "Instytut Przemysłów Kreatywnych, ul. Mińska 65",
+        "price": "від 89 zł"
+      },
+      "de": {
+        "title": "Ausstellung „Tilda Swinton — Ongoing“",
+        "desc": "Filme, Fotografien und Installationen, die die Schauspielerin Tilda Swinton gemeinsam mit bekannten Regisseuren und Künstlern geschaffen hat.",
+        "when": "vom 18. September 2026 bis 17. Januar 2027",
+        "where": "Instytut Przemysłów Kreatywnych, ul. Mińska 65",
+        "price": "ab 89 zł"
+      }
+    },
+    {
+      "emoji": "🦖",
+      "paid": true,
+      "ru": {
+        "title": "DINO EXPERIENCE",
+        "desc": "Иммерсивная выставка о динозаврах с настоящим черепом тарбозавра, проекциями на 360° и VR, созданная с Институтом палеобиологии.",
+        "when": "до 22 ноября 2026",
+        "where": "Art Box Experience, Fabryka Norblina",
+        "price": "от 54 zł"
+      },
+      "en": {
+        "title": "DINO EXPERIENCE",
+        "desc": "An immersive dinosaur exhibition with a real Tarbosaurus skull, 360° projections and VR, created with the Institute of Paleobiology.",
+        "when": "until November 22, 2026",
+        "where": "Art Box Experience, Fabryka Norblina",
+        "price": "from 54 zł"
+      },
+      "pl": {
+        "title": "DINO EXPERIENCE",
+        "desc": "Immersyjna wystawa o dinozaurach z prawdziwą czaszką tarbozaura, projekcjami 360° i VR, przygotowana z Instytutem Paleobiologii.",
+        "when": "do 22 listopada 2026",
+        "where": "Art Box Experience, Fabryka Norblina",
+        "price": "od 54 zł"
+      },
+      "be": {
+        "title": "DINO EXPERIENCE",
+        "desc": "Імерсіўная выстава пра дыназаўраў з сапраўдным чэрапам тарбазаўра, праекцыямі на 360° і VR, створаная з Інстытутам палеабіялогіі.",
+        "when": "да 22 лістапада 2026",
+        "where": "Art Box Experience, Fabryka Norblina",
+        "price": "ад 54 zł"
+      },
+      "uk": {
+        "title": "DINO EXPERIENCE",
+        "desc": "Імерсивна виставка про динозаврів зі справжнім черепом тарбозавра, проєкціями на 360° та VR, створена з Інститутом палеобіології.",
+        "when": "до 22 листопада 2026",
+        "where": "Art Box Experience, Fabryka Norblina",
+        "price": "від 54 zł"
+      },
+      "de": {
+        "title": "DINO EXPERIENCE",
+        "desc": "Eine immersive Dinosaurier-Ausstellung mit einem echten Tarbosaurus-Schädel, 360°-Projektionen und VR, entwickelt mit dem Institut für Paläobiologie.",
+        "when": "bis 22. November 2026",
+        "where": "Art Box Experience, Fabryka Norblina",
+        "price": "ab 54 zł"
+      }
+    },
+    {
+      "emoji": "🌿",
+      "paid": false,
+      "ru": {
+        "title": "Прогулка по саду BUW",
+        "desc": "Сад на крыше библиотеки с панорамой города, прудом и скульптурами; зимой доступна только нижняя часть сада.",
+        "when": "ежедневно, 8:00–15:00 (без выхода на крышу)",
+        "where": "ul. Dobra 56/66",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "A walk in the BUW garden",
+        "desc": "A garden on the library roof with a city panorama, a pond and sculptures; in winter only the lower part is open.",
+        "when": "daily, 8:00–15:00 (no roof access)",
+        "where": "ul. Dobra 56/66",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Spacer po ogrodzie BUW",
+        "desc": "Ogród na dachu biblioteki z panoramą miasta, stawem i rzeźbami; zimą dostępna jest tylko dolna część ogrodu.",
+        "when": "codziennie, 8:00–15:00 (bez wejścia na dach)",
+        "where": "ul. Dobra 56/66",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Прагулка па садзе BUW",
+        "desc": "Сад на даху бібліятэкі з панарамай горада, сажалкай і скульптурамі; зімой даступная толькі ніжняя частка саду.",
+        "when": "штодня, 8:00–15:00 (без выхаду на дах)",
+        "where": "ul. Dobra 56/66",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Прогулянка садом BUW",
+        "desc": "Сад на даху бібліотеки з панорамою міста, ставком і скульптурами; взимку доступна лише нижня частина саду.",
+        "when": "щодня, 8:00–15:00 (без виходу на дах)",
+        "where": "ul. Dobra 56/66",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Spaziergang im BUW-Garten",
+        "desc": "Ein Garten auf dem Dach der Bibliothek mit Stadtpanorama, Teich und Skulpturen; im Winter ist nur der untere Teil geöffnet.",
+        "when": "täglich, 8:00–15:00 (ohne Dachzugang)",
+        "where": "ul. Dobra 56/66",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🛍",
+      "paid": false,
+      "ru": {
+        "title": "Vintage Market на Праге",
+        "desc": "Ярмарка винтажной одежды, аксессуаров и изделий ручной работы с дружеской атмосферой базара.",
+        "when": "суббота–воскресенье, 12:00–17:00",
+        "where": "Nowy Bazar Różyckiego, ul. Targowa 54",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Vintage Market in Praga",
+        "desc": "A fair of vintage clothes, accessories and handmade goods with a friendly bazaar atmosphere.",
+        "when": "Saturday–Sunday, 12:00–17:00",
+        "where": "Nowy Bazar Różyckiego, ul. Targowa 54",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Vintage Market na Pradze",
+        "desc": "Targi odzieży vintage, dodatków i rękodzieła w przyjaznej, bazarowej atmosferze.",
+        "when": "sobota–niedziela, 12:00–17:00",
+        "where": "Nowy Bazar Różyckiego, ul. Targowa 54",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Vintage Market на Празе",
+        "desc": "Кірмаш вінтажнага адзення, аксесуараў і вырабаў ручной працы з сяброўскай атмасферай базару.",
+        "when": "субота–нядзеля, 12:00–17:00",
+        "where": "Nowy Bazar Różyckiego, ul. Targowa 54",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Vintage Market на Празі",
+        "desc": "Ярмарок вінтажного одягу, аксесуарів і виробів ручної роботи з дружньою атмосферою базару.",
+        "when": "субота–неділя, 12:00–17:00",
+        "where": "Nowy Bazar Różyckiego, ul. Targowa 54",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Vintage Market in Praga",
+        "desc": "Ein Markt für Vintage-Kleidung, Accessoires und Handgemachtes mit freundlicher Basar-Atmosphäre.",
+        "when": "Samstag–Sonntag, 12:00–17:00",
+        "where": "Nowy Bazar Różyckiego, ul. Targowa 54",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🐎",
+      "paid": false,
+      "ru": {
+        "title": "Скачки на ипподроме Służewiec",
+        "desc": "Традиционные конные скачки с азартной атмосферой трибун, сезон длится до середины ноября.",
+        "when": "по выходным, сезон до 15 ноября",
+        "where": "Tor Służewiec",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Horse racing at Służewiec",
+        "desc": "Traditional horse racing with lively grandstands; the season runs until mid-November.",
+        "when": "weekends, season until November 15",
+        "where": "Tor Służewiec",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Wyścigi konne na Torze Służewiec",
+        "desc": "Tradycyjne gonitwy koni z emocjonującą atmosferą trybun, sezon trwa do połowy listopada.",
+        "when": "w weekendy, sezon do 15 listopada",
+        "where": "Tor Służewiec",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Скачкі на іпадроме Służewiec",
+        "desc": "Традыцыйныя конныя скачкі з азартнай атмасферай трыбун, сезон доўжыцца да сярэдзіны лістапада.",
+        "when": "па выхадных, сезон да 15 лістапада",
+        "where": "Tor Służewiec",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Перегони на іподромі Służewiec",
+        "desc": "Традиційні кінні перегони з азартною атмосферою трибун, сезон триває до середини листопада.",
+        "when": "у вихідні, сезон до 15 листопада",
+        "where": "Tor Służewiec",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Pferderennen auf der Rennbahn Służewiec",
+        "desc": "Traditionelle Pferderennen mit spannender Tribünenatmosphäre; die Saison dauert bis Mitte November.",
+        "when": "an Wochenenden, Saison bis 15. November",
+        "where": "Tor Służewiec",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🧠",
+      "paid": true,
+      "ru": {
+        "title": "Выставка BODY WORLDS",
+        "desc": "Расширенная версия известной анатомической выставки о том, как привычки влияют на физическое и психическое здоровье.",
+        "when": "до 17 января 2027, вторник–воскресенье 10:00–20:00",
+        "where": "SOHO ART CENTER, ul. Mińska 63",
+        "price": "от 70 zł (будни), от 80 zł (выходные)"
+      },
+      "en": {
+        "title": "BODY WORLDS exhibition",
+        "desc": "An expanded version of the famous anatomy exhibition about how habits affect physical and mental health.",
+        "when": "until January 17, 2027, Tuesday–Sunday 10:00–20:00",
+        "where": "SOHO ART CENTER, ul. Mińska 63",
+        "price": "from 70 zł (weekdays), from 80 zł (weekends)"
+      },
+      "pl": {
+        "title": "Wystawa BODY WORLDS",
+        "desc": "Rozszerzona wersja słynnej wystawy anatomicznej o tym, jak nawyki wpływają na zdrowie fizyczne i psychiczne.",
+        "when": "do 17 stycznia 2027, wtorek–niedziela 10:00–20:00",
+        "where": "SOHO ART CENTER, ul. Mińska 63",
+        "price": "od 70 zł (dni powszednie), od 80 zł (weekendy)"
+      },
+      "be": {
+        "title": "Выстава BODY WORLDS",
+        "desc": "Пашыраная версія вядомай анатамічнай выставы пра тое, як звычкі ўплываюць на фізічнае і псіхічнае здароўе.",
+        "when": "да 17 студзеня 2027, аўторак–нядзеля 10:00–20:00",
+        "where": "SOHO ART CENTER, ul. Mińska 63",
+        "price": "ад 70 zł (будні), ад 80 zł (выхадныя)"
+      },
+      "uk": {
+        "title": "Виставка BODY WORLDS",
+        "desc": "Розширена версія відомої анатомічної виставки про те, як звички впливають на фізичне та психічне здоров'я.",
+        "when": "до 17 січня 2027, вівторок–неділя 10:00–20:00",
+        "where": "SOHO ART CENTER, ul. Mińska 63",
+        "price": "від 70 zł (будні), від 80 zł (вихідні)"
+      },
+      "de": {
+        "title": "Ausstellung BODY WORLDS",
+        "desc": "Eine erweiterte Version der bekannten Anatomie-Ausstellung darüber, wie Gewohnheiten die körperliche und seelische Gesundheit beeinflussen.",
+        "when": "bis 17. Januar 2027, Dienstag–Sonntag 10:00–20:00",
+        "where": "SOHO ART CENTER, ul. Mińska 63",
+        "price": "ab 70 zł (werktags), ab 80 zł (Wochenende)"
+      }
+    }
+  ],
+  "published": {
+    "at": "2026-11-13T16:02:32.605Z",
+    "event_id": 24,
+    "ru_count": 36,
+    "verified": true,
+    "still_bad": []
+  }
+}
