@@ -134,6 +134,10 @@ were kept, and the earlier v3.0 code is still in Cloudflare's deployment history
 for a one-click rollback (dashboard → the worker → Deployments). Any future
 deploy needs an explicit go-ahead (CLAUDE.md rule 3).
 
+v3.2 (in the repo, not deployed yet): every message is sent with link previews
+off, so the links under the top picks stay clickable but Telegram no longer adds
+a preview card at the end of the message.
+
 ## Files here
 
 - `worker.js` — the Worker source (this is what gets deployed).
