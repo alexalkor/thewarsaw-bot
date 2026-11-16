@@ -3,7 +3,7 @@
 Two files per weekend, one per bot list: `<saturday YYYY-MM-DD>.json`
 (the-warsaw.pl list, `"feed": "warsaw"` or no feed field) and
 `<saturday>.picks.json` (top picks from open sources, `"feed": "picks"`,
-a `sources` list instead of `source`, and a `link` on every event). The collect step writes the
+a `sources` list instead of `source`, and a `link` on every event, kept as a record only: the bot text has no links). The collect step writes the
 Russian facts; the publish step adds the 5 translations, posts them to the live
 Worker and records the result in `published`. Steps:
 `.claude/skills/warsaw-events-update/SKILL.md`. Tool: `tools/weekly.mjs`.
@@ -25,4 +25,5 @@ Worker and records the result in `published`. Steps:
 
 Descriptions are short paraphrases, never the source article's text: this repo
 is public. The script builds the bot text from these fields (numbering, emoji,
-🕐/📍/💰 or 🎫 labels per language), so the layout is always the same.
+🕐/📍/💰 or 🎫 labels per language), so the layout is always the same
+for both lists. Links are never sent to users.
