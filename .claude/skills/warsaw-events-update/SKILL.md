@@ -82,7 +82,8 @@ Choose 12–15 events:
   `data/weekly/<saturday>.json` if it exists.
 For each: `ru` block (title, 1–2 sentence description in your own words, when,
 where, price), `paid`, emoji (same list as phase 1) and `link` = the event's own
-page (https). Order by how much you'd recommend it. Set `"feed": "picks"`,
+page (https; kept in the file as a record, never shown in the bot: both lists
+are sent without links). Order by how much you'd recommend it. Set `"feed": "picks"`,
 `sources` = the listing URLs you used, `date_range.ru` like "13–15 ноября".
 Write `data/weekly/<saturday>.picks.json`, `validate --ru-only`, commit
 "Collect top picks <date_range.ru>", then continue with phase 2 on that file.

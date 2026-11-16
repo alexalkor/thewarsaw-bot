@@ -135,8 +135,8 @@ for a one-click rollback (dashboard → the worker → Deployments). Any future
 deploy needs an explicit go-ahead (CLAUDE.md rule 3).
 
 v3.2 (in the repo, not deployed yet): every message is sent with link previews
-off, so the links under the top picks stay clickable but Telegram no longer adds
-a preview card at the end of the message.
+off, so a link in a list never makes Telegram add a preview card at the end of
+the message. (The lists themselves are published without links.)
 
 ## Files here
 
