@@ -28,7 +28,7 @@ const ITEMS_PER_MSG      = 10;
 const TG_MAX_CHARS       = 3900;
 const SOURCE_LANG        = 'ru';
 const MYMEMORY_EMAIL     = 'bot@thewarsawevents.com';
-const VERSION            = 'v3.1-cloudflare';
+const VERSION            = 'v3.2-cloudflare';
 
 const I18N = {
   en: { welcome:'👋 Hi! Welcome to Warsaw Events Bot! Please choose your language:', lang_set:n=>`✅ Language set to ${n}.`, choose_action:'Weekend event-list from The-Warsaw', btn_events:'📋 The-Warsaw weekend list', btn_picks:'⭐ Top picks this weekend', btn_lang:'🌐 Change language', btn_stop:'⛔ Stop', stopped:'Bot stopped. Send /start to resume.', no_events:'No events published yet.', no_picks:'This weekend\'s top picks are not ready yet.', header:'📅 <b>Latest events in Warsaw:</b>', picks_header:'⭐ <b>Top picks in Warsaw this weekend:</b>', footer:"Hope you're having a great weekend! 🌟", help:'📖 <b>Help</b>\n\nCommands:\n/start — main menu\n/language — change language\n/help — this message' },
@@ -68,7 +68,9 @@ async function tg(token, method, body) {
   });
   return r.json();
 }
-const send = (token, chat_id, text, extra = {}) => tg(token, 'sendMessage', { chat_id, text, parse_mode: 'HTML', ...extra });
+// Event links stay clickable, but Telegram must not add a preview card under the message.
+const NO_PREVIEW = { link_preview_options: { is_disabled: true } };
+const send = (token, chat_id, text, extra = {}) => tg(token, 'sendMessage', { chat_id, text, parse_mode: 'HTML', ...NO_PREVIEW, ...extra });
 const ack  = (token, id) => tg(token, 'answerCallbackQuery', { callback_query_id: id });
 
 const feedOf = (name) => (FEEDS[name] ? name : null);
@@ -257,7 +259,7 @@ async function sendSafe(tok, chatId, text, extra) {
   extra = extra || {};
   let res = await send(tok, chatId, text, extra);
   if (!res.ok && res.parameters?.retry_after) { await sleep((res.parameters.retry_after + 1) * 1000); res = await send(tok, chatId, text, extra); }
-  if (!res.ok) { const plain = Object.assign({ chat_id: chatId, text: text.replace(/<[^>]+>/g, '') }, extra); res = await tg(tok, 'sendMessage', plain); }
+  if (!res.ok) { const plain = Object.assign({ chat_id: chatId, text: text.replace(/<[^>]+>/g, '') }, NO_PREVIEW, extra); res = await tg(tok, 'sendMessage', plain); }
   if (!res.ok) console.error('send failed:', res.description);
   return res;
 }

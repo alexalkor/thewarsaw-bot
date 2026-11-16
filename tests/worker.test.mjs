@@ -75,6 +75,9 @@ test('picks feed is stored, translated and shown separately', async () => {
   assert.match(text, /Top picks in Warsaw/);
   assert.match(text, /Concert/);
   assert.doesNotMatch(text, /warsaw list/);
+  for (const m of t.sent.filter((x) => x.method === 'sendMessage')) {
+    assert.equal(m.body.link_preview_options?.is_disabled, true, 'messages must not get a link preview card');
+  }
 });
 
 test('unknown feed is rejected; empty picks shows a friendly message', async () => {
