@@ -61,6 +61,8 @@ const load = (file) => {
 const oneLine = (s) => String(s ?? '').replace(/\s*\n\s*/g, ' ').trim();
 
 // Body only (numbered list, no header). /events gets this plus date_range.
+// ev.link stays in the file as a record of where a pick came from; the bot
+// text carries no links, so both lists look the same.
 function renderBody(data, lang) {
   const L = LABELS[lang];
   return data.events.map((ev, i) => {
@@ -72,7 +74,6 @@ function renderBody(data, lang) {
       `🕐 ${L.when}: ${oneLine(t.when)}`,
       `📍 ${L.where}: ${oneLine(t.where)}`,
       priceLine,
-      ...(ev.link ? [`🔗 ${oneLine(ev.link)}`] : []),
     ].join('\n');
   }).join('\n\n');
 }
@@ -105,7 +106,7 @@ function validate(data, { ruOnly = false } = {}) {
     if (ev.emoji === '🏠') errs.push(`event ${n}: pick a real emoji, not 🏠`);
     if (typeof ev.paid !== 'boolean') errs.push(`event ${n}: paid must be true or false`);
     if (ev.link != null && !/^https:\/\/\S+$/.test(ev.link)) errs.push(`event ${n}: link must be one https:// URL`);
-    if (feedOf(data) === 'picks' && !ev.link) errs.push(`event ${n}: picks need a link to the event page`);
+    if (feedOf(data) === 'picks' && !ev.link) errs.push(`event ${n}: picks need a link to the event page (kept in the file, not shown in the bot)`);
     for (const lang of langs) {
       const t = ev[lang];
       if (!t) { errs.push(`event ${n}: ${lang} block missing`); continue; }
