@@ -1,0 +1,638 @@
+{
+  "feed": "picks",
+  "weekend": "2026-11-21",
+  "date_range": {
+    "ru": "20–22 ноября",
+    "en": "November 20–22",
+    "pl": "20–22 listopada",
+    "be": "20–22 лістапада",
+    "uk": "20–22 листопада",
+    "de": "20.–22. November"
+  },
+  "sources": [
+    "https://www.waw4free.pl/wydarzenia-w-warszawie-w-weekend",
+    "https://www.waw4free.pl/warszawa-wydarzenia-2026-11-20",
+    "https://www.waw4free.pl/warszawa-wydarzenia-2026-11-21",
+    "https://www.waw4free.pl/warszawa-wydarzenia-2026-11-22"
+  ],
+  "events": [
+    {
+      "emoji": "🧠",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162013-otwarcie-pierwszego-dzielnicowego-obserwatorium-astronomicznego-w-warszawie",
+      "ru": {
+        "title": "Открытие первой районной обсерватории Варшавы",
+        "desc": "На Гоцлаве открывается профессионально оснащённая астрономическая обсерватория для жителей: после двух лет подготовки смотреть на звёзды сможет каждый.",
+        "when": "воскресенье, 22 ноября, 12:00",
+        "where": "Terminal Kultury Gocław, ul. Jana Nowaka-Jeziorańskiego 24",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Opening of Warsaw's first district observatory",
+        "desc": "A professionally equipped astronomy observatory for residents opens in Gocław after two years of preparation, so anyone can look at the stars.",
+        "when": "Sunday, November 22, 12:00",
+        "where": "Terminal Kultury Gocław, ul. Jana Nowaka-Jeziorańskiego 24",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Otwarcie pierwszego dzielnicowego obserwatorium w Warszawie",
+        "desc": "Na Gocławiu rusza profesjonalnie wyposażone obserwatorium astronomiczne dla mieszkańców: po dwóch latach przygotowań każdy może popatrzeć w gwiazdy.",
+        "when": "niedziela, 22 listopada, 12:00",
+        "where": "Terminal Kultury Gocław, ul. Jana Nowaka-Jeziorańskiego 24",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Адкрыццё першай раённай абсерваторыі Варшавы",
+        "desc": "На Гоцлаве адкрываецца прафесійна абсталяваная астранамічная абсерваторыя для жыхароў: пасля двух гадоў падрыхтоўкі глядзець на зоркі зможа кожны.",
+        "when": "нядзеля, 22 лістапада, 12:00",
+        "where": "Terminal Kultury Gocław, ul. Jana Nowaka-Jeziorańskiego 24",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Відкриття першої районної обсерваторії Варшави",
+        "desc": "На Гоцлаві відкривається професійно обладнана астрономічна обсерваторія для мешканців: після двох років підготовки дивитися на зорі зможе кожен.",
+        "when": "неділя, 22 листопада, 12:00",
+        "where": "Terminal Kultury Gocław, ul. Jana Nowaka-Jeziorańskiego 24",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Eröffnung der ersten Bezirkssternwarte Warschaus",
+        "desc": "In Gocław öffnet nach zwei Jahren Vorbereitung eine professionell ausgestattete Sternwarte für die Bewohner: Sterne beobachten kann hier jeder.",
+        "when": "Sonntag, 22. November, 12:00",
+        "where": "Terminal Kultury Gocław, ul. Jana Nowaka-Jeziorańskiego 24",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🚲",
+      "paid": true,
+      "link": "https://www.waw4free.pl/wydarzenie-161729-07-zglos-sie-wieczorny-spacer-tropem-porucznika-borewicza-w-50-rocznice-premiery",
+      "ru": {
+        "title": "Прогулка по следам поручика Боревича",
+        "desc": "К 50-летию культового сериала «07 zgłoś się»: места съёмок, закулисные истории и тайны актёров. Финиш на площади Пилсудского.",
+        "when": "суббота, 21 ноября, 13:00",
+        "where": "сбор на Plac Trzech Krzyży у памятника Витосу",
+        "price": "20 zł, до 18 лет 10 zł, дети до 10 лет бесплатно"
+      },
+      "en": {
+        "title": "Walk in the footsteps of Lieutenant Borewicz",
+        "desc": "For the 50th anniversary of the cult series \"07 zgłoś się\": filming locations, behind-the-scenes stories and cast secrets. Ends at Piłsudski Square.",
+        "when": "Saturday, November 21, 13:00",
+        "where": "meet at Plac Trzech Krzyży by the Witos monument",
+        "price": "20 zł, under 18: 10 zł, children under 10 free"
+      },
+      "pl": {
+        "title": "Spacer śladami porucznika Borewicza",
+        "desc": "Na 50-lecie kultowego serialu „07 zgłoś się”: miejsca zdjęć, historie zza kulis i tajemnice aktorów. Finał na placu Piłsudskiego.",
+        "when": "sobota, 21 listopada, 13:00",
+        "where": "zbiórka na placu Trzech Krzyży przy pomniku Witosa",
+        "price": "20 zł, do 18 lat 10 zł, dzieci do 10 lat bezpłatnie"
+      },
+      "be": {
+        "title": "Шпацыр па слядах паручніка Барэвіча",
+        "desc": "Да 50-годдзя культавага серыяла «07 zgłoś się»: месцы здымак, гісторыі з-за кулісаў і сакрэты акцёраў. Фініш на плошчы Пілсудскага.",
+        "when": "субота, 21 лістапада, 13:00",
+        "where": "збор на Plac Trzech Krzyży каля помніка Вітасу",
+        "price": "20 zł, да 18 гадоў 10 zł, дзеці да 10 гадоў бясплатна"
+      },
+      "uk": {
+        "title": "Прогулянка слідами поручника Боревича",
+        "desc": "До 50-річчя культового серіалу «07 zgłoś się»: місця зйомок, історії з-за лаштунків і таємниці акторів. Фініш на площі Пілсудського.",
+        "when": "субота, 21 листопада, 13:00",
+        "where": "збір на Plac Trzech Krzyży біля пам'ятника Вітосу",
+        "price": "20 zł, до 18 років 10 zł, діти до 10 років безкоштовно"
+      },
+      "de": {
+        "title": "Spaziergang auf den Spuren von Leutnant Borewicz",
+        "desc": "Zum 50. Jubiläum der Kultserie „07 zgłoś się“: Drehorte, Geschichten hinter den Kulissen und Geheimnisse der Schauspieler. Ende am Piłsudski-Platz.",
+        "when": "Samstag, 21. November, 13:00",
+        "where": "Treffpunkt am Plac Trzech Krzyży beim Witos-Denkmal",
+        "price": "20 zł, unter 18 Jahren 10 zł, Kinder unter 10 Jahren kostenlos"
+      }
+    },
+    {
+      "emoji": "📚",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161366-miedzy-nami-mowiac-i-festiwal-i-anne-rabe-katja-hoyer-franziska-g-nsler",
+      "ru": {
+        "title": "Фестиваль «Między nami mówiąc»",
+        "desc": "Три дня польско-немецких разговоров о литературе, памяти и будущем: писательницы Анне Рабе, Катя Хойер и Франциска Генслер, актёрские чтения и ярмарка книг.",
+        "when": "с пятницы, 20 ноября, 18:00, по воскресенье, 22 ноября",
+        "where": "Big Book Cafe MDM, ul. Koszykowa 34/50",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "\"Między nami mówiąc\" festival",
+        "desc": "Three days of Polish-German talks on literature, memory and the future: writers Anne Rabe, Katja Hoyer and Franziska Gänsler, staged readings and a book fair.",
+        "when": "from Friday, November 20, 18:00, to Sunday, November 22",
+        "where": "Big Book Cafe MDM, ul. Koszykowa 34/50",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Festiwal „Między nami mówiąc”",
+        "desc": "Trzy dni polsko-niemieckich rozmów o literaturze, pamięci i przyszłości: pisarki Anne Rabe, Katja Hoyer i Franziska Gänsler, czytania aktorskie i targi książek.",
+        "when": "od piątku, 20 listopada, 18:00, do niedzieli, 22 listopada",
+        "where": "Big Book Cafe MDM, ul. Koszykowa 34/50",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Фестываль «Między nami mówiąc»",
+        "desc": "Тры дні польска-нямецкіх размоў пра літаратуру, памяць і будучыню: пісьменніцы Анэ Рабэ, Каця Хаер і Франціска Генслер, акцёрскія чытанні і кірмаш кніг.",
+        "when": "з пятніцы, 20 лістапада, 18:00, да нядзелі, 22 лістапада",
+        "where": "Big Book Cafe MDM, ul. Koszykowa 34/50",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Фестиваль «Między nami mówiąc»",
+        "desc": "Три дні польсько-німецьких розмов про літературу, пам'ять і майбутнє: письменниці Анне Рабе, Катя Хоєр і Франциска Генслер, акторські читання та ярмарок книжок.",
+        "when": "з п'ятниці, 20 листопада, 18:00, до неділі, 22 листопада",
+        "where": "Big Book Cafe MDM, ul. Koszykowa 34/50",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Festival „Między nami mówiąc“",
+        "desc": "Drei Tage deutsch-polnische Gespräche über Literatur, Erinnerung und Zukunft: die Autorinnen Anne Rabe, Katja Hoyer und Franziska Gänsler, szenische Lesungen und ein Büchermarkt.",
+        "when": "von Freitag, 20. November, 18:00, bis Sonntag, 22. November",
+        "where": "Big Book Cafe MDM, ul. Koszykowa 34/50",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161907-koncert-piotra-bukartyka-godz-17-00-i-19-00",
+      "ru": {
+        "title": "Концерт Петра Букартыка",
+        "desc": "Остроумный бард с группой Ajagore: хиты вроде «Kup sobie psa», новые песни, анекдоты и импровизации.",
+        "when": "суббота, 21 ноября, 17:00 и 19:00",
+        "where": "Urząd Dzielnicy Targówek, ul. Kondratowicza 20",
+        "price": "бесплатно, нужна запись"
+      },
+      "en": {
+        "title": "Piotr Bukartyk concert",
+        "desc": "The witty songwriter with the band Ajagore: hits like \"Kup sobie psa\", new songs, anecdotes and improvisation.",
+        "when": "Saturday, November 21, 17:00 and 19:00",
+        "where": "Urząd Dzielnicy Targówek, ul. Kondratowicza 20",
+        "price": "free, registration required"
+      },
+      "pl": {
+        "title": "Koncert Piotra Bukartyka",
+        "desc": "Dowcipny bard z zespołem Ajagore: przeboje jak „Kup sobie psa”, nowe piosenki, anegdoty i improwizacje.",
+        "when": "sobota, 21 listopada, 17:00 i 19:00",
+        "where": "Urząd Dzielnicy Targówek, ul. Kondratowicza 20",
+        "price": "bezpłatnie, obowiązują zapisy"
+      },
+      "be": {
+        "title": "Канцэрт Пятра Букартыка",
+        "desc": "Дасціпны бард з гуртом Ajagore: хіты кшталту «Kup sobie psa», новыя песні, анекдоты і імправізацыі.",
+        "when": "субота, 21 лістапада, 17:00 і 19:00",
+        "where": "Urząd Dzielnicy Targówek, ul. Kondratowicza 20",
+        "price": "бясплатна, патрэбны запіс"
+      },
+      "uk": {
+        "title": "Концерт Пьотра Букартика",
+        "desc": "Дотепний бард із гуртом Ajagore: хіти на кшталт «Kup sobie psa», нові пісні, анекдоти й імпровізації.",
+        "when": "субота, 21 листопада, 17:00 і 19:00",
+        "where": "Urząd Dzielnicy Targówek, ul. Kondratowicza 20",
+        "price": "безкоштовно, потрібен запис"
+      },
+      "de": {
+        "title": "Konzert von Piotr Bukartyk",
+        "desc": "Der witzige Liedermacher mit der Band Ajagore: Hits wie „Kup sobie psa“, neue Lieder, Anekdoten und Improvisation.",
+        "when": "Samstag, 21. November, 17:00 und 19:00",
+        "where": "Urząd Dzielnicy Targówek, ul. Kondratowicza 20",
+        "price": "kostenlos, Anmeldung erforderlich"
+      }
+    },
+    {
+      "emoji": "🎬",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161945-home-movie-day",
+      "ru": {
+        "title": "Home Movie Day в кино Iluzjon",
+        "desc": "День домашнего кино: можно принести свои плёнки 8 мм, Super 8, 16 мм или VHS и посмотреть их, а вечером — показы архивных семейных фильмов.",
+        "when": "суббота, 21 ноября, 12:00–21:00",
+        "where": "Kino Iluzjon, ul. Narbutta 50A",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Home Movie Day at Kino Iluzjon",
+        "desc": "A day of home movies: bring your own 8 mm, Super 8, 16 mm or VHS tapes to watch them, with screenings of archival family films in the evening.",
+        "when": "Saturday, November 21, 12:00–21:00",
+        "where": "Kino Iluzjon, ul. Narbutta 50A",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Home Movie Day w Kinie Iluzjon",
+        "desc": "Dzień kina domowego: można przynieść własne taśmy 8 mm, Super 8, 16 mm lub VHS i je obejrzeć, a wieczorem pokazy archiwalnych filmów rodzinnych.",
+        "when": "sobota, 21 listopada, 12:00–21:00",
+        "where": "Kino Iluzjon, ul. Narbutta 50A",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Home Movie Day у кіно Iluzjon",
+        "desc": "Дзень хатняга кіно: можна прынесці свае стужкі 8 мм, Super 8, 16 мм або VHS і паглядзець іх, а ўвечары — паказы архіўных сямейных фільмаў.",
+        "when": "субота, 21 лістапада, 12:00–21:00",
+        "where": "Kino Iluzjon, ul. Narbutta 50A",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Home Movie Day у кіно Iluzjon",
+        "desc": "День домашнього кіно: можна принести свої плівки 8 мм, Super 8, 16 мм або VHS і переглянути їх, а ввечері — покази архівних сімейних фільмів.",
+        "when": "субота, 21 листопада, 12:00–21:00",
+        "where": "Kino Iluzjon, ul. Narbutta 50A",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Home Movie Day im Kino Iluzjon",
+        "desc": "Ein Tag des Heimkinos: Eigene Filme auf 8 mm, Super 8, 16 mm oder VHS mitbringen und ansehen, abends laufen archivierte Familienfilme.",
+        "when": "Samstag, 21. November, 12:00–21:00",
+        "where": "Kino Iluzjon, ul. Narbutta 50A",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎡",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161258-noc-kultury",
+      "ru": {
+        "title": "Ночь культуры в Бемово",
+        "desc": "Раз в году культурный центр открыт допоздна: мастерские керамики, танца и турецкой росписи по воде эбру, капоэйра, театр танца и концерт.",
+        "when": "суббота, 21 ноября, с 16:00",
+        "where": "Bemowskie Centrum Kultury, ul. Rozłogi 18",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Night of Culture in Bemowo",
+        "desc": "Once a year the culture centre stays open late: ceramics, dance and Turkish ebru water-marbling workshops, capoeira, dance theatre and a concert.",
+        "when": "Saturday, November 21, from 16:00",
+        "where": "Bemowskie Centrum Kultury, ul. Rozłogi 18",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Noc Kultury na Bemowie",
+        "desc": "Raz w roku centrum kultury działa do późna: warsztaty ceramiczne, taneczne i tureckiego malowania na wodzie ebru, capoeira, teatr tańca i koncert.",
+        "when": "sobota, 21 listopada, od 16:00",
+        "where": "Bemowskie Centrum Kultury, ul. Rozłogi 18",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Ноч культуры ў Бемава",
+        "desc": "Раз на год культурны цэнтр працуе дапазна: майстэрні керамікі, танца і турэцкага роспісу на вадзе эбру, капаэйра, тэатр танца і канцэрт.",
+        "when": "субота, 21 лістапада, з 16:00",
+        "where": "Bemowskie Centrum Kultury, ul. Rozłogi 18",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Ніч культури в Бемові",
+        "desc": "Раз на рік культурний центр працює допізна: майстерні кераміки, танцю й турецького розпису на воді ебру, капоейра, театр танцю та концерт.",
+        "when": "субота, 21 листопада, з 16:00",
+        "where": "Bemowskie Centrum Kultury, ul. Rozłogi 18",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Nacht der Kultur in Bemowo",
+        "desc": "Einmal im Jahr hat das Kulturzentrum bis spät geöffnet: Workshops für Keramik, Tanz und türkische Ebru-Wassermalerei, Capoeira, Tanztheater und ein Konzert.",
+        "when": "Samstag, 21. November, ab 16:00",
+        "where": "Bemowskie Centrum Kultury, ul. Rozłogi 18",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🧠",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161996-forfin-2026-najwieksze-bezplatne-wydarzenie-o-finansach-i-inwestowaniu-w-polsce",
+      "ru": {
+        "title": "Форум финансов ForFin 2026",
+        "desc": "Крупнейшее бесплатное событие о деньгах и инвестициях в Польше: больше 100 спикеров, лекции и панели о накоплениях, карьере, экономике и криптовалютах.",
+        "when": "20–21 ноября, с 10:00",
+        "where": "PGE Narodowy",
+        "price": "бесплатно, нужна регистрация"
+      },
+      "en": {
+        "title": "ForFin 2026 finance forum",
+        "desc": "Poland's biggest free event on money and investing: over 100 speakers, talks and panels on savings, careers, the economy and crypto.",
+        "when": "November 20–21, from 10:00",
+        "where": "PGE Narodowy",
+        "price": "free, registration required"
+      },
+      "pl": {
+        "title": "Forum finansów ForFin 2026",
+        "desc": "Największe bezpłatne wydarzenie o pieniądzach i inwestowaniu w Polsce: ponad 100 prelegentów, wykłady i panele o oszczędzaniu, karierze, gospodarce i kryptowalutach.",
+        "when": "20–21 listopada, od 10:00",
+        "where": "PGE Narodowy",
+        "price": "bezpłatnie, wymagana rejestracja"
+      },
+      "be": {
+        "title": "Форум фінансаў ForFin 2026",
+        "desc": "Найбуйнейшая бясплатная падзея пра грошы і інвестыцыі ў Польшчы: больш за 100 спікераў, лекцыі і панэлі пра зберажэнні, кар'еру, эканоміку і крыптавалюты.",
+        "when": "20–21 лістапада, з 10:00",
+        "where": "PGE Narodowy",
+        "price": "бясплатна, патрэбная рэгістрацыя"
+      },
+      "uk": {
+        "title": "Форум фінансів ForFin 2026",
+        "desc": "Найбільша безкоштовна подія про гроші та інвестиції в Польщі: понад 100 спікерів, лекції й панелі про заощадження, кар'єру, економіку та криптовалюти.",
+        "when": "20–21 листопада, з 10:00",
+        "where": "PGE Narodowy",
+        "price": "безкоштовно, потрібна реєстрація"
+      },
+      "de": {
+        "title": "Finanzforum ForFin 2026",
+        "desc": "Polens größte kostenlose Veranstaltung zu Geld und Investieren: über 100 Redner, Vorträge und Panels zu Sparen, Karriere, Wirtschaft und Kryptowährungen.",
+        "when": "20.–21. November, ab 10:00",
+        "where": "PGE Narodowy",
+        "price": "kostenlos, Anmeldung erforderlich"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161583-spotkanie-autorskie-z-mariuszem-szczyglem",
+      "ru": {
+        "title": "Встреча с Мариушем Щигелом",
+        "desc": "Известный репортёр, автор «Gottland» и личного путеводителя по Праге, рассказывает о своих книгах и людях из них.",
+        "when": "пятница, 20 ноября, 18:00",
+        "where": "Wypożyczalnia nr 16, ul. Słowackiego 19A",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Meet Mariusz Szczygieł",
+        "desc": "The renowned reporter, author of \"Gottland\" and a personal guide to Prague, talks about his books and the people in them.",
+        "when": "Friday, November 20, 18:00",
+        "where": "Wypożyczalnia nr 16, ul. Słowackiego 19A",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Spotkanie z Mariuszem Szczygłem",
+        "desc": "Znany reporter, autor „Gottlandu” i osobistego przewodnika po Pradze, opowiada o swoich książkach i ich bohaterach.",
+        "when": "piątek, 20 listopada, 18:00",
+        "where": "Wypożyczalnia nr 16, ul. Słowackiego 19A",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Сустрэча з Марушам Шчыглам",
+        "desc": "Вядомы рэпарцёр, аўтар «Gottland» і асабістага даведніка па Празе, расказвае пра свае кнігі і іх герояў.",
+        "when": "пятніца, 20 лістапада, 18:00",
+        "where": "Wypożyczalnia nr 16, ul. Słowackiego 19A",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Зустріч із Маріушем Щиглом",
+        "desc": "Відомий репортер, автор «Gottland» і особистого путівника Прагою, розповідає про свої книжки та їхніх героїв.",
+        "when": "п'ятниця, 20 листопада, 18:00",
+        "where": "Wypożyczalnia nr 16, ul. Słowackiego 19A",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Treffen mit Mariusz Szczygieł",
+        "desc": "Der bekannte Reporter, Autor von „Gottland“ und eines persönlichen Prag-Führers, erzählt von seinen Büchern und ihren Figuren.",
+        "when": "Freitag, 20. November, 18:00",
+        "where": "Wypożyczalnia nr 16, ul. Słowackiego 19A",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🛍",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-160987-targi-cieplych-sweterkow-i-zimowych-dodatkow",
+      "ru": {
+        "title": "Ярмарка тёплых свитеров",
+        "desc": "Свитера польских дизайнеров, шапки, шарфы, пледы, чай и свечи — всё для уютной зимы.",
+        "when": "воскресенье, 22 ноября, с 11:00",
+        "where": "Hala Koszyki, ul. Koszykowa 63",
+        "price": "вход свободный, покупки платные"
+      },
+      "en": {
+        "title": "Warm sweater fair",
+        "desc": "Sweaters by Polish designers, hats, scarves, blankets, tea and candles: everything for a cosy winter.",
+        "when": "Sunday, November 22, from 11:00",
+        "where": "Hala Koszyki, ul. Koszykowa 63",
+        "price": "free entry, purchases paid"
+      },
+      "pl": {
+        "title": "Targi ciepłych sweterków",
+        "desc": "Swetry polskich projektantów, czapki, szaliki, koce, herbaty i świece: wszystko na przytulną zimę.",
+        "when": "niedziela, 22 listopada, od 11:00",
+        "where": "Hala Koszyki, ul. Koszykowa 63",
+        "price": "wstęp wolny, zakupy płatne"
+      },
+      "be": {
+        "title": "Кірмаш цёплых швэдраў",
+        "desc": "Швэдры польскіх дызайнераў, шапкі, шалікі, пледы, гарбата і свечкі — усё для ўтульнай зімы.",
+        "when": "нядзеля, 22 лістапада, з 11:00",
+        "where": "Hala Koszyki, ul. Koszykowa 63",
+        "price": "уваход вольны, пакупкі платныя"
+      },
+      "uk": {
+        "title": "Ярмарок теплих светрів",
+        "desc": "Светри польських дизайнерів, шапки, шарфи, пледи, чай і свічки — усе для затишної зими.",
+        "when": "неділя, 22 листопада, з 11:00",
+        "where": "Hala Koszyki, ul. Koszykowa 63",
+        "price": "вхід вільний, покупки платні"
+      },
+      "de": {
+        "title": "Markt für warme Pullover",
+        "desc": "Pullover polnischer Designer, Mützen, Schals, Decken, Tee und Kerzen: alles für einen gemütlichen Winter.",
+        "when": "Sonntag, 22. November, ab 11:00",
+        "where": "Hala Koszyki, ul. Koszykowa 63",
+        "price": "Eintritt frei, Einkäufe kostenpflichtig"
+      }
+    },
+    {
+      "emoji": "✨",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162222-otwarcie-iluminacji-w-parku-aktywnosci-rodzinnej",
+      "ru": {
+        "title": "Открытие иллюминации в Вавере",
+        "desc": "Праздничная подсветка парка включается впервые в сезоне; первые 100 гостей получат горячий шоколад.",
+        "when": "воскресенье, 22 ноября, 17:00",
+        "where": "Park Aktywności Rodzinnej, ul. Węglarska 41A",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Illuminations switch-on in Wawer",
+        "desc": "The park's festive lights are turned on for the first time this season; the first 100 guests get free hot chocolate.",
+        "when": "Sunday, November 22, 17:00",
+        "where": "Park Aktywności Rodzinnej, ul. Węglarska 41A",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Otwarcie iluminacji w Wawrze",
+        "desc": "Świąteczne oświetlenie parku zapala się pierwszy raz w sezonie; pierwsze 100 osób dostanie gorącą czekoladę.",
+        "when": "niedziela, 22 listopada, 17:00",
+        "where": "Park Aktywności Rodzinnej, ul. Węglarska 41A",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Адкрыццё ілюмінацыі ў Вавэры",
+        "desc": "Святочная падсветка парку ўключаецца ўпершыню ў сезоне; першыя 100 гасцей атрымаюць гарачы шакалад.",
+        "when": "нядзеля, 22 лістапада, 17:00",
+        "where": "Park Aktywności Rodzinnej, ul. Węglarska 41A",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Відкриття ілюмінації у Вавері",
+        "desc": "Святкове підсвічування парку вмикають уперше цього сезону; перші 100 гостей отримають гарячий шоколад.",
+        "when": "неділя, 22 листопада, 17:00",
+        "where": "Park Aktywności Rodzinnej, ul. Węglarska 41A",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Lichterstart in Wawer",
+        "desc": "Die festliche Beleuchtung des Parks wird zum ersten Mal in dieser Saison eingeschaltet; die ersten 100 Gäste bekommen heiße Schokolade.",
+        "when": "Sonntag, 22. November, 17:00",
+        "where": "Park Aktywności Rodzinnej, ul. Węglarska 41A",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎠",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161808-wawerski-festiwal-gier",
+      "ru": {
+        "title": "Вавэрский фестиваль игр",
+        "desc": "Семейный праздник с десятками игр: гигантские XXL-игры, головоломки, конкурсы, музыка и аниматоры.",
+        "when": "воскресенье, 22 ноября, 12:00–19:00",
+        "where": "спортзал школы № 76, ul. Poezji 5",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Wawer Games Festival",
+        "desc": "A family day with dozens of games: giant XXL games, puzzles, contests, music and entertainers.",
+        "when": "Sunday, November 22, 12:00–19:00",
+        "where": "School no. 76 sports hall, ul. Poezji 5",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Wawerski Festiwal Gier",
+        "desc": "Rodzinne święto z dziesiątkami gier: wielkie gry XXL, łamigłówki, konkursy, muzyka i animatorzy.",
+        "when": "niedziela, 22 listopada, 12:00–19:00",
+        "where": "hala sportowa SP nr 76, ul. Poezji 5",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Вавэрскі фестываль гульняў",
+        "desc": "Сямейнае свята з дзясяткамі гульняў: гіганцкія XXL-гульні, галаваломкі, конкурсы, музыка і аніматары.",
+        "when": "нядзеля, 22 лістапада, 12:00–19:00",
+        "where": "спартзала школы № 76, ul. Poezji 5",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Ваверський фестиваль ігор",
+        "desc": "Сімейне свято з десятками ігор: гігантські XXL-ігри, головоломки, конкурси, музика й аніматори.",
+        "when": "неділя, 22 листопада, 12:00–19:00",
+        "where": "спортзал школи № 76, ul. Poezji 5",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Spielefestival in Wawer",
+        "desc": "Ein Familienfest mit Dutzenden Spielen: riesige XXL-Spiele, Knobelaufgaben, Wettbewerbe, Musik und Animateure.",
+        "when": "Sonntag, 22. November, 12:00–19:00",
+        "where": "Sporthalle der Schule Nr. 76, ul. Poezji 5",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161251-wieczor-polsko-irlandzki-wernisaz-agi-szot-i-koncert-taorluath",
+      "ru": {
+        "title": "Польско-ирландский вечер",
+        "desc": "Открытие выставки художницы из Дублина Аги Шот и концерт ирландской музыки группы Taorluath при поддержке посольства Ирландии.",
+        "when": "воскресенье, 22 ноября, 18:00",
+        "where": "Wawerskie Centrum Kultury, филиал Radość, ul. Powojowa 2",
+        "price": "бесплатно, по входным билетам (онлайн возможен небольшой сбор)"
+      },
+      "en": {
+        "title": "Polish-Irish evening",
+        "desc": "Opening of an exhibition by Dublin-based artist Aga Szot and an Irish music concert by Taorluath, under the patronage of the Irish Embassy.",
+        "when": "Sunday, November 22, 18:00",
+        "where": "Wawerskie Centrum Kultury, Radość branch, ul. Powojowa 2",
+        "price": "free, with entry tickets (small online fee possible)"
+      },
+      "pl": {
+        "title": "Wieczór polsko-irlandzki",
+        "desc": "Wernisaż mieszkającej w Dublinie artystki Agi Szot i koncert muzyki irlandzkiej zespołu Taorluath pod patronatem Ambasady Irlandii.",
+        "when": "niedziela, 22 listopada, 18:00",
+        "where": "Wawerskie Centrum Kultury, filia Radość, ul. Powojowa 2",
+        "price": "bezpłatnie, z wejściówkami (online możliwa niewielka opłata)"
+      },
+      "be": {
+        "title": "Польска-ірландскі вечар",
+        "desc": "Адкрыццё выставы мастачкі з Дубліна Агі Шот і канцэрт ірландскай музыкі гурта Taorluath пры падтрымцы амбасады Ірландыі.",
+        "when": "нядзеля, 22 лістапада, 18:00",
+        "where": "Wawerskie Centrum Kultury, філіял Radość, ul. Powojowa 2",
+        "price": "бясплатна, па ўваходных квітках (анлайн магчымы невялікі збор)"
+      },
+      "uk": {
+        "title": "Польсько-ірландський вечір",
+        "desc": "Відкриття виставки художниці з Дубліна Аги Шот і концерт ірландської музики гурту Taorluath за підтримки посольства Ірландії.",
+        "when": "неділя, 22 листопада, 18:00",
+        "where": "Wawerskie Centrum Kultury, філія Radość, ul. Powojowa 2",
+        "price": "безкоштовно, за вхідними квитками (онлайн можливий невеликий збір)"
+      },
+      "de": {
+        "title": "Polnisch-irischer Abend",
+        "desc": "Ausstellungseröffnung der in Dublin lebenden Künstlerin Aga Szot und ein Konzert mit irischer Musik von Taorluath, unter der Schirmherrschaft der irischen Botschaft.",
+        "when": "Sonntag, 22. November, 18:00",
+        "where": "Wawerskie Centrum Kultury, Filiale Radość, ul. Powojowa 2",
+        "price": "kostenlos, mit Eintrittskarten (online evtl. kleine Gebühr)"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161908-vii-miedzynarodowy-festiwal-organowe-brzmienia-finalowy-koncert",
+      "ru": {
+        "title": "Финал органного фестиваля «Organowe Brzmienia»",
+        "desc": "Два молодых дуэта — скрипка с органом и флейта с органом — играют Баха, Сибелиуса, Форе, Равеля и Пуленка.",
+        "when": "воскресенье, 22 ноября, 19:00",
+        "where": "костёл в Анине, ul. Rzeźbiarska 46",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Organowe Brzmienia festival finale",
+        "desc": "Two young duos, violin with organ and flute with organ, play Bach, Sibelius, Fauré, Ravel and Poulenc.",
+        "when": "Sunday, November 22, 19:00",
+        "where": "church in Anin, ul. Rzeźbiarska 46",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Finał festiwalu Organowe Brzmienia",
+        "desc": "Dwa młode duety, skrzypce z organami oraz flet z organami, grają Bacha, Sibeliusa, Faurégo, Ravela i Poulenca.",
+        "when": "niedziela, 22 listopada, 19:00",
+        "where": "kościół w Aninie, ul. Rzeźbiarska 46",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Фінал арганнага фестывалю «Organowe Brzmienia»",
+        "desc": "Два маладыя дуэты — скрыпка з арганам і флейта з арганам — граюць Баха, Сібеліуса, Фарэ, Равеля і Пуленка.",
+        "when": "нядзеля, 22 лістапада, 19:00",
+        "where": "касцёл у Аніне, ul. Rzeźbiarska 46",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Фінал органного фестивалю «Organowe Brzmienia»",
+        "desc": "Два молоді дуети — скрипка з органом і флейта з органом — грають Баха, Сібеліуса, Форе, Равеля та Пуленка.",
+        "when": "неділя, 22 листопада, 19:00",
+        "where": "костел в Аніні, ul. Rzeźbiarska 46",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Finale des Festivals Organowe Brzmienia",
+        "desc": "Zwei junge Duos, Violine mit Orgel und Flöte mit Orgel, spielen Bach, Sibelius, Fauré, Ravel und Poulenc.",
+        "when": "Sonntag, 22. November, 19:00",
+        "where": "Kirche in Anin, ul. Rzeźbiarska 46",
+        "price": "kostenlos"
+      }
+    }
+  ],
+  "published": {
+    "at": "2026-11-20T11:23:26.990Z",
+    "event_id": 3,
+    "ru_count": 13,
+    "verified": true,
+    "still_bad": []
+  }
+}
