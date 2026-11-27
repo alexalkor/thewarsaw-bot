@@ -674,5 +674,12 @@
         "price": "Eintritt frei, Essen und Getränke kostenpflichtig"
       }
     }
-  ]
+  ],
+  "published": {
+    "at": "2026-11-27T12:08:19.733Z",
+    "event_id": 4,
+    "ru_count": 14,
+    "verified": true,
+    "still_bad": []
+  }
 }
