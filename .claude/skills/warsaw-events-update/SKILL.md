@@ -54,6 +54,9 @@ or an access route the-warsaw.pl has agreed to). If the page shows a
    (fire_trigger for the scheduled task named "The-Warsaw Weekly Publish (cloud)",
    which publishes this list and then builds and publishes the top picks).
    It also runs on its own schedule (Fridays 13:47 Warsaw) as a fallback.
+8. Always finish by closing every Chrome tab this run opened (the-warsaw.pl
+   pages), also when the run stopped early (no article yet, already collected,
+   bot check, error). Close only tabs this run opened, never Alex's own tabs.
 
 ## Phase P: picks from open sources (fully cloud)
 
