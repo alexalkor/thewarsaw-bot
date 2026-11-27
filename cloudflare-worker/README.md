@@ -134,6 +134,12 @@ were kept, and the earlier v3.0 code is still in Cloudflare's deployment history
 for a one-click rollback (dashboard → the worker → Deployments). Any future
 deploy needs an explicit go-ahead (CLAUDE.md rule 3).
 
+v3.3 (in the repo, not deployed yet): the GitHub backup no longer loses
+translations when several saves overlap. A publish posts five translations
+back to back; GitHub accepted only the first save and refused the rest (409).
+Each save now re-reads the file, writes the newest data from KV, and retries
+a few times if GitHub says the file just changed.
+
 v3.2 (in the repo, not deployed yet): every message is sent with link previews
 off, so a link in a list never makes Telegram add a preview card at the end of
 the message. (The lists themselves are published without links.)

@@ -28,7 +28,7 @@ const ITEMS_PER_MSG      = 10;
 const TG_MAX_CHARS       = 3900;
 const SOURCE_LANG        = 'ru';
 const MYMEMORY_EMAIL     = 'bot@thewarsawevents.com';
-const VERSION            = 'v3.2-cloudflare';
+const VERSION            = 'v3.3-cloudflare';
 
 const I18N = {
   en: { welcome:'👋 Hi! Welcome to Warsaw Events Bot! Please choose your language:', lang_set:n=>`✅ Language set to ${n}.`, choose_action:'Weekend event-list from The-Warsaw', btn_events:'📋 The-Warsaw weekend list', btn_picks:'⭐ Top picks this weekend', btn_lang:'🌐 Change language', btn_stop:'⛔ Stop', stopped:'Bot stopped. Send /start to resume.', no_events:'No events published yet.', no_picks:'This weekend\'s top picks are not ready yet.', header:'📅 <b>Latest events in Warsaw:</b>', picks_header:'⭐ <b>Top picks in Warsaw this weekend:</b>', footer:"Hope you're having a great weekend! 🌟", help:'📖 <b>Help</b>\n\nCommands:\n/start — main menu\n/language — change language\n/help — this message' },
@@ -89,23 +89,39 @@ async function fetchGithubJson(pat, feed = DEFAULT_FEED) {
   try { return JSON.parse(atob(meta.content.replace(/\n/g, ''))); } catch { return null; }
 }
 
-async function saveGithubJson(pat, data, feed = DEFAULT_FEED) {
+// Writes the backup file. `latest` (optional) returns the newest data to save:
+// several /translate calls save at the same moment, so each write must carry
+// everything known right now, not the snapshot its own call started with. If
+// GitHub says the file changed under us (409/422), read it again and retry.
+async function saveGithubJson(pat, data, feed = DEFAULT_FEED, latest = null) {
   const file = FEEDS[feed].file;
   const url = `https://api.github.com/repos/${GITHUB_REPO}/contents/${file}`;
-  const r = await fetch(url, { headers: ghHeaders(pat) });
-  if (!r.ok && r.status !== 404) { console.error(`gh save ${file}: read HTTP ${r.status}`); return; }
-  const sha = r.ok ? (await r.json()).sha : undefined; // 404 = file doesn't exist yet
-  const body = {
-    message: `chore: update ${feed} events data`,
-    content: btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2)))),
-    ...(sha ? { sha } : {}),
-  };
-  const w = await fetch(url, {
-    method: 'PUT',
-    headers: { ...ghHeaders(pat), 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-  if (!w.ok) console.error(`gh save ${file}: write HTTP ${w.status}`);
+  const MAX_TRIES = 5;
+  for (let attempt = 1; attempt <= MAX_TRIES; attempt++) {
+    const r = await fetch(url, { headers: ghHeaders(pat) });
+    if (!r.ok && r.status !== 404) { console.error(`gh save ${file}: read HTTP ${r.status}`); return; }
+    const meta = r.ok ? await r.json() : null; // 404 = file doesn't exist yet
+    const payload = (latest && (await latest())) || data;
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2))));
+    if (meta?.content && meta.content.replace(/\n/g, '') === content) return; // nothing new to back up
+    const body = {
+      message: `chore: update ${feed} events data`,
+      content,
+      ...(meta?.sha ? { sha: meta.sha } : {}),
+    };
+    const w = await fetch(url, {
+      method: 'PUT',
+      headers: { ...ghHeaders(pat), 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    if (w.ok) return;
+    if ((w.status === 409 || w.status === 422) && attempt < MAX_TRIES) {
+      await sleep(150 * attempt + Math.random() * 250); // another save won the race: try again
+      continue;
+    }
+    console.error(`gh save ${file}: write HTTP ${w.status} (try ${attempt}/${MAX_TRIES})`);
+    return;
+  }
 }
 
 // ── Event-text parsing (mirrors legacy/database/db.py + legacy/handlers/menu.py) ─────────
@@ -267,7 +283,11 @@ async function sendSafe(tok, chatId, text, extra) {
 // ── GitHub cache helpers ────────────────────────────────────────────────────
 
 async function persistToGithub(env, raw, translations, feed = DEFAULT_FEED) {
-  try { await saveGithubJson(env.GITHUB_PAT, { raw, translations }, feed); }
+  const latest = async () => {
+    const ev = await getEvent(env.EVENTS_KV, feed);
+    return ev?.raw ? { raw: ev.raw, translations: ev.translations || {} } : null;
+  };
+  try { await saveGithubJson(env.GITHUB_PAT, { raw, translations }, feed, latest); }
   catch (e) { console.error('gh save:', e); }
 }
 

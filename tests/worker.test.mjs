@@ -35,7 +35,7 @@ function setup() {
     return { status: res.status, json: await res.json().catch(() => null) };
   };
   const press = (data, chatId = 7) => call('POST', '/webhook', { callback_query: { id: 'c', data, message: { chat: { id: chatId } } } });
-  return { store, sent, gh, call, press };
+  return { store, sent, gh, call, press, kv };
 }
 
 const RU = '1. 🎤 Концерт\nОписание\n🕐 Когда: сб\n📍 Где: Клуб\n🎫 Билеты: 50 zł';
@@ -85,4 +85,46 @@ test('unknown feed is rejected; empty picks shows a friendly message', async () 
   assert.equal((await t.call('POST', '/events', { feed: 'nope', text: RU }, { 'X-Secret': 's' })).status, 400);
   await t.press('menu:picks');
   assert.match(t.sent.at(-1).body.text, /готовится/);
+});
+
+test('GitHub backup keeps every translation when saves collide', async () => {
+  const t = setup();
+  // Stricter fake GitHub: a write with an out-of-date sha is refused with 409,
+  // like the real API, and each write takes a moment so saves overlap.
+  const files = new Map(); // file -> { sha, content }
+  let n = 0;
+  const base = globalThis.fetch;
+  globalThis.fetch = async (url, init = {}) => {
+    url = String(url);
+    if (!url.startsWith('https://api.github.com/')) return base(url, init);
+    const file = url.split('/contents/')[1];
+    const cur = files.get(file);
+    if ((init.method || 'GET') === 'PUT') {
+      await new Promise((r) => setTimeout(r, 30));
+      const b = JSON.parse(init.body);
+      const now = files.get(file); // check against the file as it is when the write lands
+      if (now && b.sha !== now.sha) return new Response('{}', { status: 409 });
+      files.set(file, { sha: `s${++n}`, content: b.content });
+      return new Response('{}');
+    }
+    return cur ? new Response(JSON.stringify(cur)) : new Response('{}', { status: 404 });
+  };
+  const H = { 'X-Secret': 's' };
+  assert.equal((await t.call('POST', '/events', { text: RU, date_range: '13–15 ноября' }, H)).status, 200);
+
+  // A publish run posts the five translations back to back, so their
+  // background GitHub saves overlap. Collect them and wait for all at the end.
+  const langs = ['en', 'pl', 'be', 'uk', 'de'];
+  const pending = [];
+  const env = { EVENTS_KV: t.kv, BOT_TOKEN: 't', WEBHOOK_SECRET: 's', GITHUB_PAT: 'p' };
+  for (const lang of langs) {
+    const res = await worker.fetch(new Request('https://w.example/translate', {
+      method: 'POST', headers: { 'Content-Type': 'application/json', ...H }, body: JSON.stringify({ lang, text: EN }),
+    }), env, { waitUntil: (p) => pending.push(p) });
+    assert.equal(res.status, 200);
+  }
+  await Promise.all(pending);
+
+  const saved = JSON.parse(Buffer.from(files.get('data/events.json').content, 'base64').toString('utf8'));
+  assert.deepEqual(Object.keys(saved.translations).sort(), [...langs].sort());
 });
