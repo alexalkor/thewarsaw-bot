@@ -95,16 +95,18 @@ is made on whether to delete it outright (see "To confirm later").
    the original undocumented Worker drifted from the Python bot.
 
 ## Known issues
-- The Worker's GitHub backup (`data/events.json`) stopped updating after 25 Jul
-  2026. The v3.0 code that was live still pointed at the repo's old name
-  (`telegram-multilang-bot`), sent no User-Agent (GitHub's API rejects that), and
-  hid the error. v3.1 (live since 12 Nov 2026) fixes both and logs failures
-  (`npm run tail`, which only works from a local machine; the cloud network
-  blocks its connection). Still not writing after the v3.1 deploy (checked
-  12 Nov 2026: no `data/picks.json` after a post), so the `GITHUB_PAT` Worker
-  secret has probably expired or lost access. Fix: a new fine-grained token with
-  Contents read/write on this repo only, saved as the Worker's `GITHUB_PAT`
-  secret. Low impact: KV holds the live data and `data/weekly/` is the record.
+- The Worker's GitHub backup (`data/events.json`, `data/picks.json`) stopped
+  updating after 25 Jul 2026 (old repo name, no User-Agent, hidden errors: fixed
+  in v3.1; then the `GITHUB_PAT` secret expired). Alex saved a new fine-grained
+  token (Contents read/write, this repo only) on 25 Nov 2026 and the backup wrote
+  again on 27 Nov, but only the first save of each publish landed (English only):
+  the five `/translate` saves overlap and GitHub refuses all but one with 409.
+  Fixed in v3.3 (`saveGithubJson` retries on 409/422 and always writes the newest
+  KV data; test in `tests/worker.test.mjs`). **v3.3 is merged but not deployed
+  until Alex says so**; after the deploy, check the next Friday's backup files
+  hold all 5 translations. Low impact: KV holds the live data and
+  `data/weekly/` is the record. The GitHub token has an expiry date: a new one
+  is needed before then.
 - `tools/weekly.mjs` re-runs itself with `NODE_USE_ENV_PROXY=1`: Node's fetch
   ignores HTTPS_PROXY otherwise, and only the proxy adds the Worker's X-Secret
   (without it every post gets 401).
