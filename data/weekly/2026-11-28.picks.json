@@ -1,0 +1,678 @@
+{
+  "feed": "picks",
+  "weekend": "2026-11-28",
+  "date_range": {
+    "ru": "27–29 ноября",
+    "en": "November 27–29",
+    "pl": "27–29 listopada",
+    "be": "27–29 лістапада",
+    "uk": "27–29 листопада",
+    "de": "27.–29. November"
+  },
+  "sources": [
+    "https://www.waw4free.pl/wydarzenia-w-warszawie-w-weekend",
+    "https://www.waw4free.pl/warszawa-wydarzenia-2026-11-27",
+    "https://www.waw4free.pl/warszawa-wydarzenia-2026-11-28",
+    "https://www.waw4free.pl/warszawa-wydarzenia-2026-11-29"
+  ],
+  "events": [
+    {
+      "emoji": "🎤",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162162-bemowskie-andrzejki-z-muzyka-leonarda-cohena",
+      "ru": {
+        "title": "Андрейки с песнями Леонарда Коэна",
+        "desc": "Артур Жмиевский с группой исполняет песни Коэна в польских переводах, в том числе Мацея Зембатого.",
+        "when": "28 ноября, 19:00",
+        "where": "зал Военно-технической академии (WAT), ul. Kaliskiego 25A",
+        "price": "бесплатно, приглашения разыгрываются по анкете"
+      },
+      "en": {
+        "title": "Andrzejki night with Leonard Cohen songs",
+        "desc": "Artur Żmijewski and his band perform Cohen's songs in Polish translations, including those by Maciej Zembaty.",
+        "when": "November 28, 19:00",
+        "where": "Military University of Technology (WAT) hall, ul. Kaliskiego 25A",
+        "price": "free, invitations drawn from an online form"
+      },
+      "pl": {
+        "title": "Andrzejki z muzyką Leonarda Cohena",
+        "desc": "Artur Żmijewski z zespołem wykonuje piosenki Cohena w polskich przekładach, m.in. Macieja Zembatego.",
+        "when": "28 listopada, 19:00",
+        "where": "Sala Widowiskowa WAT, ul. Kaliskiego 25A",
+        "price": "bezpłatnie, zaproszenia losowane przez formularz"
+      },
+      "be": {
+        "title": "Андрэйкі з песнямі Леанарда Коэна",
+        "desc": "Артур Жміеўскі з гуртом выконвае песні Коэна ў польскіх перакладах, у тым ліку Мацея Зембатага.",
+        "when": "28 лістапада, 19:00",
+        "where": "зала Ваенна-тэхнічнай акадэміі (WAT), ul. Kaliskiego 25A",
+        "price": "бясплатна, запрашэнні разыгрываюцца праз анкету"
+      },
+      "uk": {
+        "title": "Андріївський вечір із піснями Леонарда Коена",
+        "desc": "Артур Жмієвський із гуртом виконує пісні Коена в польських перекладах, зокрема Мацея Зембатого.",
+        "when": "28 листопада, 19:00",
+        "where": "зала Військово-технічної академії (WAT), ul. Kaliskiego 25A",
+        "price": "безкоштовно, запрошення розігрують за анкетою"
+      },
+      "de": {
+        "title": "Andrzejki-Abend mit Liedern von Leonard Cohen",
+        "desc": "Artur Żmijewski und Band singen Cohen-Lieder in polnischen Übersetzungen, u. a. von Maciej Zembaty.",
+        "when": "am 28. November, 19:00",
+        "where": "Saal der Militärtechnischen Akademie (WAT), ul. Kaliskiego 25A",
+        "price": "kostenlos, Einladungen werden per Formular verlost"
+      }
+    },
+    {
+      "emoji": "🚲",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162473-noc-listopadowa-w-lazienkach-krolewskich",
+      "ru": {
+        "title": "Прогулка «Ноябрьская ночь» в Лазенках",
+        "desc": "К 196-й годовщине Ноябрьского восстания: маршрут по парку по местам событий 1830 года, около 105 минут.",
+        "when": "28 ноября, 15:00",
+        "where": "Королевские Лазенки, у памятника Яну III Собескому",
+        "price": "бесплатно, добровольный сбор"
+      },
+      "en": {
+        "title": "“November Night” walk in Łazienki",
+        "desc": "For the 196th anniversary of the November Uprising: a 105-minute walk through the park to the sites of the 1830 events.",
+        "when": "November 28, 15:00",
+        "where": "Łazienki Królewskie, at the Jan III Sobieski monument",
+        "price": "free, voluntary donation"
+      },
+      "pl": {
+        "title": "Spacer „Noc Listopadowa” w Łazienkach",
+        "desc": "W 196. rocznicę Powstania Listopadowego: ok. 105 minut po parku śladami wydarzeń 1830 roku.",
+        "when": "28 listopada, 15:00",
+        "where": "Łazienki Królewskie, przy pomniku Jana III Sobieskiego",
+        "price": "bezpłatnie, dobrowolna zrzutka"
+      },
+      "be": {
+        "title": "Шпацыр «Лістападаўская ноч» у Лазенках",
+        "desc": "Да 196-х угодкаў Лістападаўскага паўстання: каля 105 хвілін па парку месцамі падзей 1830 года.",
+        "when": "28 лістапада, 15:00",
+        "where": "Каралеўскія Лазенкі, каля помніка Яну III Сабескаму",
+        "price": "бясплатна, добраахвотны збор"
+      },
+      "uk": {
+        "title": "Прогулянка «Листопадова ніч» у Лазенках",
+        "desc": "До 196-ї річниці Листопадового повстання: близько 105 хвилин парком місцями подій 1830 року.",
+        "when": "28 листопада, 15:00",
+        "where": "Королівські Лазенки, біля пам'ятника Янові III Собеському",
+        "price": "безкоштовно, добровільний збір"
+      },
+      "de": {
+        "title": "Spaziergang „Novembernacht“ im Łazienki-Park",
+        "desc": "Zum 196. Jahrestag des Novemberaufstands: rund 105 Minuten durch den Park zu den Schauplätzen von 1830.",
+        "when": "am 28. November, 15:00",
+        "where": "Łazienki Królewskie, am Denkmal für Jan III. Sobieski",
+        "price": "kostenlos, freiwillige Spende"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162463-gary-guthman-matetusz-kasszuba-trio-tempus-fugit",
+      "ru": {
+        "title": "Джазовый трубач Гэри Гатман: «Tempus Fugit»",
+        "desc": "Американский трубач с трио исполняет новые композиции о своих двадцати годах жизни в Польше.",
+        "when": "29 ноября, 19:00",
+        "where": "Wawerskie Centrum Kultury, ul. Żegańska 1a",
+        "price": "бесплатно, по онлайн-пропускам (возможен сервисный сбор)"
+      },
+      "en": {
+        "title": "Jazz trumpeter Gary Guthman: “Tempus Fugit”",
+        "desc": "The American trumpeter and his trio play new pieces about his twenty years of life in Poland.",
+        "when": "November 29, 19:00",
+        "where": "Wawerskie Centrum Kultury, ul. Żegańska 1a",
+        "price": "free with an online pass (small booking fee possible)"
+      },
+      "pl": {
+        "title": "Gary Guthman i trio: „Tempus Fugit”",
+        "desc": "Amerykański trębacz z triem gra nowe kompozycje o swoich dwudziestu latach życia w Polsce.",
+        "when": "29 listopada, 19:00",
+        "where": "Wawerskie Centrum Kultury, ul. Żegańska 1a",
+        "price": "bezpłatnie, wejściówki online (możliwa opłata serwisowa)"
+      },
+      "be": {
+        "title": "Джазавы трубач Гэры Гатман: «Tempus Fugit»",
+        "desc": "Амерыканскі трубач з трыа іграе новыя кампазіцыі пра свае дваццаць гадоў жыцця ў Польшчы.",
+        "when": "29 лістапада, 19:00",
+        "where": "Wawerskie Centrum Kultury, ul. Żegańska 1a",
+        "price": "бясплатна, па анлайн-пропусках (магчымы сэрвісны збор)"
+      },
+      "uk": {
+        "title": "Джазовий трубач Гері Гатман: «Tempus Fugit»",
+        "desc": "Американський трубач із тріо грає нові композиції про свої двадцять років життя в Польщі.",
+        "when": "29 листопада, 19:00",
+        "where": "Wawerskie Centrum Kultury, ul. Żegańska 1a",
+        "price": "безкоштовно, за онлайн-перепустками (можливий сервісний збір)"
+      },
+      "de": {
+        "title": "Jazztrompeter Gary Guthman: „Tempus Fugit“",
+        "desc": "Der US-Trompeter spielt mit seinem Trio neue Stücke über zwanzig Jahre Leben in Polen.",
+        "when": "am 29. November, 19:00",
+        "where": "Wawerskie Centrum Kultury, ul. Żegańska 1a",
+        "price": "kostenlos mit Online-Einlasskarte (ggf. kleine Buchungsgebühr)"
+      }
+    },
+    {
+      "emoji": "🖼",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161764-granice-koloru-tkaniny-ikatowe-azji-weekend-otwarcia-wystawy",
+      "ru": {
+        "title": "Выставка азиатских тканей-икатов: выходные открытия",
+        "desc": "Около 110 тканей и костюмов из Индонезии, Камбоджи, Индии, Японии и Узбекистана; кураторские экскурсии и встречи.",
+        "when": "28–29 ноября, с 12:00",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Asian ikat textiles: opening weekend",
+        "desc": "About 110 fabrics and garments from Indonesia, Cambodia, India, Japan and Uzbekistan, with curator tours and talks.",
+        "when": "November 28–29, from 12:00",
+        "where": "Asia and Pacific Museum, ul. Solec 24",
+        "price": "free"
+      },
+      "pl": {
+        "title": "„Granice koloru. Tkaniny ikatowe Azji”: weekend otwarcia",
+        "desc": "Około 110 tkanin i strojów z Indonezji, Kambodży, Indii, Japonii i Uzbekistanu, oprowadzania kuratorskie i spotkania.",
+        "when": "28–29 listopada, od 12:00",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Выстава азіяцкіх тканін-ікатаў: выхадныя адкрыцця",
+        "desc": "Каля 110 тканін і строяў з Інданезіі, Камбоджы, Індыі, Японіі і Узбекістана; куратарскія экскурсіі і сустрэчы.",
+        "when": "28–29 лістапада, з 12:00",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Виставка азійських тканин-ікатів: вихідні відкриття",
+        "desc": "Близько 110 тканин і строїв з Індонезії, Камбоджі, Індії, Японії та Узбекистану; кураторські екскурсії й зустрічі.",
+        "when": "28–29 листопада, з 12:00",
+        "where": "Muzeum Azji i Pacyfiku, ul. Solec 24",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Asiatische Ikat-Textilien: Eröffnungswochenende",
+        "desc": "Rund 110 Stoffe und Gewänder aus Indonesien, Kambodscha, Indien, Japan und Usbekistan, mit Kuratorenführungen und Gesprächen.",
+        "when": "28.–29. November, ab 12:00",
+        "where": "Asien- und Pazifikmuseum, ul. Solec 24",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "⛵",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162294-gwiazdka-na-lodzie-otwarcie-lodowiska-osir-ochota",
+      "ru": {
+        "title": "Открытие катка на Охоте",
+        "desc": "Старт сезона на крытом катке: показ фигурного катания, игры, Николай с эльфами, горячий шоколад; есть прокат коньков.",
+        "when": "28 ноября, 16:00",
+        "where": "OSiR Ochota, ul. Rokosowska 10",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Ice rink opening in Ochota",
+        "desc": "Season start at the covered rink: figure skating show, games, Santa and elves, hot chocolate; skate rental on site.",
+        "when": "November 28, 16:00",
+        "where": "OSiR Ochota, ul. Rokosowska 10",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Gwiazdka na lodzie: otwarcie lodowiska na Ochocie",
+        "desc": "Start sezonu na zadaszonym lodowisku: pokaz jazdy figurowej, gry, Mikołaj z elfami, gorąca czekolada; wypożyczalnia łyżew.",
+        "when": "28 listopada, 16:00",
+        "where": "OSiR Ochota, ul. Rokosowska 10",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Адкрыццё катка на Охаце",
+        "desc": "Старт сезона на крытым катку: паказ фігурнага катання, гульні, Мікалай з эльфамі, гарачы шакалад; ёсць пракат каньковаў.",
+        "when": "28 лістапада, 16:00",
+        "where": "OSiR Ochota, ul. Rokosowska 10",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Відкриття ковзанки на Охоті",
+        "desc": "Старт сезону на критій ковзанці: показ фігурного катання, ігри, Миколай з ельфами, гарячий шоколад; є прокат ковзанів.",
+        "when": "28 листопада, 16:00",
+        "where": "OSiR Ochota, ul. Rokosowska 10",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Eröffnung der Eisbahn in Ochota",
+        "desc": "Saisonstart auf der überdachten Eisbahn: Eiskunstlauf-Show, Spiele, Nikolaus mit Elfen, heiße Schokolade; Schlittschuhverleih vor Ort.",
+        "when": "am 28. November, 16:00",
+        "where": "OSiR Ochota, ul. Rokosowska 10",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🛍",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-161788-pchli-targ-roba-pruitta-na-rzecz-fundacji-ocalenie",
+      "ru": {
+        "title": "Блошиный рынок художника Роба Прюитта",
+        "desc": "Однодневная арт-ярмарка в Музее современного искусства в поддержку фонда Ocalenie, помогающего мигрантам; стенды художников и институций.",
+        "when": "28 ноября, с 11:00",
+        "where": "Muzeum Sztuki Nowoczesnej, ul. Marszałkowska 103",
+        "price": "вход свободный, пожертвования фонду"
+      },
+      "en": {
+        "title": "Rob Pruitt's Flea Market",
+        "desc": "A one-day art fair at the Museum of Modern Art supporting Fundacja Ocalenie, which helps migrants; stalls by artists and institutions.",
+        "when": "November 28, from 11:00",
+        "where": "Museum of Modern Art, ul. Marszałkowska 103",
+        "price": "free entry, donations to the foundation"
+      },
+      "pl": {
+        "title": "Pchli Targ Roba Pruitta",
+        "desc": "Jednodniowy kiermasz artystyczny w MSN na rzecz Fundacji Ocalenie, która pomaga migrantom; stoiska artystów i instytucji.",
+        "when": "28 listopada, od 11:00",
+        "where": "Muzeum Sztuki Nowoczesnej, ul. Marszałkowska 103",
+        "price": "wstęp wolny, darowizny dla fundacji"
+      },
+      "be": {
+        "title": "Блышыны рынак мастака Роба Пруіта",
+        "desc": "Аднадзённы арт-кірмаш у Музеі сучаснага мастацтва на карысць фонду Ocalenie, які дапамагае мігрантам; стэнды мастакоў і інстытуцый.",
+        "when": "28 лістапада, з 11:00",
+        "where": "Muzeum Sztuki Nowoczesnej, ul. Marszałkowska 103",
+        "price": "уваход вольны, ахвяраванні фонду"
+      },
+      "uk": {
+        "title": "Блошиний ринок художника Роба Пруїтта",
+        "desc": "Одноденний арт-ярмарок у Музеї сучасного мистецтва на підтримку фонду Ocalenie, що допомагає мігрантам; стенди митців та інституцій.",
+        "when": "28 листопада, з 11:00",
+        "where": "Muzeum Sztuki Nowoczesnej, ul. Marszałkowska 103",
+        "price": "вхід вільний, пожертви фонду"
+      },
+      "de": {
+        "title": "Rob Pruitts Flohmarkt",
+        "desc": "Eintägiger Kunstmarkt im Museum für Moderne Kunst zugunsten der Stiftung Ocalenie, die Migranten hilft; Stände von Künstlern und Institutionen.",
+        "when": "am 28. November, ab 11:00",
+        "where": "Museum für Moderne Kunst, ul. Marszałkowska 103",
+        "price": "Eintritt frei, Spenden an die Stiftung"
+      }
+    },
+    {
+      "emoji": "🎬",
+      "paid": true,
+      "link": "https://www.waw4free.pl/wydarzenie-162309-3-literacki-festiwal-filmowy-filmatura-conrad-2026",
+      "ru": {
+        "title": "Фестиваль экранизаций Filmatura.Conrad",
+        "desc": "Последние дни литературного кинофестиваля: фильмы по книгам, встречи и лекции.",
+        "when": "до 29 ноября, по расписанию",
+        "where": "Kino Luna, ul. Marszałkowska 28",
+        "price": "до 30 zł"
+      },
+      "en": {
+        "title": "Filmatura.Conrad literary film festival",
+        "desc": "The final days of a festival of book adaptations, with screenings, talks and lectures.",
+        "when": "until November 29, see schedule",
+        "where": "Kino Luna, ul. Marszałkowska 28",
+        "price": "up to 30 zł"
+      },
+      "pl": {
+        "title": "Literacki Festiwal Filmowy Filmatura.Conrad",
+        "desc": "Ostatnie dni festiwalu ekranizacji literatury: pokazy, spotkania i wykłady.",
+        "when": "do 29 listopada, według programu",
+        "where": "Kino Luna, ul. Marszałkowska 28",
+        "price": "do 30 zł"
+      },
+      "be": {
+        "title": "Фестываль экранізацый Filmatura.Conrad",
+        "desc": "Апошнія дні літаратурнага кінафестывалю: фільмы паводле кніг, сустрэчы і лекцыі.",
+        "when": "да 29 лістапада, паводле раскладу",
+        "where": "Kino Luna, ul. Marszałkowska 28",
+        "price": "да 30 zł"
+      },
+      "uk": {
+        "title": "Фестиваль екранізацій Filmatura.Conrad",
+        "desc": "Останні дні літературного кінофестивалю: фільми за книжками, зустрічі й лекції.",
+        "when": "до 29 листопада, за розкладом",
+        "where": "Kino Luna, ul. Marszałkowska 28",
+        "price": "до 30 zł"
+      },
+      "de": {
+        "title": "Literaturfilmfestival Filmatura.Conrad",
+        "desc": "Die letzten Tage eines Festivals der Literaturverfilmungen mit Vorführungen, Gesprächen und Vorträgen.",
+        "when": "bis 29. November, laut Programm",
+        "where": "Kino Luna, ul. Marszałkowska 28",
+        "price": "bis 30 zł"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162230-szeptonika-premiera-plyty-w-swoim-czasie",
+      "ru": {
+        "title": "Szeptonika: презентация альбома «W swoim czasie»",
+        "desc": "Группа целиком играет дебютный альбом, а также шлягеры старой Варшавы и Львова.",
+        "when": "29 ноября, 19:30",
+        "where": "Scena Stygmat, Plac Grzybowski 3/5",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Szeptonika: album launch “W swoim czasie”",
+        "desc": "The band plays its debut album in full, plus old Warsaw and Lviv street hits.",
+        "when": "November 29, 19:30",
+        "where": "Scena Stygmat, Plac Grzybowski 3/5",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Szeptonika: premiera płyty „W swoim czasie”",
+        "desc": "Zespół gra w całości debiutancki album oraz szlagiery starej Warszawy i Lwowa.",
+        "when": "29 listopada, 19:30",
+        "where": "Scena Stygmat, Plac Grzybowski 3/5",
+        "price": "wstęp wolny"
+      },
+      "be": {
+        "title": "Szeptonika: прэзентацыя альбома «W swoim czasie»",
+        "desc": "Гурт цалкам грае дэбютны альбом, а таксама шлягеры старой Варшавы і Львова.",
+        "when": "29 лістапада, 19:30",
+        "where": "Scena Stygmat, Plac Grzybowski 3/5",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Szeptonika: презентація альбому «W swoim czasie»",
+        "desc": "Гурт повністю грає дебютний альбом, а також шлягери старої Варшави та Львова.",
+        "when": "29 листопада, 19:30",
+        "where": "Scena Stygmat, Plac Grzybowski 3/5",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Szeptonika: Albumpremiere „W swoim czasie“",
+        "desc": "Die Band spielt ihr Debütalbum komplett, dazu Schlager des alten Warschau und Lemberg.",
+        "when": "am 29. November, 19:30",
+        "where": "Scena Stygmat, Plac Grzybowski 3/5",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "📚",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162319-wrzenie-nowego-swiata-zbigniew-zamachowski",
+      "ru": {
+        "title": "Встреча с актёром Збигневом Замаховским",
+        "desc": "Разговор о работе с Кесьлёвским, Вайдой и Кутцем, театре и музыке; запись идёт в эфир Radia Nowy Świat.",
+        "when": "29 ноября, 10:00",
+        "where": "кафе Wrzenie Świata, ul. Gałczyńskiego",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Meet actor Zbigniew Zamachowski",
+        "desc": "A talk about working with Kieślowski, Wajda and Kutz, theatre and music, broadcast live on Radio Nowy Świat.",
+        "when": "November 29, 10:00",
+        "where": "Wrzenie Świata café, ul. Gałczyńskiego",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Spotkanie ze Zbigniewem Zamachowskim",
+        "desc": "Rozmowa o pracy z Kieślowskim, Wajdą i Kutzem, teatrze i muzyce, transmitowana w Radiu Nowy Świat.",
+        "when": "29 listopada, 10:00",
+        "where": "kawiarnia Wrzenie Świata, ul. Gałczyńskiego",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Сустрэча з акцёрам Збігневам Замахоўскім",
+        "desc": "Размова пра працу з Кеслёўскім, Вайдам і Кутцам, тэатр і музыку; эфір на Radio Nowy Świat.",
+        "when": "29 лістапада, 10:00",
+        "where": "кавярня Wrzenie Świata, ul. Gałczyńskiego",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Зустріч з актором Збігневом Замаховським",
+        "desc": "Розмова про роботу з Кесьлевським, Вайдою та Кутцом, театр і музику; ефір на Radio Nowy Świat.",
+        "when": "29 листопада, 10:00",
+        "where": "кав'ярня Wrzenie Świata, ul. Gałczyńskiego",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Treffen mit Schauspieler Zbigniew Zamachowski",
+        "desc": "Gespräch über die Arbeit mit Kieślowski, Wajda und Kutz, Theater und Musik, live im Radio Nowy Świat.",
+        "when": "am 29. November, 10:00",
+        "where": "Café Wrzenie Świata, ul. Gałczyńskiego",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": true,
+      "link": "https://www.waw4free.pl/wydarzenie-161050-warsaw-2-0-comedy-show",
+      "ru": {
+        "title": "Стендап на английском Warsaw 2.0 Comedy Show",
+        "desc": "Воскресный вечер живой комедии на английском, каждую неделю новый состав.",
+        "when": "29 ноября, 20:00",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "до 30 zł"
+      },
+      "en": {
+        "title": "Warsaw 2.0 Comedy Show",
+        "desc": "Sunday night live stand-up in English with a new line-up every week.",
+        "when": "November 29, 20:00",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "up to 30 zł"
+      },
+      "pl": {
+        "title": "Warsaw 2.0 Comedy Show (po angielsku)",
+        "desc": "Niedzielny wieczór stand-upu po angielsku, co tydzień inny skład.",
+        "when": "29 listopada, 20:00",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "do 30 zł"
+      },
+      "be": {
+        "title": "Стэндап па-англійску Warsaw 2.0 Comedy Show",
+        "desc": "Нядзельны вечар жывой камедыі па-англійску, кожны тыдзень новы склад.",
+        "when": "29 лістапада, 20:00",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "да 30 zł"
+      },
+      "uk": {
+        "title": "Стендап англійською Warsaw 2.0 Comedy Show",
+        "desc": "Недільний вечір живої комедії англійською, щотижня новий склад.",
+        "when": "29 листопада, 20:00",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "до 30 zł"
+      },
+      "de": {
+        "title": "Warsaw 2.0 Comedy Show (auf Englisch)",
+        "desc": "Sonntagabend-Stand-up auf Englisch, jede Woche mit neuer Besetzung.",
+        "when": "am 29. November, 20:00",
+        "where": "Południk Zero, ul. Wilcza 25",
+        "price": "bis 30 zł"
+      }
+    },
+    {
+      "emoji": "✨",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162450-winter-wowderland-zimowy-instaspot",
+      "ru": {
+        "title": "Зимняя инсталляция Winter WOWderland на крыше",
+        "desc": "Сотни огней и зимний фотоспот на 19-м этаже отеля с видом на город.",
+        "when": "27–29 ноября, с 17:00",
+        "where": "Ether Rooftop Bar, отель NYX, ul. Chmielna 71",
+        "price": "вход свободный, платите за заказ в баре"
+      },
+      "en": {
+        "title": "Winter WOWderland rooftop installation",
+        "desc": "Hundreds of lights and a winter photo spot on the hotel's 19th floor, with city views.",
+        "when": "November 27–29, from 17:00",
+        "where": "Ether Rooftop Bar, NYX hotel, ul. Chmielna 71",
+        "price": "free entry, you pay for bar orders"
+      },
+      "pl": {
+        "title": "Winter WOWderland: zimowy instaspot na dachu",
+        "desc": "Setki świateł i zimowa ścianka do zdjęć na 19. piętrze hotelu z widokiem na miasto.",
+        "when": "27–29 listopada, od 17:00",
+        "where": "Ether Rooftop Bar, hotel NYX, ul. Chmielna 71",
+        "price": "wstęp wolny, płatne zamówienia w barze"
+      },
+      "be": {
+        "title": "Зімовая інсталяцыя Winter WOWderland на даху",
+        "desc": "Сотні агнёў і зімовы фотаспот на 19-м паверсе гатэля з выглядам на горад.",
+        "when": "27–29 лістапада, з 17:00",
+        "where": "Ether Rooftop Bar, гатэль NYX, ul. Chmielna 71",
+        "price": "уваход вольны, плаціце за заказ у бары"
+      },
+      "uk": {
+        "title": "Зимова інсталяція Winter WOWderland на даху",
+        "desc": "Сотні вогнів і зимовий фотоспот на 19-му поверсі готелю з видом на місто.",
+        "when": "27–29 листопада, з 17:00",
+        "where": "Ether Rooftop Bar, готель NYX, ul. Chmielna 71",
+        "price": "вхід вільний, платите за замовлення в барі"
+      },
+      "de": {
+        "title": "Winter WOWderland auf der Dachterrasse",
+        "desc": "Hunderte Lichter und ein Winter-Fotospot im 19. Stock des Hotels mit Blick über die Stadt.",
+        "when": "27.–29. November, ab 17:00",
+        "where": "Ether Rooftop Bar, Hotel NYX, ul. Chmielna 71",
+        "price": "Eintritt frei, Getränke an der Bar kostenpflichtig"
+      }
+    },
+    {
+      "emoji": "🚲",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162470-warszawskie-dworce-podziemne-miasto-rocznicowy-spacer-z-przewodnikiem",
+      "ru": {
+        "title": "Экскурсия «Варшавские вокзалы: подземный город»",
+        "desc": "2,5 часа под землёй и под крышей: переходы, вокзальные залы и история железной дороги к годовщине нового Западного вокзала.",
+        "when": "29 ноября, 16:30",
+        "where": "al. Jerozolimskie 50",
+        "price": "бесплатно, добровольный сбор"
+      },
+      "en": {
+        "title": "Walk: Warsaw stations, the underground city",
+        "desc": "Two and a half hours underground and indoors: passages, station halls and railway history, marking a year of the new West Station.",
+        "when": "November 29, 16:30",
+        "where": "al. Jerozolimskie 50",
+        "price": "free, voluntary donation"
+      },
+      "pl": {
+        "title": "Warszawskie dworce: podziemne miasto (spacer)",
+        "desc": "Dwie i pół godziny pod ziemią i pod dachem: przejścia, hale dworcowe i historia kolei w rocznicę nowego Dworca Zachodniego.",
+        "when": "29 listopada, 16:30",
+        "where": "al. Jerozolimskie 50",
+        "price": "bezpłatnie, dobrowolna zrzutka"
+      },
+      "be": {
+        "title": "Экскурсія «Варшаўскія вакзалы: падземны горад»",
+        "desc": "2,5 гадзіны пад зямлёй і пад дахам: пераходы, вакзальныя залы і гісторыя чыгункі ў гадавіну новага Заходняга вакзала.",
+        "when": "29 лістапада, 16:30",
+        "where": "al. Jerozolimskie 50",
+        "price": "бясплатна, добраахвотны збор"
+      },
+      "uk": {
+        "title": "Екскурсія «Варшавські вокзали: підземне місто»",
+        "desc": "2,5 години під землею й під дахом: переходи, вокзальні зали та історія залізниці до річниці нового Західного вокзалу.",
+        "when": "29 листопада, 16:30",
+        "where": "al. Jerozolimskie 50",
+        "price": "безкоштовно, добровільний збір"
+      },
+      "de": {
+        "title": "Führung: Warschaus Bahnhöfe, die unterirdische Stadt",
+        "desc": "Zweieinhalb Stunden unter der Erde und unter Dach: Passagen, Bahnhofshallen und Bahngeschichte zum Jahrestag des neuen Westbahnhofs.",
+        "when": "am 29. November, 16:30",
+        "where": "al. Jerozolimskie 50",
+        "price": "kostenlos, freiwillige Spende"
+      }
+    },
+    {
+      "emoji": "🎨",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162332-z-podrozy-do-piosenki-warsztaty-songwritingowe-ze-skubasem-w-bibliotece",
+      "ru": {
+        "title": "Мастерская песен с музыкантом Skubas",
+        "desc": "Вместе с известным альтернативным певцом сочиняют песню от идеи до мелодии; опыт не нужен.",
+        "when": "29 ноября, 11:00",
+        "where": "библиотека в Весолой, ul. 1 Praskiego Pułku 31",
+        "price": "бесплатно"
+      },
+      "en": {
+        "title": "Songwriting workshop with Skubas",
+        "desc": "Write a song from first idea to melody with the well-known alternative singer; no experience needed.",
+        "when": "November 29, 11:00",
+        "where": "library in Wesoła, ul. 1 Praskiego Pułku 31",
+        "price": "free"
+      },
+      "pl": {
+        "title": "Warsztaty songwritingowe ze Skubasem",
+        "desc": "Wspólne pisanie piosenki od pomysłu do melodii z jednym z charakterystycznych głosów alternatywy; bez doświadczenia.",
+        "when": "29 listopada, 11:00",
+        "where": "biblioteka w Wesołej, ul. 1 Praskiego Pułku 31",
+        "price": "bezpłatnie"
+      },
+      "be": {
+        "title": "Майстэрня песень з музыкам Skubas",
+        "desc": "Разам з вядомым альтэрнатыўным спеваком складаюць песню ад ідэі да мелодыі; досвед не патрэбны.",
+        "when": "29 лістапада, 11:00",
+        "where": "бібліятэка ў Весалой, ul. 1 Praskiego Pułku 31",
+        "price": "бясплатна"
+      },
+      "uk": {
+        "title": "Майстерня пісень із музикантом Skubas",
+        "desc": "Разом з відомим альтернативним співаком пишуть пісню від ідеї до мелодії; досвід не потрібен.",
+        "when": "29 листопада, 11:00",
+        "where": "бібліотека у Весолій, ul. 1 Praskiego Pułku 31",
+        "price": "безкоштовно"
+      },
+      "de": {
+        "title": "Songwriting-Workshop mit Skubas",
+        "desc": "Gemeinsam mit dem bekannten Alternative-Sänger einen Song von der Idee bis zur Melodie schreiben; keine Vorkenntnisse nötig.",
+        "when": "am 29. November, 11:00",
+        "where": "Bibliothek in Wesoła, ul. 1 Praskiego Pułku 31",
+        "price": "kostenlos"
+      }
+    },
+    {
+      "emoji": "🎤",
+      "paid": false,
+      "link": "https://www.waw4free.pl/wydarzenie-162347-koncert-big-blues-society-w-piwnej-beczce",
+      "ru": {
+        "title": "Блюз: Big Blues Society в Piwna Beczka",
+        "desc": "Юбилейный концерт группы к десяти годам работы с вокалисткой, впервые в этом пабе.",
+        "when": "28 ноября, 20:00",
+        "where": "Piwna Beczka, al. Niepodległości 19",
+        "price": "вход свободный, платите за еду и напитки"
+      },
+      "en": {
+        "title": "Blues: Big Blues Society at Piwna Beczka",
+        "desc": "The band's anniversary gig marking ten years with its singer, its first show at this pub.",
+        "when": "November 28, 20:00",
+        "where": "Piwna Beczka, al. Niepodległości 19",
+        "price": "free entry, you pay for food and drinks"
+      },
+      "pl": {
+        "title": "Big Blues Society w Piwnej Beczce",
+        "desc": "Jubileuszowy koncert na 10 lat współpracy z wokalistką, pierwszy raz w tym pubie.",
+        "when": "28 listopada, 20:00",
+        "where": "Piwna Beczka, al. Niepodległości 19",
+        "price": "wstęp wolny, płatne jedzenie i napoje"
+      },
+      "be": {
+        "title": "Блюз: Big Blues Society у Piwna Beczka",
+        "desc": "Юбілейны канцэрт гурта да дзесяці гадоў працы з вакалісткай, упершыню ў гэтым пабе.",
+        "when": "28 лістапада, 20:00",
+        "where": "Piwna Beczka, al. Niepodległości 19",
+        "price": "уваход вольны, плаціце за ежу і напоі"
+      },
+      "uk": {
+        "title": "Блюз: Big Blues Society у Piwna Beczka",
+        "desc": "Ювілейний концерт гурту до десяти років роботи з вокалісткою, вперше в цьому пабі.",
+        "when": "28 листопада, 20:00",
+        "where": "Piwna Beczka, al. Niepodległości 19",
+        "price": "вхід вільний, платите за їжу та напої"
+      },
+      "de": {
+        "title": "Blues: Big Blues Society in der Piwna Beczka",
+        "desc": "Jubiläumskonzert zu zehn Jahren mit der Sängerin, zum ersten Mal in diesem Pub.",
+        "when": "am 28. November, 20:00",
+        "where": "Piwna Beczka, al. Niepodległości 19",
+        "price": "Eintritt frei, Essen und Getränke kostenpflichtig"
+      }
+    }
+  ]
+}
